@@ -246,7 +246,9 @@ def identical_authors_match(author):
     return author.lower(), None
 
 def similar_authors_match(author):
-    author_tokens = list(get_author_tokens(author, strip_initials=True))
+    # ORIO #### author_tokens = list(get_author_tokens(author, strip_initials=True))
+    author_tokens = list(get_author_tokens(author))
+                                                   
     ahash = ' '.join(author_tokens)
     rev_ahash = None
     if len(author_tokens) > 1:

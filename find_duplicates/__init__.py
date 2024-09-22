@@ -19,7 +19,7 @@ class ActionFindDuplicates(InterfaceActionBase):
     name                    = 'Find Duplicates'
     description             = 'Find possible duplicate books based on their metadata'
     supported_platforms     = ['windows', 'osx', 'linux']
-    author                  = 'Grant Drake'
+    author                  = 'Grant Drake modified  by Orio'                               # ORIO
     version                 = (1, 10, 9)
     minimum_calibre_version = (2, 0, 0)
 

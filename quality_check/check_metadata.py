@@ -9,7 +9,11 @@ except NameError:
     pass # load_translations() added in calibre 1.9
 
 import re, datetime
-from collections import defaultdict
+
+# ####      2024.07.19: Modifica OSa per aggiungere test se Autore uguale a Editore e test se Title ha duiplicated part
+from collections import defaultdict, Counter
+# ####      2024.07.19: Modifica OSa
+
 from calibre.ebooks.metadata import authors_to_string, check_isbn, title_sort
 from calibre.gui2 import info_dialog, error_dialog
 from calibre.utils.localization import get_udc
@@ -59,6 +63,14 @@ class MetadataCheck(BaseCheck):
             self.check_authors_non_ascii()
         elif menu_key == 'check_authors_initials':
             self.check_authors_initials()
+
+# ####      2024.07.19: Modifica OSa per aggiungere test se Autore uguale a Editore e test se Title ha duiplicated part
+        elif menu_key == 'check_authors_publisher':
+            self.check_authors_publisher()
+        elif menu_key == 'check_title_part_duplicate':
+            self.check_titles_part_duplicate()
+# ####      2024.07.19: Modifica OSa
+
         elif menu_key == 'check_titles_series':
             self.check_titles_series()
         elif menu_key == 'check_title_case':
@@ -68,6 +80,47 @@ class MetadataCheck(BaseCheck):
                                 _('Unknown menu key for %s of \'%s\'')%('MetadataCheck', menu_key),
                                 show=True, show_copy_button=False)
 
+# ####      2024.07.19: Modifica OSa per aggiungere test se Autore uguale a Editore e test se Title ha duiplicated part
+    def check_authors_publisher(self):
+
+        def evaluate_book(book_id, db):
+            publisher = db.publisher(book_id, index_is_id=True)
+            authors = db.authors(book_id, index_is_id=True)
+            authors = [a.strip().replace('|', ',') for a in authors.split(',')]
+            
+            # print(publisher)
+            # print(authors)
+            # print('')
+            
+            if not authors:
+                return True
+            if publisher in authors:
+                return True
+            return False
+
+        self.check_all_files(evaluate_book,
+                             no_match_msg=_('All searched books have Author different as Publisher'),
+                             marked_text='invalid_author_publisher',
+                             status_msg_type=_('books for author different as publisher'))
+                             
+    def check_titles_part_duplicate(self):
+
+        def evaluate_book(book_id, db):
+            title = db.title(book_id, index_is_id=True)
+            
+            parole = title.split('. ')
+            contatore = Counter(parole)
+            parole_uguali = [parola for parola, conteggio in contatore.items() if (conteggio > 1) and (len(parola) > 1)]
+
+            if len(parole_uguali) > 0:
+                return True
+            return False
+
+        self.check_all_files(evaluate_book,
+                             no_match_msg=_('All searched books dont have Title with duplicated part'),
+                             marked_text='invalid_title_duplicate_part',
+                             status_msg_type=_('books for Title with duplicated part'))
+# ####      2024.07.19: Modifica OSa
 
     def check_title_sort_valid(self):
 

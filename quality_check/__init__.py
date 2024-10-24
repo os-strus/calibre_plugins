@@ -19,12 +19,11 @@ class ActionQualityCheck(InterfaceActionBase):
     name                    = 'Quality Check'
     description             = 'Query your library for poor quality covers or invalid metadata'
     supported_platforms     = ['windows', 'osx', 'linux']
-    
+   
     # ####      2024.07.19: Modifica OSa per aggiungere test se Autore uguale a Editore e test se Title ha duiplicated part
     author                  = 'Grant Drake with updates by others and additional functions by Orio'
     # ####      2024.07.19: Modifica OSa
-    
-    version                 = (1, 13, 14)
+    version                 = (1, 13, 15)
     minimum_calibre_version = (3, 41, 0)
 
     #: This field defines the GUI plugin class that contains all the code

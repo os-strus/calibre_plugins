@@ -1,4 +1,6 @@
 @echo off
+set CALIBRE_DIRECTORY=C:\Program Files\Calibre2
+
 cd ..
 if exist "translations" (
     cd translations

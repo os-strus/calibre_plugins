@@ -5,4 +5,4 @@ set CALIBRE_DEVELOP_FROM=
 set CALIBRE_OVERRIDE_LANG=
 
 echo Starting calibre in debug mode
-calibre-debug -g
+"C:\Program Files\Calibre2\calibre-debug" -g

@@ -21,7 +21,7 @@ if exist "translations" (
 echo Copying common files for zip
 xcopy ..\common\common_*.py . /Y > nul
 
-C:\tls\Python312\python ..\common\build.py
+C:\tls\Python313\python ..\common\build.py
 if %ERRORLEVEL% neq 0 goto :ExitPoint
 
 echo Deleting common files after zip

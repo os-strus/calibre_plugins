@@ -1,5 +1,17 @@
 # Import List Change Log
 
+## [1.9.7] - 2025-02-17
+### Fixed
+- Fix incorrect regex expressions for the Goodreads predefined parsing.
+
+## [1.9.6] - 2025-02-16
+### Fixed
+- Calibre 7.26 removed the `set_auto_complete_function` delegate as no longer necessary. (cbhaley)
+
+## [1.9.5] - 2025-02-15
+### Fixed
+- Calibre 7.26 removed the `set_database` delegate as no longer necessary. (cbhaley)
+
 ## [1.9.4] - 2024-04-01
 ### Fixed
 - Fix for calibre 7 for QFileDialog errors.

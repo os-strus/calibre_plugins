@@ -64,14 +64,16 @@ class MetadataCheck(BaseCheck):
         elif menu_key == 'check_authors_initials':
             self.check_authors_initials()
 
-# ####      2024.07.19: Modifica OSa per aggiungere test se Autore uguale a Editore e test se Title ha duiplicated part
+# ####      2025.11.20: Modifica OSa per aggiungere test se Autore uguale a Editore e test se Title ha duiplicated part
         elif menu_key == 'check_authors_publisher':
             self.check_authors_publisher()
         elif menu_key == 'check_title_part_duplicate':
             self.check_titles_part_duplicate()
-# ####      2024.07.19: Modifica OSa
+        elif menu_key == 'check_series_in_title':
+            self.check_series_in_title()
+# ####      2025.11.20: Modifica OSa
 
-        elif menu_key == 'check_titles_series':
+        elif menu_key == 'check_series_in_title':
             self.check_titles_series()
         elif menu_key == 'check_title_case':
             self.check_titles_titlecase()
@@ -80,7 +82,10 @@ class MetadataCheck(BaseCheck):
                                 _('Unknown menu key for %s of \'%s\'')%('MetadataCheck', menu_key),
                                 show=True, show_copy_button=False)
 
-# ####      2024.07.19: Modifica OSa per aggiungere test se Autore uguale a Editore e test se Title ha duiplicated part
+# ####      2025.11.20: Modifica OSa per aggiungere:
+# ####                      - test se Autore uguale a Editore 
+# ####                      - test se Title ha duiplicated part 
+# ####                      - test se Series name è incluso nel Titolo
     def check_authors_publisher(self):
 
         def evaluate_book(book_id, db):
@@ -120,7 +125,30 @@ class MetadataCheck(BaseCheck):
                              no_match_msg=_('All searched books dont have Title with duplicated part'),
                              marked_text='invalid_title_duplicate_part',
                              status_msg_type=_('books for Title with duplicated part'))
-# ####      2024.07.19: Modifica OSa
+                             
+    def check_series_in_title(self):
+
+        def evaluate_book(book_id, db):
+            series = db.series(book_id, index_is_id=True)
+            title = db.title(book_id, index_is_id=True)
+            
+            # print(series)
+            # print(title)
+            # print('')
+            
+            if not title:
+                return True
+            if not series:    
+                return False
+            if series in title:
+                return True
+            return False
+
+        self.check_all_files(evaluate_book,
+                             no_match_msg=_('All searched books dont have series name in title'),
+                             marked_text='invalid_title_series',
+                             status_msg_type=_('books for Series name in Title'))
+# ####      2025.11.20: Modifica OSa
 
     def check_title_sort_valid(self):
 

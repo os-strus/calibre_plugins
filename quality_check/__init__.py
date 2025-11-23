@@ -22,8 +22,8 @@ class ActionQualityCheck(InterfaceActionBase):
     # ####      2024.07.19: Modifica OSa per aggiungere test se Autore uguale a Editore e test se Title ha duiplicated part
     author                  = 'Grant Drake with updates by others and additional functions by Orio'
     # ####      2024.07.19: Modifica OSa
-    version                 = (1, 14, 4)
-    minimum_calibre_version = (3, 41, 0)
+    version                 = (1, 14, 6)
+    minimum_calibre_version = (3, 48, 0)
 
     #: This field defines the GUI plugin class that contains all the code
     #: that actually does something. Its format is module_path:class_name

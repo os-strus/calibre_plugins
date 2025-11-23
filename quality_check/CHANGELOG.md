@@ -1,5 +1,16 @@
 # Quality Check Change Log
 
+## [1.14.6] - 2025-11-23
+### Changed
+- Bumped minimum calibre version up to 3.48 as incompatibility with polyglot.builtins code, see <https://github.com/kiwidude68/calibre_plugins/issues/133>
+
+## [1.14.5] - 2025-11-16
+### Changed
+- The 'Check CSS non-justified' check now allows for spaces between `text-align` and `:` for (poorly) formatted CSS.
+- The 'Search ePubs' feature now allows dialog to be user resized
+- The 'Search ePubs' history items list length can now be changed (from default of 10) in the Customize plugin dialog.
+- The "Check Author Sort' has been rewritten to be more performant (12 x faster on my test library) (#cbhaley)
+
 ## [1.14.4] - 2025-10-04
 ### Changed
 - RECOVER_PARSER removed from Calibre, see https://github.com/kiwidude68/calibre_plugins/issues/131

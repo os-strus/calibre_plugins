@@ -4,15 +4,16 @@
 # 
 # Translators:
 # Victor, 2022
-# ashed <craysy@gmail.com>, 2024
 # Caarmi, 2024
+# ashed <craysy@gmail.com>, 2026
+# Andrei Stepanov, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2025-11-16 17:29+1000\n"
 "PO-Revision-Date: 2022-09-19 14:57+0000\n"
-"Last-Translator: Caarmi, 2024\n"
+"Last-Translator: Andrei Stepanov, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/calibre/teams/19337/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -369,7 +370,7 @@ msgstr "\tПроблема с именем изображения: "
 
 #: check_epub.py:718
 msgid "\tUNUSED image file: %s"
-msgstr ""
+msgstr "\tНеиспользуемое изображение: %s"
 
 #: check_epub.py:731
 msgid "No searched ePub books have unused image files"
@@ -469,11 +470,11 @@ msgstr "Книги ePub для конвертации в calibre"
 
 #: check_epub.py:1065
 msgid "All searched ePub books have a valid zip format"
-msgstr ""
+msgstr "Все найденные книги ePub имеют действительный формат zip"
 
 #: check_epub.py:1067
 msgid "ePub books for corrupted zip format"
-msgstr ""
+msgstr "Книги ePub с повреждённым форматом zip"
 
 #: check_epub.py:1092
 msgid "All searched ePub books have a valid container.xml file"
@@ -743,27 +744,27 @@ msgstr "Переименовано в ascii %d из %d авторов книг"
 
 #: check_fix.py:174
 msgid "books with incorrect author sort"
-msgstr ""
+msgstr "книги с неправильной сортировкой авторов"
 
 #: check_fix.py:175
 msgid "Checked %d books, updated %d author sorts%s"
-msgstr ""
+msgstr "Проверено %d книг, обновлено %d сортировок авторов%s"
 
 #: check_fix.py:179
 msgid "All author sorts are correct"
-msgstr ""
+msgstr "Все сортировки авторов верны"
 
 #: check_fix.py:199
 msgid "books with incorrect title sort"
-msgstr ""
+msgstr "книги с неправильной сортировкой названий"
 
 #: check_fix.py:200
 msgid "Checked %d books, updated %d title sorts%s"
-msgstr ""
+msgstr "Проверено %d книг, обновлено %d сортировок названий%s"
 
 #: check_fix.py:204
 msgid "All title sorts are correct"
-msgstr ""
+msgstr "Все виды заголовков верны"
 
 #: check_fix.py:234
 msgid "\"Check and repair book sizes\" requires calibre version 5.9 or higher."
@@ -858,7 +859,7 @@ msgstr "Исправление ASIN в книгах: %d"
 
 #: check_fix.py:434
 msgid "Fix ASIN completed"
-msgstr ""
+msgstr "Исправление ASIN завершено"
 
 #: check_fix.py:437
 msgid "%d books updated, see log for details"
@@ -866,24 +867,26 @@ msgstr "%d книг обновлено, подробности смотрите 
 
 #: check_fix.py:480
 msgid "books for normalize text fields"
-msgstr ""
+msgstr "книги для нормализации текстовых полей"
 
 #: check_fix.py:497
 msgid ""
 "Checked %d books, normalize fields %d in %d books, and %d author sort key%s"
 msgstr ""
+"Проверено %d книг, нормализация полей %d в %d книгах и %d ключ сортировки по"
+" автору%s"
 
 #: check_fix.py:501
 msgid "All text fields are normalize"
-msgstr ""
+msgstr "Все текстовые поля нормализованы"
 
 #: check_fix.py:509
 msgid "\"Normalize the notes\" requires calibre version 7.0 or higher."
-msgstr ""
+msgstr "Для «Нормализации заметок» требуется calibre 7.0 или выше."
 
 #: check_fix.py:546
 msgid "All category notes are normalize"
-msgstr ""
+msgstr "Все заметки по категориям нормализованы"
 
 #: check_metadata.py:86
 msgid "All searched books have a valid Title Sort"
@@ -1401,11 +1404,13 @@ msgstr "Проверить форматы ePub, не конвертирован�
 
 #: config.py:104
 msgid "Check corrupt zip"
-msgstr ""
+msgstr "Проверить поврежденный zip"
 
 #: config.py:104
 msgid "Check for ePub zip that is corrupted, may need conversion to fix"
 msgstr ""
+"Проверьте, не поврежден ли zip-архив ePub. Для исправления может "
+"потребоваться преобразование."
 
 #: config.py:106
 msgid "Check <address> smart-tags"
@@ -1876,26 +1881,32 @@ msgid ""
 "For the selected book(s) rename the author to remove any accents and "
 "diacritics characters"
 msgstr ""
+"Для выбранных книг переименуйте автора, чтобы удалить все акценты и "
+"диакритические знаки"
 
 #: config.py:163
 msgid "Set author sort"
-msgstr ""
+msgstr "Установить сортировку по автору"
 
 #: config.py:163
 msgid ""
 "For the selected book(s) replace the author sort with a value based on the "
 "Manage Authors data"
 msgstr ""
+"Для выбранных книг заменить сортировку по автору значением, основанным на "
+"данных «Управление авторами»"
 
 #: config.py:164
 msgid "Set title sort"
-msgstr ""
+msgstr "Установить сортировку по заголовкам"
 
 #: config.py:164
 msgid ""
 "For the selected book(s) replace the title sort with a value based on your "
 "tweak preference"
 msgstr ""
+"Для выбранных книг замените сортировку названия на значение, соответствующее"
+" вашим предпочтениям в настройке"
 
 #: config.py:165
 msgid "Check and repair book sizes"
@@ -1935,7 +1946,7 @@ msgstr ""
 
 #: config.py:169
 msgid "Normalize the fields"
-msgstr ""
+msgstr "Нормализовать поля"
 
 #: config.py:169
 msgid ""
@@ -1943,16 +1954,22 @@ msgid ""
 "Unicode Standard, aka merge and reorders diacritics. Can result to "
 "unduplicate some values."
 msgstr ""
+"Нормализовать текстовые поля, используя их каноническую форму, определённую "
+"стандартом Unicode, то есть слияние и изменение порядка диакритических "
+"знаков. Может привести к отмене дублирования некоторых значений."
 
 #: config.py:170
 msgid "Normalize the notes"
-msgstr ""
+msgstr "Нормализовать заметки"
 
 #: config.py:170
 msgid ""
 "Normalize the category notes by using their canonical form defined by the "
 "Unicode Standard, aka merge and reorders diacritics."
 msgstr ""
+"Нормализовать примечания к категориям, используя их каноническую форму, "
+"определённую стандартом Unicode, то есть слияние и изменение порядка "
+"диакритических знаков."
 
 #: config.py:291
 msgid "Check excess tags options"
@@ -1991,22 +2008,26 @@ msgstr ""
 
 #: config.py:328
 msgid "Suppress Fix summary dialogs"
-msgstr ""
+msgstr "Подавить диалоговые окна сводки исправлений"
 
 #: config.py:329
 msgid ""
 "Uncheck this option if you do not want interactive dialogs to appear "
 "summarising the operation"
 msgstr ""
+"Снимите этот флажок, если не хотите, чтобы отображались интерактивные "
+"диалоги с подведением итогов операции"
 
 #: config.py:334
 msgid "Search history count:"
-msgstr ""
+msgstr "Количество истории поиска:"
 
 #: config.py:335
 msgid ""
 "How many previous search expressions to remember on Search sPubs dialog"
 msgstr ""
+"Сколько предыдущих поисковых выражений следует запомнить в диалоговом окне "
+"«Search sPubs»"
 
 #: config.py:344
 msgid "Visible menus"
@@ -2063,11 +2084,11 @@ msgstr "высота"
 
 #: dialogs.py:169
 msgid "Cover aspect ratio is"
-msgstr ""
+msgstr "Соотношение сторон обложки"
 
 #: dialogs.py:187
 msgid "tolerance"
-msgstr ""
+msgstr "толерантность"
 
 #: dialogs.py:189
 msgid "No cover"
@@ -2175,7 +2196,7 @@ msgid ""
 "If you also ticked the HTML content option, that is ignored in favour of this."
 msgstr ""
 "Искать body текст html-файлов со всеми вырезанными html-тегами.\n"
-"Если вы также отметили параметр HTML-контент, он будет проигнорирован в пользу этого."
+"Если вы также отметили параметр «Содержимое HTML», он будет проигнорирован в пользу этого."
 
 #: dialogs.py:600
 msgid "&OPF manifest"

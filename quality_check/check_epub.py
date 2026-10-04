@@ -427,9 +427,9 @@ class EpubCheck(BaseCheck):
 
 
     def check_epub_inline_xpgt_links(self):
-        RE_LINK = re.compile(r'<link[^>]+?href\s*=\s*".*?\.xpgt"[^>]*?>', re.UNICODE)
-        RE_CSS_IMPORT1 = re.compile(r'@import url\([\'\"]*(.*?)[\'"]*\)', re.UNICODE | re.DOTALL)
-        RE_CSS_IMPORT2 = re.compile(r'@import\s+"(.*?)"', re.UNICODE | re.DOTALL)
+        RE_LINK = re.compile(r'<link[^>]+?href\s*=\s*".*?\.xpgt"[^>]*?>', re.UNICODE | re.IGNORECASE)
+        RE_CSS_IMPORT1 = re.compile(r'@import url\([\'\"]*(.*?)[\'"]*\)', re.UNICODE | re.DOTALL | re.IGNORECASE)
+        RE_CSS_IMPORT2 = re.compile(r'@import\s+"(.*?)"', re.UNICODE | re.DOTALL | re.IGNORECASE)
 
         def check_for_import_xpgt(data):
             for match in RE_CSS_IMPORT1.finditer(data):
@@ -452,14 +452,14 @@ class EpubCheck(BaseCheck):
                     for resource_name in contents:
                         extension = resource_name[resource_name.rfind('.'):].lower()
                         if extension in CSS_FILES:
-                            data = self.zf_read(zf, resource_name).lower()
+                            data = self.zf_read(zf, resource_name)
                             self.log(_('Checking css import'), resource_name)
                             if check_for_import_xpgt(data):
                                 return True
                         elif extension in NON_HTML_FILES:
                             continue
                         else:
-                            data = self.zf_read(zf, resource_name).lower()
+                            data = self.zf_read(zf, resource_name)
                             if RE_LINK.search(data):
                                 return True
                             self.log(_('Checking html import'), resource_name)
@@ -734,8 +734,8 @@ class EpubCheck(BaseCheck):
 
 
     def check_epub_broken_image_links(self):
-        RE_IMAGE = re.compile(r'<(?:[a-z]*?\:)*?image[^>]*href=?"([^"]*?)"', re.UNICODE)
-        RE_IMG = re.compile(r'<(?:[a-z]*?\:)*?img[^>]*src="([^"]*?)"', re.UNICODE)
+        RE_IMAGE = re.compile(r'<(?:[a-z]*?\:)*?image[^>]*href=?"([^"]*?)"', re.UNICODE | re.IGNORECASE)
+        RE_IMG = re.compile(r'<(?:[a-z]*?\:)*?img[^>]*src="([^"]*?)"', re.UNICODE | re.IGNORECASE)
 
         def evaluate_book(book_id, db):
             path_to_book = db.format_abspath(book_id, 'EPUB', index_is_id=True)
@@ -771,16 +771,18 @@ class EpubCheck(BaseCheck):
                     if html_resource_names:
                         for resource_name in html_resource_names:
                             raw_data = self.zf_read(zf, resource_name)
-                            data = raw_data.lower()
                             html_dir = os.path.dirname(resource_name).lower()
                             if html_dir:
                                 html_dir += os.sep
 
-                            img_tag_matches = RE_IMG.findall(data)
-                            image_tag_matches = RE_IMAGE.findall(data)
+                            img_tag_matches = RE_IMG.findall(raw_data)
+                            image_tag_matches = RE_IMAGE.findall(raw_data)
                             for match in img_tag_matches + image_tag_matches:
-                                rel_path = os.path.normpath(html_dir + match)
-                                normalised_image_name = six.moves.urllib.request.url2pathname(rel_path)
+                                try:
+                                    rel_path = os.path.normpath(html_dir + match.lower())
+                                    normalised_image_name = six.moves.urllib.request.url2pathname(rel_path)
+                                except (OSError, ValueError):
+                                    normalised_image_name = None
                                 if normalised_image_name not in image_map:
                                     if not found_broken:
                                         self.log(get_title_authors_text(db, book_id))

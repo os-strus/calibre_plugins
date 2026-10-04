@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Pk11 <epicpkmn11@outlook.com>, 2022
-# akihiko tanae (tanaeakihiko), 2025
+# akihiko tanae (tanaeakihiko), 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-24 17:59+1000\n"
 "PO-Revision-Date: 2022-09-07 15:49+0000\n"
-"Last-Translator: akihiko tanae (tanaeakihiko), 2025\n"
+"Last-Translator: akihiko tanae (tanaeakihiko), 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/calibre/teams/19337/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,13 +117,14 @@ msgstr "Goodreadsジャンルからcalibreタグにマッピング"
 
 #: config.py:228
 msgid "Filter and map genres to calibre tags"
-msgstr ""
+msgstr "ジャンルをフィルタリングしてcalibreタグにマッピング"
 
 #: config.py:229
 msgid ""
 "When checked, only specific calibre tags will be used as per below.\n"
 "When unchecked, all Goodreads genres will be added as tags."
 msgstr ""
+"チェックすると、以下に示す特定のレベルのタグのみが使用されます。チェックを外すと、Goodreads のすべてのジャンルがタグとして追加されます。"
 
 #: config.py:242
 msgid "Add genre mapping"
@@ -201,23 +202,23 @@ msgstr ""
 
 #: config.py:300
 msgid "Get precise rating into 'grrating' identifier"
-msgstr ""
+msgstr "'grating' 識別子に正確な評価値を取得"
 
 #: config.py:301
 msgid ""
 "If checked, pulls precise rating (e.g. 3.78) into an identifier\n"
 "you can display as a custom column."
-msgstr ""
+msgstr "チェックすると、正確な評価値（例: 3.78）が識別子に取り込まれ、カスタム列として表示できます。"
 
 #: config.py:306
 msgid "Get #votes for rating into 'grvotes' identifier"
-msgstr ""
+msgstr "評価に対する投票数を 'grvotes' 識別子に登録"
 
 #: config.py:307
 msgid ""
 "If checked, pulls number of votes producing this rating into an identifier\n"
 "you can display as a custom column."
-msgstr ""
+msgstr "チェックすると、この評価を生成した投票数を識別子に取得し、カスタム列として表示できます。"
 
 #: config.py:328 config.py:359
 msgid "Add new mapping"

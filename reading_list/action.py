@@ -21,7 +21,7 @@ except NameError:
     pass # load_translations() added in calibre 1.9
 
 from calibre import prints
-from calibre.constants import DEBUG
+from calibre.constants import DEBUG, __version__ as calibre_version
 from calibre.ebooks.metadata import authors_to_string
 from calibre.gui2 import error_dialog, question_dialog, info_dialog
 from calibre.gui2.actions import InterfaceAction
@@ -419,9 +419,7 @@ class ReadingListAction(InterfaceAction):
             return
         selected_ids = self.gui.library_view.get_selected_ids()
         series_ids = self._get_ids_for_books_in_same_series(selected_ids)
-        for book_id in series_ids:
-            if book_id not in selected_ids:
-                selected_ids.append(book_id)
+        selected_ids = series_ids + [book_id for book_id in selected_ids if book_id not in series_ids]
         self.add_books_to_list(list_name, selected_ids, refresh_screen=True)
 
     def _add_selected_series_to_all_lists(self):
@@ -430,13 +428,10 @@ class ReadingListAction(InterfaceAction):
             return
         selected_ids = self.gui.library_view.get_selected_ids()
         series_ids = self._get_ids_for_books_in_same_series(selected_ids)
-        for book_id in series_ids:
-            if book_id not in selected_ids:
-                selected_ids.append(book_id)
+        selected_ids = series_ids + [book_id for book_id in selected_ids if book_id not in series_ids]
         self.add_books_to_all_lists(selected_ids)
 
     def _get_ids_for_books_in_same_series(self, ids_list):
-        extraids = set()
         unique_series = set()
         db = self.gui.current_db
         for book_id in ids_list:
@@ -445,11 +440,15 @@ class ReadingListAction(InterfaceAction):
             if mi.series is not None:
                 unique_series.add(mi.series)
         # Now find all the books for each series
+        series_books = []
         for series in unique_series:
             search = 'series:"=' + series + '"'
             series_book_ids = db.search_getting_ids(search, '')
-            extraids |= set(series_book_ids)
-        return extraids
+            for book_id in series_book_ids:
+                mi = db.get_metadata(book_id, index_is_id=True, get_cover=False)
+                series_books.append((series, mi.series_index, book_id))
+        series_books.sort(key=lambda book: (book[0], book[1], book[2]))
+        return [book[2] for book in series_books]
 
     def _remove_selected_from_list(self, list_name):
         rows = self.gui.library_view.selectionModel().selectedRows()
@@ -1406,7 +1405,7 @@ class ReadingListAction(InterfaceAction):
     def _get_confirmed_delete_paths(self, to_delete):
         d = DeleteMatchingFromDeviceDialog(self.gui, to_delete)
         if d.exec_():
-            return True, d.result
+            return True, d.result if calibre_version < "9.12" else d.result_val
         return False, None
 
     def _get_unattended_delete_paths(self, to_delete):

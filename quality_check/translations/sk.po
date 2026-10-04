@@ -1,0 +1,2255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Vlado Jendroľ, 2022
+# Martin Sowa, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-11-16 17:29+1000\n"
+"PO-Revision-Date: 2022-09-19 14:57+0000\n"
+"Last-Translator: Martin Sowa, 2026\n"
+"Language-Team: Slovak (https://app.transifex.com/calibre/teams/19337/sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: ..\common\common_dialogs.py:84 config.py:352
+msgid "Keyboard shortcuts"
+msgstr "Klávesové skratky"
+
+#: ..\common\common_dialogs.py:112
+msgid "Restart calibre now"
+msgstr "Reštartovať calibre teraz"
+
+#: ..\common\common_dialogs.py:128
+msgid "Preferences for:"
+msgstr "Nastavenia pre:"
+
+#: ..\common\common_dialogs.py:160
+msgid "Clear"
+msgstr "Vymazať"
+
+#: ..\common\common_dialogs.py:162
+msgid "Clear all settings for this plugin"
+msgstr "Vymazať všetky nastavenia tohto zásuvného modulu"
+
+#: ..\common\common_dialogs.py:189
+msgid ""
+"Are you sure you want to change your settings in this library for this "
+"plugin?"
+msgstr ""
+"Naozaj chcete zmeniť nastavenia tohto zásuvného modulu v tejto knižnici?"
+
+#: ..\common\common_dialogs.py:190 ..\common\common_dialogs.py:210
+msgid ""
+"Any settings in other libraries or stored in a JSON file in your calibre "
+"plugins folder will not be touched."
+msgstr ""
+"Nastavenia v iných knižniciach ani nastavenia uložené v súbore JSON v "
+"priečinku zásuvných modulov calibre nebudú zmenené."
+
+#: ..\common\common_dialogs.py:192 ..\common\common_dialogs.py:212
+msgid "You must restart calibre afterwards."
+msgstr "Potom musíte reštartovať calibre."
+
+#: ..\common\common_dialogs.py:200
+msgid "Settings changed"
+msgstr "Nastavenia zmenené"
+
+#: ..\common\common_dialogs.py:201
+msgid "Settings for this plugin in this library have been changed."
+msgstr "Nastavenia tohto zásuvného modulu v tejto knižnici boli zmenené."
+
+#: ..\common\common_dialogs.py:202 ..\common\common_dialogs.py:223
+msgid "Please restart calibre now."
+msgstr "Teraz prosím reštartujte calibre."
+
+#: ..\common\common_dialogs.py:209
+msgid ""
+"Are you sure you want to clear your settings in this library for this "
+"plugin?"
+msgstr ""
+"Naozaj chcete vymazať nastavenia tohto zásuvného modulu v tejto knižnici?"
+
+#: ..\common\common_dialogs.py:221
+msgid "Settings deleted"
+msgstr "Nastavenia vymazané"
+
+#: ..\common\common_dialogs.py:222
+msgid "All settings for this plugin in this library have been cleared."
+msgstr ""
+"Všetky nastavenia tohto zásuvného modulu v tejto knižnici boli vymazané."
+
+#: ..\common\common_dialogs.py:297
+msgid "Copy to clipboard"
+msgstr "Kopírovať do schránky"
+
+#: ..\common\common_widgets.py:105
+msgid "Undefined"
+msgstr "Nedefinované"
+
+#: ..\common\common_widgets.py:160
+msgid "Restart required"
+msgstr "Vyžaduje sa reštart"
+
+#: ..\common\common_widgets.py:161
+msgid ""
+"Title image not found - you must restart Calibre before using this plugin!"
+msgstr ""
+"Obrázok titulu sa nenašiel – pred použitím tohto zásuvného modulu musíte "
+"reštartovať calibre!"
+
+#: ..\common\common_widgets.py:234
+msgid "Create new column"
+msgstr "Vytvoriť nový stĺpec"
+
+#: action.py:38 check_base.py:69 check_covers.py:98 check_fix.py:436
+msgid "Quality Check"
+msgstr "Kontrola kvality"
+
+#: action.py:108
+msgid "Fix"
+msgstr "Opraviť"
+
+#: action.py:114
+msgid "Fix -> "
+msgstr "Opraviť -> "
+
+#: action.py:120
+msgid "Repeat last check"
+msgstr "Zopakovať poslednú kontrolu"
+
+#: action.py:127
+msgid "Search scope"
+msgstr "Rozsah hľadania"
+
+#: action.py:132
+msgid "Library"
+msgstr "Knižnica"
+
+#: action.py:133
+msgid ""
+"Run check against entire library, unless a search restriction is applied"
+msgstr ""
+"Spustiť kontrolu pre celú knižnicu, ak nie je použité obmedzenie hľadania"
+
+#: action.py:134
+msgid "Search Scope -> Library"
+msgstr "Rozsah hľadania -> Knižnica"
+
+#: action.py:137
+msgid "Selected book(s)"
+msgstr "Vybrané knihy"
+
+#: action.py:138
+msgid "Run check against selected book(s) only"
+msgstr "Spustiť kontrolu len pre vybrané knihy"
+
+#: action.py:139
+msgid "Search Scope -> Selection"
+msgstr "Rozsah hľadania -> Výber"
+
+#: action.py:144
+msgid "Exclude from check"
+msgstr "Vylúčiť z kontroly"
+
+#: action.py:145
+msgid "Exclude selected book(s) from a particular Quality Check"
+msgstr "Vylúčiť vybrané knihy z konkrétnej kontroly kvality"
+
+#: action.py:148
+msgid "View exclusions"
+msgstr "Zobraziť vylúčenia"
+
+#: action.py:149
+msgid "View exclusions you have added for each Quality Check"
+msgstr "Zobraziť vylúčenia, ktoré ste pridali pre každú kontrolu kvality"
+
+#: action.py:154
+msgid "&Customize plugin"
+msgstr "&Prispôsobiť zásuvný modul"
+
+#: action.py:156 config.py:362
+msgid "&Help"
+msgstr "&Pomocník"
+
+#: check_base.py:64
+msgid " (cancelled)"
+msgstr " (zrušené)"
+
+#: check_base.py:70
+msgid "%d matches found%s, see log for details"
+msgstr "Nájdených %d zhôd%s, podrobnosti nájdete v protokole"
+
+#: check_base.py:74
+msgid "Checked %d books, found %d matches%s"
+msgstr "Skontrolovaných %d kníh, nájdených %d zhôd%s"
+
+#: check_base.py:77
+msgid "No Matches"
+msgstr "Žiadne zhody"
+
+#: check_covers.py:27 check_epub.py:187 check_fix.py:60 check_fix.py:233
+#: check_fix.py:508 check_metadata.py:67 check_mobi.py:38
+msgid "Quality Check failed"
+msgstr "Kontrola kvality zlyhala"
+
+#: check_covers.py:28 check_epub.py:188 check_fix.py:61 check_metadata.py:68
+#: check_mobi.py:39
+msgid "Unknown menu key for %s of '%s'"
+msgstr "Neznámy kľúč ponuky pre %s z „%s“"
+
+#: check_covers.py:70 check_covers.py:105 check_covers.py:135 dialogs.py:79
+#: dialogs.py:109 dialogs.py:114
+msgid "less than"
+msgstr "menší ako"
+
+#: check_covers.py:72 check_covers.py:110 check_covers.py:138 dialogs.py:79
+msgid "greater than"
+msgstr "väčší ako"
+
+#: check_covers.py:78
+msgid "Failed to identify cover:"
+msgstr "Nepodarilo sa identifikovať obálku:"
+
+#: check_covers.py:90
+msgid "books for covers"
+msgstr "knihy podľa obálok"
+
+#: check_covers.py:92
+msgid "Checked %d books, found %d cover matches%s"
+msgstr "Skontrolovaných %d kníh, nájdených %d zhôd obálok%s"
+
+#: check_covers.py:95
+msgid "No matches found"
+msgstr "Nenašli sa žiadne zhody"
+
+#: check_covers.py:95 check_metadata.py:165 check_metadata.py:198
+#: check_metadata.py:260 check_metadata.py:323
+msgid "No Matches%s"
+msgstr "Žiadne zhody%s"
+
+#: check_covers.py:99
+msgid "%d matches found, see log for errors%s"
+msgstr "Nájdených %d zhôd, chyby nájdete v protokole%s"
+
+#: check_covers.py:115 check_covers.py:141 dialogs.py:81
+msgid "equal to"
+msgstr "rovný"
+
+#: check_covers.py:124 check_covers.py:144 dialogs.py:81 dialogs.py:121
+msgid "not equal to"
+msgstr "nerovný"
+
+#: check_epub.py:115
+msgid "iTunes files"
+msgstr "súbory iTunes"
+
+#: check_epub.py:117
+msgid "calibre bookmarks"
+msgstr "záložky calibre"
+
+#: check_epub.py:119
+msgid "OS artifacts"
+msgstr "artefakty OS"
+
+#: check_epub.py:277
+msgid "Matches in book: <b>%s</b>"
+msgstr "Zhody v knihe: <b>%s</b>"
+
+#: check_epub.py:279
+msgid "First match in book: <b>%s</b>"
+msgstr "Prvá zhoda v knihe: <b>%s</b>"
+
+#: check_epub.py:286 check_epub.py:318 check_epub.py:358
+msgid "Invalid epub:"
+msgstr "Neplatný epub:"
+
+#: check_epub.py:289 check_epub.py:321 check_epub.py:361 check_epub.py:561
+msgid "ERROR parsing book: "
+msgstr "CHYBA pri analyzovaní knihy: "
+
+#: check_epub.py:294
+msgid "No searched ePub books have your search text"
+msgstr "Žiadna z hľadaných kníh ePub neobsahuje váš hľadaný text"
+
+#: check_epub.py:296
+msgid "ePub books for search text"
+msgstr "knihy ePub podľa hľadaného textu"
+
+#: check_epub.py:304 check_epub.py:344 check_epub.py:392 check_epub.py:669
+#: check_epub.py:743
+msgid "ERROR: EPUB format is missing: "
+msgstr "CHYBA: chýba formát EPUB: "
+
+#: check_epub.py:326
+msgid "No searched ePub books have legacy jackets"
+msgstr "Žiadna z hľadaných kníh ePub nemá staršie prebaly"
+
+#: check_epub.py:329
+msgid "No searched ePub books have jackets"
+msgstr "Žiadna z hľadaných kníh ePub nemá prebaly"
+
+#: check_epub.py:332
+msgid "All searched ePub books have jackets"
+msgstr "Všetky hľadané knihy ePub majú prebaly"
+
+#: check_epub.py:335
+msgid "ePub books for jackets"
+msgstr "knihy ePub podľa prebalov"
+
+#: check_epub.py:366
+msgid "No searched ePub books have multiple jackets"
+msgstr "Žiadna z hľadaných kníh ePub nemá viacero prebalov"
+
+#: check_epub.py:368
+msgid "ePub books for multiple jackets"
+msgstr "knihy ePub podľa viacerých prebalov"
+
+#: check_epub.py:424
+msgid "No searched ePub books have non-zero .xpgt margins"
+msgstr "Žiadna z hľadaných kníh ePub nemá nenulové okraje .xpgt"
+
+#: check_epub.py:426
+msgid "ePub books for .xpgt margins"
+msgstr "knihy ePub podľa okrajov .xpgt"
+
+#: check_epub.py:456
+msgid "Checking css import"
+msgstr "Kontroluje sa import css"
+
+#: check_epub.py:465
+msgid "Checking html import"
+msgstr "Kontroluje sa import html"
+
+#: check_epub.py:479
+msgid "No searched ePub books have inline xpgt links"
+msgstr "Žiadna z hľadaných kníh ePub nemá vložené odkazy xpgt"
+
+#: check_epub.py:481
+msgid "ePub books for inline xpgt links"
+msgstr "knihy ePub podľa vložených odkazov xpgt"
+
+#: check_epub.py:532
+msgid "No searched ePub books have unmanifested files"
+msgstr "Žiadna z hľadaných kníh ePub nemá nezapísané súbory"
+
+#: check_epub.py:534
+msgid "ePub books for unmanifested files"
+msgstr "knihy ePub podľa nezapísaných súborov"
+
+#: check_epub.py:549 check_epub.py:675 check_epub.py:749
+msgid "SKIPPING BOOK (DRM Encrypted): "
+msgstr "PRESKAKUJE SA KNIHA (DRM šifrovaná): "
+
+#: check_epub.py:562
+msgid "\tIssue with CSS name: "
+msgstr "\tProblém s názvom CSS: "
+
+#: check_epub.py:586
+msgid "\tUnused CSS file: %s"
+msgstr "\tNepoužitý súbor CSS: %s"
+
+#: check_epub.py:599
+msgid "No searched ePub books have unused CSS files"
+msgstr "Žiadna z hľadaných kníh ePub nemá nepoužité súbory CSS"
+
+#: check_epub.py:601
+msgid "ePub books for unused CSS files"
+msgstr "knihy ePub podľa nepoužitých súborov CSS"
+
+#: check_epub.py:693
+msgid "\tIssue with image name: "
+msgstr "\tProblém s názvom obrázka: "
+
+#: check_epub.py:718
+msgid "\tUNUSED image file: %s"
+msgstr "\tNEPOUŽITÝ súbor obrázka: %s"
+
+#: check_epub.py:731
+msgid "No searched ePub books have unused image files"
+msgstr "Žiadna z hľadaných kníh ePub nemá nepoužité súbory obrázkov"
+
+#: check_epub.py:733
+msgid "ePub books for unused image files"
+msgstr "knihy ePub podľa nepoužitých súborov obrázkov"
+
+#: check_epub.py:788
+msgid "\tBroken image link in:"
+msgstr "\tNefunkčný odkaz na obrázok v:"
+
+#: check_epub.py:788
+msgid " of "
+msgstr " z "
+
+#: check_epub.py:800
+msgid "No searched ePub books have broken image links"
+msgstr "Žiadna z hľadaných kníh ePub nemá nefunkčné odkazy na obrázky"
+
+#: check_epub.py:802
+msgid "ePub books for broken image links"
+msgstr "knihy ePub podľa nefunkčných odkazov na obrázky"
+
+#: check_epub.py:845
+msgid "No searched ePub books have "
+msgstr "Žiadna z hľadaných kníh ePub nemá "
+
+#: check_epub.py:847
+msgid "ePub books for "
+msgstr "knihy ePub podľa "
+
+#: check_epub.py:879
+msgid "No OPF file in:"
+msgstr "Žiadny súbor OPF v:"
+
+#: check_epub.py:884
+msgid "No supported meta tag or non-xml cover in:"
+msgstr "Žiadna podporovaná meta značka ani obálka mimo XML v:"
+
+#: check_epub.py:889
+msgid "DRM Encrypted cover in:"
+msgstr "DRM šifrovaná obálka v:"
+
+#: check_epub.py:894
+msgid "Invalid cover image extension (%s) in:"
+msgstr "Neplatná prípona obrázka obálky (%s) v:"
+
+#: check_epub.py:907
+msgid "No searched ePub books have replaceable covers"
+msgstr "Žiadna z hľadaných kníh ePub nemá vymeniteľné obálky"
+
+#: check_epub.py:910
+msgid "All searched ePub books have replaceable covers"
+msgstr "Všetky hľadané knihy ePub majú vymeniteľné obálky"
+
+#: check_epub.py:914
+msgid "ePub books for replaceable covers"
+msgstr "knihy ePub podľa vymeniteľných obálok"
+
+#: check_epub.py:950
+msgid "No searched ePub books have calibre SVG covers embedded"
+msgstr "Žiadna z hľadaných kníh ePub nemá vložené SVG obálky calibre"
+
+#: check_epub.py:953
+msgid "All searched ePub books have calibre SVG covers embedded"
+msgstr "Všetky hľadané knihy ePub majú vložené SVG obálky calibre"
+
+#: check_epub.py:957
+msgid "ePub books for calibre SVG covers"
+msgstr "knihy ePub podľa SVG obálok calibre"
+
+#: check_epub.py:994
+msgid "No searched ePub books have calibre covers embedded"
+msgstr "Žiadna z hľadaných kníh ePub nemá vložené obálky calibre"
+
+#: check_epub.py:997
+msgid "All searched ePub books have calibre covers embedded"
+msgstr "Všetky hľadané knihy ePub majú vložené obálky calibre"
+
+#: check_epub.py:1001
+msgid "ePub books for calibre covers"
+msgstr "knihy ePub podľa obálok calibre"
+
+#: check_epub.py:1030
+msgid "No searched ePub books have been converted by calibre"
+msgstr "Žiadna z hľadaných kníh ePub nebola konvertovaná calibre"
+
+#: check_epub.py:1033
+msgid "All searched ePub books have been converted by calibre"
+msgstr "Všetky hľadané knihy ePub boli konvertované calibre"
+
+#: check_epub.py:1037
+msgid "ePub books for calibre conversions"
+msgstr "knihy ePub podľa konverzií calibre"
+
+#: check_epub.py:1065
+msgid "All searched ePub books have a valid zip format"
+msgstr "Všetky hľadané knihy ePub majú platný formát zip"
+
+#: check_epub.py:1067
+msgid "ePub books for corrupted zip format"
+msgstr "knihy ePub podľa poškodeného formátu zip"
+
+#: check_epub.py:1092
+msgid "All searched ePub books have a valid container.xml file"
+msgstr "Všetky hľadané knihy ePub majú platný súbor container.xml"
+
+#: check_epub.py:1094
+msgid "ePub books for missing container.xml"
+msgstr "knihy ePub podľa chýbajúceho container.xml"
+
+#: check_epub.py:1110
+msgid "\tMissing container.xml file in"
+msgstr "\tChýbajúci súbor container.xml v"
+
+#: check_epub.py:1115
+msgid "\tIncorrect container.xml namespace in"
+msgstr "\tNesprávny menný priestor container.xml v"
+
+#: check_epub.py:1122
+msgid "\tIncorrect .opf manifest namespace in"
+msgstr "\tNesprávny menný priestor manifestu .opf v"
+
+#: check_epub.py:1132
+msgid "All searched ePub books have valid namespaces"
+msgstr "Všetky hľadané knihy ePub majú platné menné priestory"
+
+#: check_epub.py:1134
+msgid "ePub books for namespaces check"
+msgstr "knihy ePub na kontrolu menných priestorov"
+
+#: check_epub.py:1175
+msgid "All searched ePub books have only dc: elements in manifest"
+msgstr "Všetky hľadané knihy ePub majú v manifeste len prvky dc:"
+
+#: check_epub.py:1177
+msgid "ePub books for non dc: metadata check"
+msgstr "knihy ePub na kontrolu metadát mimo dc:"
+
+#: check_epub.py:1199
+msgid "Manifest file missing from: <b>%s</b>"
+msgstr "Súbor manifestu chýba v: <b>%s</b>"
+
+#: check_epub.py:1213
+msgid "All searched ePub books have a valid opf manifest"
+msgstr "Všetky hľadané knihy ePub majú platný manifest opf"
+
+#: check_epub.py:1215
+msgid "ePub books for missing files in opf"
+msgstr "knihy ePub podľa chýbajúcich súborov v opf"
+
+#: check_epub.py:1240 check_epub.py:1279
+msgid "Ignoring DRM protected ePub: "
+msgstr "Ignoruje sa ePub chránený DRM: "
+
+#: check_epub.py:1253
+msgid "All searched ePub books have a flattened NCX TOC"
+msgstr "Všetky hľadané knihy ePub majú sploštený NCX obsah"
+
+#: check_epub.py:1255
+msgid "ePub books for NCX TOC hierarchy"
+msgstr "knihy ePub podľa hierarchie NCX obsahu"
+
+#: check_epub.py:1299
+msgid "All searched ePub books have a NCX TOC with at least 3 items"
+msgstr "Všetky hľadané knihy ePub majú NCX obsah s aspoň 3 položkami"
+
+#: check_epub.py:1301
+msgid "ePub books for NCX TOC count"
+msgstr "knihy ePub podľa počtu položiek NCX obsahu"
+
+#: check_epub.py:1356
+msgid "All searched ePub books have a NCX TOC with valid links"
+msgstr "Všetky hľadané knihy ePub majú NCX obsah s platnými odkazmi"
+
+#: check_epub.py:1358
+msgid "ePub books for broken NCX TOC links"
+msgstr "knihy ePub podľa nefunkčných odkazov NCX obsahu"
+
+#: check_epub.py:1401
+msgid "All searched ePub books have valid guide entries"
+msgstr "Všetky hľadané knihy ePub majú platné položky sprievodcu"
+
+#: check_epub.py:1403
+msgid "ePub books for broken guide links"
+msgstr "knihy ePub podľa nefunkčných odkazov sprievodcu"
+
+#: check_epub.py:1437
+msgid "No searched ePub books have oversize html files"
+msgstr "Žiadna z hľadaných kníh ePub nemá príliš veľké súbory html"
+
+#: check_epub.py:1439
+msgid "ePub books for oversize html files"
+msgstr "knihy ePub podľa príliš veľkých súborov html"
+
+#: check_epub.py:1464
+msgid "No searched ePub books have DRM"
+msgstr "Žiadna z hľadaných kníh ePub nemá DRM"
+
+#: check_epub.py:1466
+msgid "ePub books for DRM"
+msgstr "knihy ePub podľa DRM"
+
+#: check_epub.py:1498
+msgid "No searched ePub books have Adobe DRM meta tags"
+msgstr "Žiadna z hľadaných kníh ePub nemá meta značky Adobe DRM"
+
+#: check_epub.py:1500
+msgid "ePub books for Adobe DRM meta tags"
+msgstr "knihy ePub podľa meta značiek Adobe DRM"
+
+#: check_epub.py:1532
+msgid "No searched ePub books have \\<address\\> smart tags"
+msgstr "Žiadna z hľadaných kníh ePub nemá smart značky \\<address\\>"
+
+#: check_epub.py:1534
+msgid "ePub books for <address> smart tags"
+msgstr "knihy ePub podľa smart značiek <address>"
+
+#: check_epub.py:1553
+msgid "Font found in: <b>%s</b>"
+msgstr "Písmo nájdené v: <b>%s</b>"
+
+#: check_epub.py:1567
+msgid "No searched ePub books have embedded fonts"
+msgstr "Žiadna z hľadaných kníh ePub nemá vložené písma"
+
+#: check_epub.py:1569
+msgid "ePub books for embedded fonts"
+msgstr "knihy ePub podľa vložených písiem"
+
+#: check_epub.py:1587
+msgid "CSS file contains @font-face: <b>%s</b>"
+msgstr "Súbor CSS obsahuje @font-face: <b>%s</b>"
+
+#: check_epub.py:1593
+msgid "At least one html file contains @font-face: <b>%s</b>"
+msgstr "Aspoň jeden súbor html obsahuje @font-face: <b>%s</b>"
+
+#: check_epub.py:1607
+msgid "No searched ePub books have @font-face declarations"
+msgstr "Žiadna z hľadaných kníh ePub nemá deklarácie @font-face"
+
+#: check_epub.py:1609
+msgid "ePub books for @font-face declarations"
+msgstr "knihy ePub podľa deklarácií @font-face"
+
+#: check_epub.py:1638
+msgid "All searched ePub books have text-align:justify"
+msgstr "Všetky hľadané knihy ePub majú text-align:justify"
+
+#: check_epub.py:1640
+msgid "ePub books for text-align:justify"
+msgstr "knihy ePub podľa text-align:justify"
+
+#: check_epub.py:1666
+msgid "\t\t'margin' property found, so does not match calibre preferences"
+msgstr "\t\tNájdená vlastnosť 'margin', takže nezodpovedá nastaveniam calibre"
+
+#: check_epub.py:1669
+msgid "\t\tNegative margin found, so does not match calibre preferences"
+msgstr "\t\tNájdený záporný okraj, takže nezodpovedá nastaveniam calibre"
+
+#: check_epub.py:1678
+msgid "\t\tMargins is not defined in pts so does not match calibre preferences"
+msgstr ""
+"\t\tOkraje nie sú definované v bodoch, takže nezodpovedajú nastaveniam "
+"calibre"
+
+#: check_epub.py:1686 check_epub.py:1689 check_epub.py:1695
+msgid "\t\tMargins are defined in pts but don't match calibre preferences"
+msgstr "\t\tOkraje sú definované v bodoch, ale nezodpovedajú nastaveniam calibre"
+
+#: check_epub.py:1698
+msgid "\t\tMargins match calibre preferences"
+msgstr "\t\tOkraje zodpovedajú nastaveniam calibre"
+
+#: check_epub.py:1724
+msgid "\tAnalyzing margins in "
+msgstr "\tAnalyzujú sa okraje v "
+
+#: check_epub.py:1754
+msgid "All searched ePub books match the calibre page setup preferences"
+msgstr ""
+"Všetky hľadané knihy ePub zodpovedajú nastaveniam rozloženia stránky calibre"
+
+#: check_epub.py:1756
+msgid "ePub books for body or @page css margins"
+msgstr "knihy ePub podľa okrajov css body alebo @page"
+
+#: check_epub.py:1794
+msgid "All searched ePub books have book level margins defined"
+msgstr "Všetky hľadané knihy ePub majú definované okraje na úrovni knihy"
+
+#: check_epub.py:1796
+msgid "ePub books lacking body or @page css margins"
+msgstr "knihy ePub bez okrajov css body alebo @page"
+
+#: check_epub.py:1832
+msgid "No searched ePub books inline @page margins"
+msgstr "Žiadna z hľadaných kníh ePub nemá vložené okraje @page"
+
+#: check_epub.py:1834
+msgid "ePub books using inline @page or body css margins"
+msgstr "knihy ePub používajúce vložené okraje css @page alebo body"
+
+#: check_epub.py:1855
+msgid "\tContains .js file: %s"
+msgstr "\tObsahuje súbor .js: %s"
+
+#: check_epub.py:1861
+msgid "\tContains inline javascript: %s"
+msgstr "\tObsahuje vložený javascript: %s"
+
+#: check_epub.py:1863
+msgid "ePub with Javascript: %s"
+msgstr "ePub s javascriptom: %s"
+
+#: check_epub.py:1878
+msgid "No searched ePub books have javascript"
+msgstr "Žiadna z hľadaných kníh ePub nemá javascript"
+
+#: check_epub.py:1880
+msgid "ePub books for javascript"
+msgstr "knihy ePub podľa javascriptu"
+
+#: check_epub.py:1908
+msgid "Unsmartened punctuation in: <b>%s</b>"
+msgstr "Nevylepšená interpunkcia v: <b>%s</b>"
+
+#: check_epub.py:1922
+msgid "No searched ePub books need punctuation smartened"
+msgstr "Žiadna z hľadaných kníh ePub nepotrebuje vylepšiť interpunkciu"
+
+#: check_epub.py:1924
+msgid "ePub books for smarten punctuation"
+msgstr "knihy ePub na vylepšenie interpunkcie"
+
+#: check_epub.py:1942
+msgid "Could not find OPF in:%s"
+msgstr "Nepodarilo sa nájsť OPF v: %s"
+
+#: check_epub.py:1945
+msgid "OPF file in container.xml not found in:%s"
+msgstr "Súbor OPF v container.xml sa nenašiel v: %s"
+
+#: check_fix.py:124
+msgid "Reformatting author initials for"
+msgstr "Preformátujú sa iniciály autora pre"
+
+#: check_fix.py:129
+msgid "Reformatted initials for %d of %d book authors"
+msgstr "Preformátované iniciály pre %d z %d autorov kníh"
+
+#: check_fix.py:154
+msgid "Renaming authors to ascii for"
+msgstr "Premenúvajú sa autori na ascii pre"
+
+#: check_fix.py:159
+msgid "Renamed to ascii %d of %d book authors"
+msgstr "Premenovaných na ascii %d z %d autorov kníh"
+
+#: check_fix.py:174
+msgid "books with incorrect author sort"
+msgstr "knihy s nesprávnym triedením autora"
+
+#: check_fix.py:175
+msgid "Checked %d books, updated %d author sorts%s"
+msgstr "Skontrolovaných %d kníh, aktualizovaných %d triedení autora%s"
+
+#: check_fix.py:179
+msgid "All author sorts are correct"
+msgstr "Všetky triedenia autora sú správne"
+
+#: check_fix.py:199
+msgid "books with incorrect title sort"
+msgstr "knihy s nesprávnym triedením názvu"
+
+#: check_fix.py:200
+msgid "Checked %d books, updated %d title sorts%s"
+msgstr "Skontrolovaných %d kníh, aktualizovaných %d triedení názvu%s"
+
+#: check_fix.py:204
+msgid "All title sorts are correct"
+msgstr "Všetky triedenia názvu sú správne"
+
+#: check_fix.py:234
+msgid "\"Check and repair book sizes\" requires calibre version 5.9 or higher."
+msgstr ""
+"„Skontrolovať a opraviť veľkosti kníh“ vyžaduje calibre verzie 5.9 alebo "
+"novšej."
+
+#: check_fix.py:239
+msgid "books for invalid file sizes"
+msgstr "knihy s neplatnými veľkosťami súborov"
+
+#: check_fix.py:240
+msgid "Checked %d books, updated %d format sizes in %d books%s"
+msgstr ""
+"Skontrolovaných %d kníh, aktualizovaných %d veľkostí formátov v %d knihách%s"
+
+#: check_fix.py:244
+msgid "All book format sizes are correct"
+msgstr "Všetky veľkosti formátov kníh sú správne"
+
+#: check_fix.py:264
+msgid "books with paths missing commas"
+msgstr "knihy s cestami bez čiarok"
+
+#: check_fix.py:265
+msgid "Checked %d books, updated %d paths%s"
+msgstr "Skontrolovaných %d kníh, aktualizovaných %d ciest%s"
+
+#: check_fix.py:269
+msgid "All books have up to date paths"
+msgstr "Všetky knihy majú aktuálne cesty"
+
+#: check_fix.py:281
+msgid "Choose directory to cleanup"
+msgstr "Vyberte priečinok na vyčistenie"
+
+#: check_fix.py:286
+msgid "Invalid Folder"
+msgstr "Neplatný priečinok"
+
+#: check_fix.py:287
+msgid "You should not run this feature against a Calibre library folder."
+msgstr "Túto funkciu by ste nemali spúšťať na priečinok knižnice calibre."
+
+#: check_fix.py:288
+msgid ""
+"If you do you will remove \"Empty book\" entries and corrupt your database."
+msgstr ""
+"Ak tak urobíte, odstránite položky „Prázdna kniha“ a poškodíte databázu."
+
+#: check_fix.py:297
+msgid "No files/folders were found to be deleted"
+msgstr "Nenašli sa žiadne súbory ani priečinky na odstránenie"
+
+#: check_fix.py:303 check_fix.py:310
+msgid "Cleanup completed"
+msgstr "Čistenie dokončené"
+
+#: check_fix.py:306
+msgid "Deleted %d files/folders with %d errors. See details for more info."
+msgstr ""
+"Odstránených %d súborov/priečinkov s %d chybami. Viac informácií nájdete v "
+"podrobnostiach."
+
+#: check_fix.py:334
+msgid "Removed folder: %s"
+msgstr "Odstránený priečinok: %s"
+
+#: check_fix.py:338
+msgid "ERROR removing folder: %s"
+msgstr "CHYBA pri odstraňovaní priečinka: %s"
+
+#: check_fix.py:372
+msgid "Removed file: %s"
+msgstr "Odstránený súbor: %s"
+
+#: check_fix.py:376
+msgid "ERROR removing file: %s"
+msgstr "CHYBA pri odstraňovaní súboru: %s"
+
+#: check_fix.py:385 check_fix.py:388 check_fix.py:391
+msgid "identifier found"
+msgstr "identifikátor nájdený"
+
+#: check_fix.py:394
+msgid "No ASIN found, using uuid"
+msgstr "Nenašiel sa žiadny ASIN, používa sa uuid"
+
+#: check_fix.py:428
+msgid "Fixing ASIN for %d books"
+msgstr "Opravuje sa ASIN pre %d kníh"
+
+#: check_fix.py:434
+msgid "Fix ASIN completed"
+msgstr "Oprava ASIN dokončená"
+
+#: check_fix.py:437
+msgid "%d books updated, see log for details"
+msgstr "Aktualizovaných %d kníh, podrobnosti nájdete v protokole"
+
+#: check_fix.py:480
+msgid "books for normalize text fields"
+msgstr "knihy na normalizáciu textových polí"
+
+#: check_fix.py:497
+msgid ""
+"Checked %d books, normalize fields %d in %d books, and %d author sort key%s"
+msgstr ""
+"Skontrolovaných %d kníh, normalizovaných %d polí v %d knihách a %d kľúčov "
+"triedenia autora%s"
+
+#: check_fix.py:501
+msgid "All text fields are normalize"
+msgstr "Všetky textové polia sú normalizované"
+
+#: check_fix.py:509
+msgid "\"Normalize the notes\" requires calibre version 7.0 or higher."
+msgstr "„Normalizovať poznámky“ vyžaduje calibre verzie 7.0 alebo novšej."
+
+#: check_fix.py:546
+msgid "All category notes are normalize"
+msgstr "Všetky poznámky kategórií sú normalizované"
+
+#: check_metadata.py:86
+msgid "All searched books have a valid Title Sort"
+msgstr "Všetky hľadané knihy majú platné triedenie názvu"
+
+#: check_metadata.py:88
+msgid "books for invalid title sort"
+msgstr "knihy s neplatným triedením názvu"
+
+#: check_metadata.py:104
+msgid "All searched books have a valid Author Sort"
+msgstr "Všetky hľadané knihy majú platné triedenie autora"
+
+#: check_metadata.py:106
+msgid "books for invalid author sort"
+msgstr "knihy s neplatným triedením autora"
+
+#: check_metadata.py:119
+msgid "All searched books have a valid ISBN"
+msgstr "Všetky hľadané knihy majú platné ISBN"
+
+#: check_metadata.py:121
+msgid "books for invalid ISBN"
+msgstr "knihy s neplatným ISBN"
+
+#: check_metadata.py:134
+msgid "All searched books have a valid pubdate"
+msgstr "Všetky hľadané knihy majú platný dátum publikovania"
+
+#: check_metadata.py:136
+msgid "books for invalid pubdate"
+msgstr "knihy s neplatným dátumom publikovania"
+
+#: check_metadata.py:153
+msgid "books for duplicate ISBN"
+msgstr "knihy s duplicitným ISBN"
+
+#: check_metadata.py:166
+msgid "All searched books have unique ISBNs"
+msgstr "Všetky hľadané knihy majú jedinečné ISBN"
+
+#: check_metadata.py:185
+msgid "books for duplicate series"
+msgstr "knihy s duplicitnou sériou"
+
+#: check_metadata.py:199
+msgid "All searched books have unique series indexes"
+msgstr "Všetky hľadané knihy majú jedinečné indexy sérií"
+
+#: check_metadata.py:257
+msgid "Checked %d books, found %d gaps in %d series"
+msgstr "Skontrolovaných %d kníh, nájdených %d medzier v %d sériách"
+
+#: check_metadata.py:261
+msgid "No series gaps exist in the books searched"
+msgstr "V hľadaných knihách neexistujú žiadne medzery v sériách"
+
+#: check_metadata.py:263
+msgid "Series Gaps Found%s"
+msgstr "Nájdené medzery v sériách%s"
+
+#: check_metadata.py:287
+msgid "books for series pubdate order"
+msgstr "knihy podľa poradia dátumov publikovania v sérii"
+
+#: check_metadata.py:320
+msgid "Checked %d books, found %d disordered in %d series"
+msgstr ""
+"Skontrolovaných %d kníh, nájdených %d nesprávne zoradených v %d sériách"
+
+#: check_metadata.py:324
+msgid "No series pubdate disorders exist in the books searched"
+msgstr ""
+"V hľadaných knihách neexistujú žiadne nesprávne poradia dátumov publikovania"
+" v sériách"
+
+#: check_metadata.py:326
+msgid "Series Pubdate Issues Found"
+msgstr "Nájdené problémy s dátumami publikovania v sériách"
+
+#: check_metadata.py:344
+msgid "All searched books have a valid tag count"
+msgstr "Všetky hľadané knihy majú platný počet značiek"
+
+#: check_metadata.py:346
+msgid "books for invalid tag count"
+msgstr "knihy s neplatným počtom značiek"
+
+#: check_metadata.py:379
+msgid "All searched books have no HTML in comments"
+msgstr "Žiadna z hľadaných kníh nemá HTML v komentároch"
+
+#: check_metadata.py:381
+msgid "books for no HTML in comments"
+msgstr "knihy bez HTML v komentároch"
+
+#: check_metadata.py:416
+msgid "All searched books have HTML in comments"
+msgstr "Všetky hľadané knihy majú HTML v komentároch"
+
+#: check_metadata.py:418
+msgid "books for HTML in comments"
+msgstr "knihy s HTML v komentároch"
+
+#: check_metadata.py:433
+msgid "All searched book authors have no commas"
+msgstr "Žiadny z hľadaných autorov kníh nemá čiarky"
+
+#: check_metadata.py:435
+msgid "books with authors having commas"
+msgstr "knihy s autormi, ktorí majú čiarky"
+
+#: check_metadata.py:450
+msgid "All searched book authors have commas"
+msgstr "Všetci hľadaní autori kníh majú čiarky"
+
+#: check_metadata.py:452
+msgid "books with authors not having commas"
+msgstr "knihy s autormi, ktorí nemajú čiarky"
+
+#: check_metadata.py:467
+msgid "All searched authors have a valid casing"
+msgstr "Všetci hľadaní autori majú platnú veľkosť písmen"
+
+#: check_metadata.py:469
+msgid "books for invalid author casing"
+msgstr "knihy s neplatnou veľkosťou písmen v mene autora"
+
+#: check_metadata.py:487
+msgid "All searched book authors have alphabetic names"
+msgstr "Všetci hľadaní autori kníh majú abecedné názvy"
+
+#: check_metadata.py:489
+msgid "books with authors having non-alphabetic names"
+msgstr "knihy s autormi, ktorí majú neabecedné názvy"
+
+#: check_metadata.py:506
+msgid "All searched book authors have ascii names"
+msgstr "Všetci hľadaní autori kníh majú ascii názvy"
+
+#: check_metadata.py:508
+msgid "books with authors having non-ascii names"
+msgstr "knihy s autormi, ktorí majú neascii názvy"
+
+#: check_metadata.py:526
+msgid "All searched book authors have correct initials"
+msgstr "Všetci hľadaní autori kníh majú správne iniciály"
+
+#: check_metadata.py:528
+msgid "books with authors having incorrect initials"
+msgstr "knihy s autormi, ktorí majú nesprávne iniciály"
+
+#: check_metadata.py:541
+msgid "All searched books do not have titles with series names"
+msgstr "Žiadna z hľadaných kníh nemá názov s menom série"
+
+#: check_metadata.py:543
+msgid "book titles with possible series names"
+msgstr "názvy kníh s možnými menami sérií"
+
+#: check_metadata.py:555
+msgid "All searched titles have a valid title casing"
+msgstr "Všetky hľadané názvy majú platnú veľkosť písmen"
+
+#: check_metadata.py:557
+msgid "books for invalid title casing"
+msgstr "knihy s neplatnou veľkosťou písmen v názve"
+
+#: check_mobi.py:80
+msgid "All searched MOBI books have EBOK cdetag values"
+msgstr "Všetky hľadané knihy MOBI majú hodnoty cdetag EBOK"
+
+#: check_mobi.py:82
+msgid "MOBI books missing EBOK cdetag"
+msgstr "knihy MOBI bez cdetag EBOK"
+
+#: check_mobi.py:121
+msgid "All searched MOBI books have ASIN values"
+msgstr "Všetky hľadané knihy MOBI majú hodnoty ASIN"
+
+#: check_mobi.py:123
+msgid "MOBI books missing ASIN"
+msgstr "knihy MOBI bez ASIN"
+
+#: check_mobi.py:166
+msgid "All searched MOBI books have Twitter/Facebook sharing enabled"
+msgstr ""
+"Všetky hľadané knihy MOBI majú povolené zdieľanie na Twitteri/Facebooku"
+
+#: check_mobi.py:168
+msgid "MOBI books unable to share on Twitter/Facebook"
+msgstr "knihy MOBI, ktoré nemožno zdieľať na Twitteri/Facebooku"
+
+#: check_mobi.py:197
+msgid "All searched MOBI books have no clipping limits"
+msgstr "Žiadna z hľadaných kníh MOBI nemá obmedzenia kopírovania"
+
+#: check_mobi.py:199
+msgid "MOBI books for clipping limits"
+msgstr "knihy MOBI podľa obmedzení kopírovania"
+
+#: config.py:73
+msgid "Check covers"
+msgstr "Kontrolovať obálky"
+
+#: config.py:73
+msgid "Find books with book covers matching your criteria"
+msgstr "Nájsť knihy s obálkami zodpovedajúcimi vašim kritériám"
+
+#: config.py:75
+msgid "Check having any jacket"
+msgstr "Kontrolovať prítomnosť akéhokoľvek prebalu"
+
+#: config.py:75
+msgid "Check for ePub formats which have any calibre jacket"
+msgstr "Kontrolovať formáty ePub, ktoré majú akýkoľvek prebal calibre"
+
+#: config.py:75 config.py:76 config.py:77 config.py:78 config.py:79
+#: config.py:80 config.py:81 config.py:82 config.py:83 config.py:84
+#: config.py:85 config.py:86 config.py:87 config.py:88 config.py:89
+#: config.py:90 config.py:91 config.py:92 config.py:93 config.py:94
+#: config.py:95 config.py:96 config.py:97 config.py:98 config.py:99
+#: config.py:100 config.py:101 config.py:102 config.py:103 config.py:104
+msgid "Check ePub Structure"
+msgstr "Kontrolovať štruktúru ePub"
+
+#: config.py:76
+msgid "Check having legacy jacket"
+msgstr "Kontrolovať prítomnosť staršieho prebalu"
+
+#: config.py:76
+msgid ""
+"Check for ePub formats which have a calibre jacket from versions prior to "
+"0.6.51"
+msgstr ""
+"Kontrolovať formáty ePub, ktoré majú prebal calibre z verzií starších ako "
+"0.6.51"
+
+#: config.py:77
+msgid "Check having multiple jackets"
+msgstr "Kontrolovať prítomnosť viacerých prebalov"
+
+#: config.py:77
+msgid "Check for ePub formats which have multiple jackets"
+msgstr "Kontrolovať formáty ePub, ktoré majú viacero prebalov"
+
+#: config.py:78
+msgid "Check missing jacket"
+msgstr "Kontrolovať chýbajúci prebal"
+
+#: config.py:78
+msgid "Check for ePub formats which do not have a jacket"
+msgstr "Kontrolovať formáty ePub, ktoré nemajú prebal"
+
+#: config.py:79
+msgid "Check missing container.xml"
+msgstr "Kontrolovať chýbajúci container.xml"
+
+#: config.py:79
+msgid ""
+"Check for ePub formats with a missing container.xml indicating an invalid "
+"ePub"
+msgstr ""
+"Kontrolovať formáty ePub s chýbajúcim container.xml, čo znamená neplatný "
+"ePub"
+
+#: config.py:80
+msgid "Check invalid namespaces"
+msgstr "Kontrolovať neplatné menné priestory"
+
+#: config.py:80
+msgid ""
+"Check for ePub formats with invalid namespaces in the container xml or opf "
+"manifest"
+msgstr ""
+"Kontrolovať formáty ePub s neplatnými mennými priestormi v container xml "
+"alebo manifeste opf"
+
+#: config.py:81
+msgid "Check non-dc: metadata"
+msgstr "Kontrolovať metadáta mimo dc:"
+
+#: config.py:81
+msgid ""
+"Check for ePub formats with metadata elements in the opf manifest that are "
+"not in the dc: namespace"
+msgstr ""
+"Kontrolovať formáty ePub s prvkami metadát v manifeste opf, ktoré nie sú v "
+"mennom priestore dc:"
+
+#: config.py:82
+msgid "Check manifest files missing"
+msgstr "Kontrolovať chýbajúce súbory manifestu"
+
+#: config.py:82
+msgid ""
+"Check for ePub formats with files missing that are listed in their opf "
+"manifest"
+msgstr ""
+"Kontrolovať formáty ePub s chýbajúcimi súbormi, ktoré sú uvedené v ich "
+"manifeste opf"
+
+#: config.py:83
+msgid "Check unmanifested files"
+msgstr "Kontrolovať nezapísané súbory"
+
+#: config.py:83
+msgid ""
+"Check for ePub formats with files that are not listed in their opf manifest "
+"excluding iTunes/bookmarks"
+msgstr ""
+"Kontrolovať formáty ePub so súbormi, ktoré nie sú uvedené v ich manifeste "
+"opf, s výnimkou iTunes/záložiek"
+
+#: config.py:84
+msgid "Check unused CSS files"
+msgstr "Kontrolovať nepoužité súbory CSS"
+
+#: config.py:84
+msgid ""
+"Check for ePub formats with CSS files that are not referenced from any html "
+"pages"
+msgstr ""
+"Kontrolovať formáty ePub so súbormi CSS, na ktoré neodkazuje žiadna stránka "
+"html"
+
+#: config.py:85
+msgid "Check unused image files"
+msgstr "Kontrolovať nepoužité súbory obrázkov"
+
+#: config.py:85
+msgid ""
+"Check for ePub formats with image files that are not referenced from the "
+"xhtml pages"
+msgstr ""
+"Kontrolovať formáty ePub so súbormi obrázkov, na ktoré neodkazujú stránky "
+"xhtml"
+
+#: config.py:86
+msgid "Check broken image links"
+msgstr "Kontrolovať nefunkčné odkazy na obrázky"
+
+#: config.py:86
+msgid ""
+"Check for ePub formats with html pages that contain broken links to images"
+msgstr ""
+"Kontrolovať formáty ePub so stránkami html, ktoré obsahujú nefunkčné odkazy "
+"na obrázky"
+
+#: config.py:87
+msgid "Check iTunes files"
+msgstr "Kontrolovať súbory iTunes"
+
+#: config.py:87
+msgid ""
+"Check for ePub formats with an iTunesMetadata.plist or iTunesArtwork file"
+msgstr ""
+"Kontrolovať formáty ePub so súborom iTunesMetadata.plist alebo iTunesArtwork"
+
+#: config.py:88
+msgid "Check calibre bookmark files"
+msgstr "Kontrolovať súbory záložiek calibre"
+
+#: config.py:88
+msgid "Check for ePub formats with a calibre bookmarks file"
+msgstr "Kontrolovať formáty ePub so súborom záložiek calibre"
+
+#: config.py:89
+msgid "Check OS artifacts"
+msgstr "Kontrolovať artefakty OS"
+
+#: config.py:89
+msgid "Check for ePub formats with OS artifacts of .DS_Store or Thumbs.db"
+msgstr "Kontrolovať formáty ePub s artefaktmi OS .DS_Store alebo Thumbs.db"
+
+#: config.py:90
+msgid "Check ePub inside ePub"
+msgstr "Kontrolovať ePub vnútri ePub"
+
+#: config.py:90
+msgid "Check for ePub formats containing a ePub inside"
+msgstr "Kontrolovať formáty ePub obsahujúce vnútri ePub"
+
+#: config.py:91
+msgid "Check NCX TOC hierarchical"
+msgstr "Kontrolovať hierarchiu NCX obsahu"
+
+#: config.py:91
+msgid ""
+"Check for ePub formats with a NCX file TOC which is not flat (i.e. "
+"hierarchical)"
+msgstr ""
+"Kontrolovať formáty ePub s obsahom v súbore NCX, ktorý nie je plochý (t. j. "
+"je hierarchický)"
+
+#: config.py:92
+msgid "Check NCX TOC with < 3 entries"
+msgstr "Kontrolovať NCX obsah s < 3 položkami"
+
+#: config.py:92
+msgid "Check for ePub formats with a NCX file TOC with less than 3 entries"
+msgstr ""
+"Kontrolovať formáty ePub s obsahom v súbore NCX s menej ako 3 položkami"
+
+#: config.py:93
+msgid "Check NCX TOC with broken links"
+msgstr "Kontrolovať NCX obsah s nefunkčnými odkazmi"
+
+#: config.py:93
+msgid ""
+"Check for ePub formats with a NCX file TOC that contains broken html links"
+msgstr ""
+"Kontrolovať formáty ePub s obsahom v súbore NCX, ktorý obsahuje nefunkčné "
+"odkazy html"
+
+#: config.py:94
+msgid "Check <guide> broken links"
+msgstr "Kontrolovať nefunkčné odkazy <guide>"
+
+#: config.py:94
+msgid ""
+"Check for ePub formats with broken links in the <guide> section of the "
+"manifest"
+msgstr ""
+"Kontrolovať formáty ePub s nefunkčnými odkazmi v sekcii <guide> manifestu"
+
+#: config.py:95
+msgid "Check oversize html files"
+msgstr "Kontrolovať príliš veľké súbory html"
+
+#: config.py:95
+msgid ""
+"Check for ePub formats with an individual html file size that requires "
+"splitting on some devices"
+msgstr ""
+"Kontrolovať formáty ePub s veľkosťou jednotlivého súboru html, ktorá "
+"vyžaduje rozdelenie na niektorých zariadeniach"
+
+#: config.py:96
+msgid "Check DRM"
+msgstr "Kontrolovať DRM"
+
+#: config.py:96
+msgid "Check for ePub formats with DRM encryption xml files"
+msgstr "Kontrolovať formáty ePub so súbormi xml šifrovania DRM"
+
+#: config.py:97
+msgid "Check Adobe DRM meta tag"
+msgstr "Kontrolovať meta značku Adobe DRM"
+
+#: config.py:97
+msgid ""
+"Check for ePub formats that contain html pages with an Adobe DRM meta "
+"identifier tag"
+msgstr ""
+"Kontrolovať formáty ePub, ktoré obsahujú stránky html s meta značkou "
+"identifikátora Adobe DRM"
+
+#: config.py:98
+msgid "Check replaceable cover"
+msgstr "Kontrolovať vymeniteľnú obálku"
+
+#: config.py:98
+msgid ""
+"Check for ePub formats with a cover that can be replaced when exporting or "
+"updating metadata with Modify ePub"
+msgstr ""
+"Kontrolovať formáty ePub s obálkou, ktorú možno vymeniť pri exporte alebo "
+"aktualizácii metadát pomocou Modify ePub"
+
+#: config.py:99
+msgid "Check non-replaceable cover"
+msgstr "Kontrolovať nevymeniteľnú obálku"
+
+#: config.py:99
+msgid ""
+"Check for ePub formats with no cover or a cover that cannot be replaced "
+"without a calibre conversion"
+msgstr ""
+"Kontrolovať formáty ePub bez obálky alebo s obálkou, ktorú nemožno vymeniť "
+"bez konverzie calibre"
+
+#: config.py:100
+msgid "Check calibre SVG cover"
+msgstr "Kontrolovať SVG obálku calibre"
+
+#: config.py:100
+msgid ""
+"Check for ePub formats with a cover that has been inserted by a calibre "
+"conversion or Modify ePub and that is SVG"
+msgstr ""
+"Kontrolovať formáty ePub s obálkou, ktorá bola vložená konverziou calibre "
+"alebo Modify ePub a ktorá je SVG"
+
+#: config.py:101
+msgid "Check no calibre SVG cover"
+msgstr "Kontrolovať neprítomnosť SVG obálky calibre"
+
+#: config.py:101
+msgid ""
+"Check for ePub formats that have no calibre cover inserted by a calibre "
+"conversion or Modify ePub that is SVG"
+msgstr ""
+"Kontrolovať formáty ePub, ktoré nemajú obálku calibre vloženú konverziou "
+"calibre alebo Modify ePub, ktorá je SVG"
+
+#: config.py:102
+msgid "Check calibre conversion"
+msgstr "Kontrolovať konverziu calibre"
+
+#: config.py:102
+msgid "Check for ePub formats that have been converted by calibre"
+msgstr "Kontrolovať formáty ePub, ktoré boli konvertované calibre"
+
+#: config.py:103
+msgid "Check not calibre conversion"
+msgstr "Kontrolovať nekonvertované calibre"
+
+#: config.py:103
+msgid "Check for ePub formats that have not been converted by calibre"
+msgstr "Kontrolovať formáty ePub, ktoré neboli konvertované calibre"
+
+#: config.py:104
+msgid "Check corrupt zip"
+msgstr "Kontrolovať poškodený zip"
+
+#: config.py:104
+msgid "Check for ePub zip that is corrupted, may need conversion to fix"
+msgstr ""
+"Kontrolovať poškodený zip ePub, ktorý môže vyžadovať konverziu na opravu"
+
+#: config.py:106
+msgid "Check <address> smart-tags"
+msgstr "Kontrolovať smart značky <address>"
+
+#: config.py:106
+msgid ""
+"Check for ePub formats that have <address> elements from a poor conversion "
+"with Word smart tags"
+msgstr ""
+"Kontrolovať formáty ePub, ktoré majú prvky <address> z nekvalitnej konverzie"
+" s inteligentnými značkami Word"
+
+#: config.py:106 config.py:107 config.py:108 config.py:109 config.py:110
+#: config.py:111 config.py:112 config.py:113 config.py:114 config.py:115
+#: config.py:116
+msgid "Check ePub Style"
+msgstr "Kontrolovať štýl ePub"
+
+#: config.py:107
+msgid "Check embedded fonts"
+msgstr "Kontrolovať vložené písma"
+
+#: config.py:107
+msgid "Check for ePub formats with embedded fonts"
+msgstr "Kontrolovať formáty ePub s vloženými písmami"
+
+#: config.py:108
+msgid "Check @font-face"
+msgstr "Kontrolovať @font-face"
+
+#: config.py:108
+msgid ""
+"Check for ePub formats with CSS or html files that contain @font-face "
+"declarations"
+msgstr ""
+"Kontrolovať formáty ePub so súbormi CSS alebo html, ktoré obsahujú "
+"deklarácie @font-face"
+
+#: config.py:109
+msgid "Check Adobe .xpgt margins"
+msgstr "Kontrolovať okraje Adobe .xpgt"
+
+#: config.py:109
+msgid "Check for ePub formats with an xpgt file with non-zero margins"
+msgstr "Kontrolovať formáty ePub so súborom xpgt s nenulovými okrajmi"
+
+#: config.py:110
+msgid "Check Adobe inline .xpgt links"
+msgstr "Kontrolovať vložené odkazy Adobe .xpgt"
+
+#: config.py:110
+msgid ""
+"Check for ePub formats that contain html pages with links to an xpgt file"
+msgstr ""
+"Kontrolovať formáty ePub, ktoré obsahujú stránky html s odkazmi na súbor "
+"xpgt"
+
+#: config.py:111
+msgid "Check CSS non-justified"
+msgstr "Kontrolovať nezarovnaný CSS"
+
+#: config.py:111
+msgid ""
+"Check for ePub formats with CSS files that do not contain a text-align: "
+"justify style"
+msgstr ""
+"Kontrolovať formáty ePub so súbormi CSS, ktoré neobsahujú štýl text-align: "
+"justify"
+
+#: config.py:112
+msgid "Check CSS book margins"
+msgstr "Kontrolovať okraje knihy v CSS"
+
+#: config.py:112
+msgid ""
+"Check for ePub formats with book level CSS margins conflicting with calibre "
+"Preferences"
+msgstr ""
+"Kontrolovať formáty ePub s okrajmi CSS na úrovni knihy, ktoré sú v rozpore s"
+" nastaveniami calibre"
+
+#: config.py:113
+msgid "Check CSS no book margins"
+msgstr "Kontrolovať chýbajúce okraje knihy v CSS"
+
+#: config.py:113
+msgid "Check for ePub formats that do not contain CSS book level margins"
+msgstr "Kontrolovať formáty ePub, ktoré neobsahujú okraje CSS na úrovni knihy"
+
+#: config.py:114
+msgid "Check inline @page margins"
+msgstr "Kontrolovať vložené okraje @page"
+
+#: config.py:114
+msgid "Check for ePub formats that contain @page CSS margins in each flow"
+msgstr ""
+"Kontrolovať formáty ePub, ktoré obsahujú okraje CSS @page v každom toku"
+
+#: config.py:115
+msgid "Check javascript <script>"
+msgstr "Kontrolovať javascript <script>"
+
+#: config.py:115
+msgid "Check for ePub formats that contain inline javascript <script> blocks"
+msgstr ""
+"Kontrolovať formáty ePub, ktoré obsahujú vložené bloky javascript <script>"
+
+#: config.py:116
+msgid "Check smarten punctuation"
+msgstr "Kontrolovať vylepšenie interpunkcie"
+
+#: config.py:116
+msgid "Check for ePub formats that contain unsmartened punctuation"
+msgstr "Kontrolovať formáty ePub, ktoré obsahujú nevylepšenú interpunkciu"
+
+#: config.py:118
+msgid "Check missing EBOK cdetype"
+msgstr "Kontrolovať chýbajúci cdetype EBOK"
+
+#: config.py:118
+msgid ""
+"Check for MOBI/AZW/AZW3 formats missing the cdetype of EBOK required for a "
+"Kindle Fire"
+msgstr ""
+"Kontrolovať formáty MOBI/AZW/AZW3 bez cdetype EBOK, ktorý sa vyžaduje pre "
+"Kindle Fire"
+
+#: config.py:118 config.py:119 config.py:120 config.py:121
+msgid "Check Mobi"
+msgstr "Kontrolovať Mobi"
+
+#: config.py:119
+msgid "Check missing ASIN identifier"
+msgstr "Kontrolovať chýbajúci identifikátor ASIN"
+
+#: config.py:119
+msgid ""
+"Check for MOBI/AZW/AZW3 formats missing an ASIN in EXTH 113 required for "
+"reading on a Kindle Fire"
+msgstr ""
+"Kontrolovať formáty MOBI/AZW/AZW3 bez ASIN v EXTH 113, ktorý sa vyžaduje na "
+"čítanie na Kindle Fire"
+
+#: config.py:120
+msgid "Check Twitter/Facebook disabled"
+msgstr "Kontrolovať vypnuté Twitter/Facebook"
+
+#: config.py:120
+msgid ""
+"Check for MOBI/AZW/AZW3 formats missing an ASIN in both EXTH 113 and EXTH "
+"504 to enable \"share\" features on Facebook or Twitter"
+msgstr ""
+"Kontrolovať formáty MOBI/AZW/AZW3 bez ASIN v EXTH 113 aj EXTH 504 na "
+"povolenie funkcií „zdieľania“ na Facebooku alebo Twitteri"
+
+#: config.py:121
+msgid "Check clipping limit"
+msgstr "Kontrolovať limit kopírovania"
+
+#: config.py:121
+msgid ""
+"Check for MOBI/AZW/AZW3 formats that have a clipping limit specified by the "
+"publisher in EXTH header 401"
+msgstr ""
+"Kontrolovať formáty MOBI/AZW/AZW3, ktoré majú limit kopírovania určený "
+"vydavateľom v hlavičke EXTH 401"
+
+#: config.py:123
+msgid "Check title sort"
+msgstr "Kontrolovať triedenie názvu"
+
+#: config.py:123
+msgid "Find books with an invalid title sort value"
+msgstr "Nájsť knihy s neplatnou hodnotou triedenia názvu"
+
+#: config.py:123 config.py:124 config.py:125 config.py:126 config.py:127
+#: config.py:128 config.py:129 config.py:130 config.py:131 config.py:132
+#: config.py:133 config.py:134 config.py:135 config.py:136 config.py:137
+#: config.py:138 config.py:139 config.py:140 config.py:141
+msgid "Check metadata"
+msgstr "Kontrolovať metadáta"
+
+#: config.py:124
+msgid "Check author sort"
+msgstr "Kontrolovať triedenie autora"
+
+#: config.py:124
+msgid "Find books with an invalid author sort value"
+msgstr "Nájsť knihy s neplatnou hodnotou triedenia autora"
+
+#: config.py:125
+msgid "Check ISBN"
+msgstr "Kontrolovať ISBN"
+
+#: config.py:125
+msgid "Find books with an invalid ISBN"
+msgstr "Nájsť knihy s neplatným ISBN"
+
+#: config.py:126
+msgid "Check pubdate"
+msgstr "Kontrolovať dátum publikovania"
+
+#: config.py:126
+msgid ""
+"Find books with an invalid pubdate where it is set to the timestamp date"
+msgstr ""
+"Nájsť knihy s neplatným dátumom publikovania, ktorý je nastavený na dátum "
+"časovej značky"
+
+#: config.py:127
+msgid "Check duplicate ISBN"
+msgstr "Kontrolovať duplicitné ISBN"
+
+#: config.py:127
+msgid "Find books that have duplicate ISBN values"
+msgstr "Nájsť knihy s duplicitnými hodnotami ISBN"
+
+#: config.py:128
+msgid "Check duplicate series"
+msgstr "Kontrolovať duplicitné série"
+
+#: config.py:128
+msgid "Find books that have duplicate series values"
+msgstr "Nájsť knihy s duplicitnými hodnotami sérií"
+
+#: config.py:129
+msgid "Check series gaps"
+msgstr "Kontrolovať medzery v sériách"
+
+#: config.py:129 config.py:130
+msgid "Find books that have gaps in their series index values"
+msgstr "Nájsť knihy s medzerami v hodnotách indexov sérií"
+
+#: config.py:130
+msgid "Check series pubdate order"
+msgstr "Kontrolovať poradie dátumov publikovania v sérii"
+
+#: config.py:131
+msgid "Check excess tags"
+msgstr "Kontrolovať nadbytočné značky"
+
+#: config.py:131
+msgid "Find books with an excess number of tags"
+msgstr "Nájsť knihy s nadbytočným počtom značiek"
+
+#: config.py:132
+msgid "Check html comments"
+msgstr "Kontrolovať html komentáre"
+
+#: config.py:132
+msgid "Find books which have comments html with style formatting embedded"
+msgstr "Nájsť knihy s html komentármi s vloženým formátovaním štýlov"
+
+#: config.py:133
+msgid "Check no html comments"
+msgstr "Kontrolovať chýbajúce html komentáre"
+
+#: config.py:133
+msgid "Find books which have comments with no html tags at all"
+msgstr "Nájsť knihy s komentármi, ktoré neobsahujú žiadne html značky"
+
+#: config.py:134
+msgid "Check authors with commas"
+msgstr "Kontrolovať autorov s čiarkami"
+
+#: config.py:134
+msgid "Find authors with commas in their name"
+msgstr "Nájsť autorov s čiarkami v mene"
+
+#: config.py:135
+msgid "Check authors missing commas"
+msgstr "Kontrolovať autorov bez čiarok"
+
+#: config.py:135
+msgid "Find authors with no commas in their name"
+msgstr "Nájsť autorov bez čiarok v mene"
+
+#: config.py:136
+msgid "Check authors for case"
+msgstr "Kontrolovať veľkosť písmen u autorov"
+
+#: config.py:136
+msgid "Find authors which are all uppercase or all lowercase"
+msgstr "Nájsť autorov, ktorí sú celí veľkými alebo celí malými písmenami"
+
+#: config.py:137
+msgid "Check authors non alphabetic"
+msgstr "Kontrolovať neabecedných autorov"
+
+#: config.py:137
+msgid ""
+"Find authors with non-alphabetic characters such as semi-colons indicating "
+"cruft or incorrect separators"
+msgstr ""
+"Nájsť autorov s neabecednými znakmi, ako sú bodkočiarky, čo naznačuje "
+"nečistoty alebo nesprávne oddeľovače"
+
+#: config.py:138
+msgid "Check authors non ascii"
+msgstr "Kontrolovať neascii autorov"
+
+#: config.py:138
+msgid "Find authors with non-ascii names (e.g. with diacritics)"
+msgstr "Nájsť autorov s neascii menami (napr. s diakritikou)"
+
+#: config.py:139
+msgid "Check authors initials"
+msgstr "Kontrolovať iniciály autorov"
+
+#: config.py:139
+msgid ""
+"Find authors with initials that do not meet your preferred configuration"
+msgstr ""
+"Nájsť autorov s iniciálami, ktoré nezodpovedajú vašej preferovanej "
+"konfigurácii"
+
+#: config.py:140
+msgid "Check titles with series"
+msgstr "Kontrolovať názvy so sériami"
+
+#: config.py:140
+msgid "Find titles with possible series info in their name"
+msgstr "Nájsť názvy s možnými informáciami o sérii v názve"
+
+#: config.py:141
+msgid "Check titles for title case"
+msgstr "Kontrolovať veľkosť písmen v názvoch"
+
+#: config.py:141
+msgid "Find titles which are candidates to apply the titlecase function to"
+msgstr "Nájsť názvy, na ktoré možno použiť funkciu titlecase"
+
+#: config.py:143
+msgid "Check missing title"
+msgstr "Kontrolovať chýbajúci názov"
+
+#: config.py:143
+msgid "Find books missing a title"
+msgstr "Nájsť knihy bez názvu"
+
+#: config.py:143 config.py:144 config.py:145 config.py:146 config.py:147
+#: config.py:148 config.py:149 config.py:150 config.py:151 config.py:152
+#: config.py:153
+msgid "Check missing"
+msgstr "Kontrolovať chýbajúce"
+
+#: config.py:144
+msgid "Check missing author"
+msgstr "Kontrolovať chýbajúceho autora"
+
+#: config.py:144
+msgid "Find books missing authors"
+msgstr "Nájsť knihy bez autorov"
+
+#: config.py:145
+msgid "Check missing ISBN"
+msgstr "Kontrolovať chýbajúce ISBN"
+
+#: config.py:145
+msgid "Find books missing an ISBN identifier"
+msgstr "Nájsť knihy bez identifikátora ISBN"
+
+#: config.py:146
+msgid "Check missing pubdate"
+msgstr "Kontrolovať chýbajúci dátum publikovania"
+
+#: config.py:146
+msgid "Find books missing published date"
+msgstr "Nájsť knihy bez dátumu publikovania"
+
+#: config.py:147
+msgid "Check missing publisher"
+msgstr "Kontrolovať chýbajúceho vydavateľa"
+
+#: config.py:147
+msgid "Find books missing publisher"
+msgstr "Nájsť knihy bez vydavateľa"
+
+#: config.py:148
+msgid "Check missing tags"
+msgstr "Kontrolovať chýbajúce značky"
+
+#: config.py:148
+msgid "Find books missing tags"
+msgstr "Nájsť knihy bez značiek"
+
+#: config.py:149
+msgid "Check missing rating"
+msgstr "Kontrolovať chýbajúce hodnotenie"
+
+#: config.py:149
+msgid "Find books missing rating"
+msgstr "Nájsť knihy bez hodnotenia"
+
+#: config.py:150
+msgid "Check missing comments"
+msgstr "Kontrolovať chýbajúce komentáre"
+
+#: config.py:150
+msgid "Find books missing comments"
+msgstr "Nájsť knihy bez komentárov"
+
+#: config.py:151
+msgid "Check missing languages"
+msgstr "Kontrolovať chýbajúce jazyky"
+
+#: config.py:151
+msgid "Find books missing languages"
+msgstr "Nájsť knihy bez jazykov"
+
+#: config.py:152
+msgid "Check missing cover"
+msgstr "Kontrolovať chýbajúcu obálku"
+
+#: config.py:152
+msgid "Find books missing a cover"
+msgstr "Nájsť knihy bez obálky"
+
+#: config.py:153
+msgid "Check missing formats"
+msgstr "Kontrolovať chýbajúce formáty"
+
+#: config.py:153
+msgid "Find books missing formats"
+msgstr "Nájsť knihy bez formátov"
+
+#: config.py:155
+msgid "Find ePub books with text matching your own regular expression"
+msgstr "Nájsť knihy ePub s textom zodpovedajúcim vášmu regulárnemu výrazu"
+
+#: config.py:155 dialogs.py:556
+msgid "Search ePubs"
+msgstr "Hľadať v ePub"
+
+#: config.py:160
+msgid "Swap author FN LN <-> LN,FN"
+msgstr "Zameniť autora FN LN <-> LN,FN"
+
+#: config.py:160
+msgid ""
+"For the selected book(s) swap author names between FN LN and LN, FN formats"
+msgstr "Pre vybrané knihy zameniť mená autorov medzi formátmi FN LN a LN, FN"
+
+#: config.py:161
+msgid "Reformat author initials"
+msgstr "Preformátovať iniciály autora"
+
+#: config.py:161
+msgid ""
+"For the selected book(s) reformat the author initials to your configured "
+"preference"
+msgstr ""
+"Pre vybrané knihy preformátovať iniciály autora podľa vašej nakonfigurovanej"
+" voľby"
+
+#: config.py:162
+msgid "Rename author to ascii"
+msgstr "Premenovať autora na ascii"
+
+#: config.py:162
+msgid ""
+"For the selected book(s) rename the author to remove any accents and "
+"diacritics characters"
+msgstr ""
+"Pre vybrané knihy premenovať autora odstránením akýchkoľvek znakov s "
+"akcentmi a diakritikou"
+
+#: config.py:163
+msgid "Set author sort"
+msgstr "Nastaviť triedenie autora"
+
+#: config.py:163
+msgid ""
+"For the selected book(s) replace the author sort with a value based on the "
+"Manage Authors data"
+msgstr ""
+"Pre vybrané knihy nahradiť triedenie autora hodnotou založenou na údajoch zo"
+" správy autorov"
+
+#: config.py:164
+msgid "Set title sort"
+msgstr "Nastaviť triedenie názvu"
+
+#: config.py:164
+msgid ""
+"For the selected book(s) replace the title sort with a value based on your "
+"tweak preference"
+msgstr ""
+"Pre vybrané knihy nahradiť triedenie názvu hodnotou založenou na vašej voľbe"
+" vylepšenia"
+
+#: config.py:165
+msgid "Check and repair book sizes"
+msgstr "Skontrolovať a opraviť veľkosti kníh"
+
+#: config.py:165
+msgid "Check and update file sizes for your books"
+msgstr "Skontrolovať a aktualizovať veľkosti súborov vašich kníh"
+
+#: config.py:166
+msgid "Check and rename book paths"
+msgstr "Skontrolovať a premenovať cesty k knihám"
+
+#: config.py:166
+msgid "Ensure book paths include commas if appropriate"
+msgstr "Zabezpečiť, aby cesty k knihám obsahovali čiarky, ak je to vhodné"
+
+#: config.py:167
+msgid "Cleanup .opf files/folders"
+msgstr "Vyčistiť súbory/priečinky .opf"
+
+#: config.py:167
+msgid "Delete orphaned opf/jpg files and remove empty folders"
+msgstr "Odstrániť osirelé súbory opf/jpg a odstrániť prázdne priečinky"
+
+#: config.py:168
+msgid "Fix ASIN for Kindle Fire"
+msgstr "Opraviť ASIN pre Kindle Fire"
+
+#: config.py:168
+msgid ""
+"For MOBI/AZW/AZW3 formats, assign the current amazon identifier (uuid if not"
+" present) as an ASIN to EXTH 113 and 504 fields"
+msgstr ""
+"Pre formáty MOBI/AZW/AZW3 priradiť aktuálny identifikátor amazon (uuid, ak "
+"nie je prítomný) ako ASIN do polí EXTH 113 a 504"
+
+#: config.py:169
+msgid "Normalize the fields"
+msgstr "Normalizovať polia"
+
+#: config.py:169
+msgid ""
+"Normalize the text fields by using their canonical form defined by the "
+"Unicode Standard, aka merge and reorders diacritics. Can result to "
+"unduplicate some values."
+msgstr ""
+"Normalizovať textové polia použitím ich kanonickej formy definovanej "
+"štandardom Unicode, t. j. zlúči a preusporiada diakritiku. Môže viesť k "
+"odstráneniu duplicít niektorých hodnôt."
+
+#: config.py:170
+msgid "Normalize the notes"
+msgstr "Normalizovať poznámky"
+
+#: config.py:170
+msgid ""
+"Normalize the category notes by using their canonical form defined by the "
+"Unicode Standard, aka merge and reorders diacritics."
+msgstr ""
+"Normalizovať poznámky kategórií použitím ich kanonickej formy definovanej "
+"štandardom Unicode, t. j. zlúči a preusporiada diakritiku."
+
+#: config.py:291
+msgid "Check excess tags options"
+msgstr "Možnosti kontroly nadbytočných značiek"
+
+#: config.py:296
+msgid "Maximum tags:"
+msgstr "Maximálny počet značiek:"
+
+#: config.py:297
+msgid "Books with more than this value will be displayed"
+msgstr "Zobrazia sa knihy s viac ako touto hodnotou"
+
+#: config.py:305
+msgid "Exclude tags:"
+msgstr "Vylúčiť značky:"
+
+#: config.py:306
+msgid "Exclude these tags from when counting the tags for each book"
+msgstr "Vylúčiť tieto značky pri počítaní značiek pre každú knihu"
+
+#: config.py:315
+msgid "Other options"
+msgstr "Ďalšie možnosti"
+
+#: config.py:320
+msgid "Author initials format:"
+msgstr "Formát iniciál autora:"
+
+#: config.py:321
+msgid ""
+"For use with the \"Check Author initials\" option, set your preferred format"
+msgstr ""
+"Pre použitie s možnosťou „Kontrolovať iniciály autorov“ nastavte preferovaný"
+" formát"
+
+#: config.py:328
+msgid "Suppress Fix summary dialogs"
+msgstr "Potlačiť dialógy so zhrnutím opráv"
+
+#: config.py:329
+msgid ""
+"Uncheck this option if you do not want interactive dialogs to appear "
+"summarising the operation"
+msgstr ""
+"Odškrtnite túto možnosť, ak nechcete, aby sa zobrazovali interaktívne "
+"dialógy so zhrnutím operácie"
+
+#: config.py:334
+msgid "Search history count:"
+msgstr "Počet položiek histórie hľadania:"
+
+#: config.py:335
+msgid ""
+"How many previous search expressions to remember on Search sPubs dialog"
+msgstr ""
+"Koľko predchádzajúcich výrazov hľadania si pamätať v dialógu hľadania v ePub"
+
+#: config.py:344
+msgid "Visible menus"
+msgstr "Viditeľné ponuky"
+
+#: config.py:353
+msgid "Edit the keyboard shortcuts associated with this plugin"
+msgstr "Upraviť klávesové skratky priradené tomuto zásuvnému modulu"
+
+#: config.py:357
+msgid "&View library preferences"
+msgstr "&Zobraziť nastavenia knižnice"
+
+#: config.py:358
+msgid "View data stored in the library database for this plugin"
+msgstr "Zobraziť údaje uložené v databáze knižnice pre tento zásuvný modul"
+
+#: dialogs.py:40
+msgid "Checking"
+msgstr "Kontroluje sa"
+
+#: dialogs.py:42
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: dialogs.py:62
+msgid "%s %d %s  (%d matches)..."
+msgstr "%s %d %s  (%d zhôd)..."
+
+#: dialogs.py:137
+msgid "Cover Search Options"
+msgstr "Možnosti hľadania obálok"
+
+#: dialogs.py:140
+msgid "Search library for books where"
+msgstr "Hľadať v knižnici knihy, kde"
+
+#: dialogs.py:144
+msgid "Cover file size is"
+msgstr "Veľkosť súboru obálky je"
+
+#: dialogs.py:154
+msgid "Cover dimensions are"
+msgstr "Rozmery obálky sú"
+
+#: dialogs.py:162 dialogs.py:177
+msgid "width"
+msgstr "šírka"
+
+#: dialogs.py:167 dialogs.py:182
+msgid "height"
+msgstr "výška"
+
+#: dialogs.py:169
+msgid "Cover aspect ratio is"
+msgstr "Pomer strán obálky je"
+
+#: dialogs.py:187
+msgid "tolerance"
+msgstr "tolerancia"
+
+#: dialogs.py:189
+msgid "No cover"
+msgstr "Bez obálky"
+
+#: dialogs.py:274
+msgid "View log"
+msgstr "Zobraziť protokol"
+
+#: dialogs.py:281
+msgid "Quality Check log"
+msgstr "Protokol kontroly kvality"
+
+#: dialogs.py:323
+msgid "quality check plugin:exclude add dialog"
+msgstr "zásuvný modul kontroly kvality: dialóg pridania vylúčenia"
+
+#: dialogs.py:332
+msgid "Quality Check Add Exclusions"
+msgstr "Kontrola kvality – pridať vylúčenia"
+
+#: dialogs.py:335
+msgid "Exclude Books"
+msgstr "Vylúčiť knihy"
+
+#: dialogs.py:339
+msgid "Exclude selected books(s) from the following Quality Check:"
+msgstr "Vylúčiť vybrané knihy z tejto kontroly kvality:"
+
+#: dialogs.py:443
+msgid "quality check plugin:exclude view dialog"
+msgstr "zásuvný modul kontroly kvality: dialóg zobrazenia vylúčení"
+
+#: dialogs.py:446
+msgid "Quality Check View Exclusions"
+msgstr "Kontrola kvality – zobraziť vylúčenia"
+
+#: dialogs.py:450
+msgid "View Excluded Books"
+msgstr "Zobraziť vylúčené knihy"
+
+#: dialogs.py:469
+msgid "Remove selected books from the exclusions"
+msgstr "Odstrániť vybrané knihy z vylúčení"
+
+#: dialogs.py:528
+msgid "quality check plugin:search epub dialog"
+msgstr "zásuvný modul kontroly kvality: dialóg hľadania v epub"
+
+#: dialogs.py:560
+msgid "Find expression"
+msgstr "Nájsť výraz"
+
+#: dialogs.py:574
+msgid "Clear search history"
+msgstr "Vymazať históriu vyhľadávania"
+
+#: dialogs.py:579
+msgid "&Ignore case"
+msgstr "&Ignorovať veľkosť písmen"
+
+#: dialogs.py:581
+msgid "&Show all occurrences"
+msgstr "&Zobraziť všetky výskyty"
+
+#: dialogs.py:582
+msgid ""
+"If unchecked, the search of each ePub is stopped as soon as the first match is found.\n"
+"If checked, all occurrences will be displayed in the log but it will run much slower."
+msgstr ""
+"Ak nie je zaškrtnuté, hľadanie v každom ePub sa zastaví hneď po nájdení prvej zhody.\n"
+"Ak je zaškrtnuté, všetky výskyty sa zobrazia v protokole, ale beh bude oveľa pomalší."
+
+#: dialogs.py:587
+msgid "Scope"
+msgstr "Rozsah"
+
+#: dialogs.py:592
+msgid "&HTML content"
+msgstr "&HTML obsah"
+
+#: dialogs.py:593
+msgid ""
+"Search all html content files, including any html tags.\n"
+"If you also ticked the Plain text content option, this option is ignored."
+msgstr ""
+"Prehľadať všetky súbory s obsahom html vrátane všetkých html značiek.\n"
+"Ak ste zaškrtli aj možnosť Obsah v čistom texte, táto možnosť sa ignoruje."
+
+#: dialogs.py:595
+msgid "&CSS/xpgt stylesheets"
+msgstr "&Štýly CSS/xpgt"
+
+#: dialogs.py:596
+msgid "Search all css or Adobe .xpgt stylesheets"
+msgstr "Prehľadať všetky štýly css alebo Adobe .xpgt"
+
+#: dialogs.py:597
+msgid "&Plain text content"
+msgstr "&Obsah v čistom texte"
+
+#: dialogs.py:598
+msgid ""
+"Search body text of html files with all html tags stripped.\n"
+"If you also ticked the HTML content option, that is ignored in favour of this."
+msgstr ""
+"Prehľadať text tela súborov html s odstránenými všetkými html značkami.\n"
+"Ak ste zaškrtli aj možnosť HTML obsah, tá sa v prospech tejto možnosti ignoruje."
+
+#: dialogs.py:600
+msgid "&OPF manifest"
+msgstr "&Manifest OPF"
+
+#: dialogs.py:601
+msgid "Search the .opf manifest file"
+msgstr "Prehľadať súbor manifestu .opf"
+
+#: dialogs.py:602
+msgid "&NCX TOC"
+msgstr "&NCX obsah"
+
+#: dialogs.py:603
+msgid "Search the NCX table of contents file"
+msgstr "Prehľadať súbor obsahu NCX"
+
+#: dialogs.py:604
+msgid "&Zip filenames"
+msgstr "&Názvy súborov v zip"
+
+#: dialogs.py:605
+msgid "Search the filenames inside the ePub (zip) file"
+msgstr "Prehľadať názvy súborov vnútri súboru ePub (zip)"
+
+#: dialogs.py:625
+msgid "No find text"
+msgstr "Žiadny hľadaný text"
+
+#: dialogs.py:626
+msgid "You must specify a regular expression to search for."
+msgstr "Musíte zadať regulárny výraz, ktorý sa má hľadať."
+
+#: dialogs.py:635
+msgid "No search scope"
+msgstr "Žiadny rozsah hľadania"
+
+#: dialogs.py:636
+msgid "You must specify a scope for the ePub search."
+msgstr "Musíte zadať rozsah pre hľadanie v ePub."
+
+#: dialogs.py:695
+msgid "Fixing"
+msgstr "Opravuje sa"
+
+#: dialogs.py:708
+msgid "Fix completed"
+msgstr "Oprava dokončená"
+
+#: mobi6.py:86
+msgid "This is an Amazon Topaz book. It cannot be processed."
+msgstr "Toto je kniha Amazon Topaz. Nedá sa spracovať."
+
+#: mobi6.py:94
+msgid "Unknown book type: %s"
+msgstr "Neznámy typ knihy: %s"
+
+#: mobi6.py:134
+msgid "Setting ASIN only supported for MOBI files of type 'BOOK'."
+msgstr "Nastavenie ASIN je podporované len pre súbory MOBI typu 'BOOK'."
+
+#: mobi6.py:159
+msgid "No existing EXTH record. Cannot update ASIN."
+msgstr "Žiadny existujúci záznam EXTH. Nemožno aktualizovať ASIN."

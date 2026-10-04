@@ -1,5 +1,19 @@
 # Quality Check Change Log
 
+## [1.14.8] - 2026-10-04
+### Added
+- Czech translation
+- French translation
+- Japanese translation
+- Korean translation
+- Slovak translation
+- Serbian (Latin) translation
+- Swedish translation
+### Changed
+- The 'Check broken image links' log output no longer lowercases the match made in the epub.
+- The 'Check Adobe inline .xpgt links' log output no longer lowercases the match made in the epub.
+- Allow plugin to continue after failing to parse very incompatible urls in 'Check broken image links'.
+
 ## [1.14.7] - 2026-02-09
 ### Added
 - Updated translations

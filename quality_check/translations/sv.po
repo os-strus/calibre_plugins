@@ -1,0 +1,2270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Merarom <merarom@yahoo.es>, 2022
+# efef6ec5b435a041fce803c7f8af77d2_2341d43, 2022
+# Henrik Mattsson-Mårn <h@reglage.net>, 2025
+# Jonatan Nyberg, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-11-16 17:29+1000\n"
+"PO-Revision-Date: 2022-09-19 14:57+0000\n"
+"Last-Translator: Jonatan Nyberg, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/calibre/teams/19337/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ..\common\common_dialogs.py:84 config.py:352
+msgid "Keyboard shortcuts"
+msgstr "Kortkommandon"
+
+#: ..\common\common_dialogs.py:112
+msgid "Restart calibre now"
+msgstr "Starta om calibre nu."
+
+#: ..\common\common_dialogs.py:128
+msgid "Preferences for:"
+msgstr "Inställningar för:"
+
+#: ..\common\common_dialogs.py:160
+msgid "Clear"
+msgstr "Rensa"
+
+#: ..\common\common_dialogs.py:162
+msgid "Clear all settings for this plugin"
+msgstr "Rensa alla inställningar för detta tillägg"
+
+#: ..\common\common_dialogs.py:189
+msgid ""
+"Are you sure you want to change your settings in this library for this "
+"plugin?"
+msgstr ""
+"Är du säker på att du vill ändra dina inställningar i det här biblioteket "
+"för denna insticksmodul?"
+
+#: ..\common\common_dialogs.py:190 ..\common\common_dialogs.py:210
+msgid ""
+"Any settings in other libraries or stored in a JSON file in your calibre "
+"plugins folder will not be touched."
+msgstr ""
+"Alla inställningar i andra bibliotek eller sparade i en JSON-fil i din "
+"calibre-tilläggsmapp kommer inte att röras."
+
+#: ..\common\common_dialogs.py:192 ..\common\common_dialogs.py:212
+msgid "You must restart calibre afterwards."
+msgstr "Du måste starta om calibre efteråt."
+
+#: ..\common\common_dialogs.py:200
+msgid "Settings changed"
+msgstr "Inställningar ändrade"
+
+#: ..\common\common_dialogs.py:201
+msgid "Settings for this plugin in this library have been changed."
+msgstr ""
+"Inställningarna för denna insticksmodul i det här biblioteket har ändrats."
+
+#: ..\common\common_dialogs.py:202 ..\common\common_dialogs.py:223
+msgid "Please restart calibre now."
+msgstr "Starta om calibre nu."
+
+#: ..\common\common_dialogs.py:209
+msgid ""
+"Are you sure you want to clear your settings in this library for this "
+"plugin?"
+msgstr ""
+"Är du säker på att du vill rensa dina inställningar i detta bibliotek för "
+"detta tillägg?"
+
+#: ..\common\common_dialogs.py:221
+msgid "Settings deleted"
+msgstr "Inställningar borttagna"
+
+#: ..\common\common_dialogs.py:222
+msgid "All settings for this plugin in this library have been cleared."
+msgstr "Alla inställningar för detta tillägg i detta bibliotek har rensats."
+
+#: ..\common\common_dialogs.py:297
+msgid "Copy to clipboard"
+msgstr "Kopiera till urklipp"
+
+#: ..\common\common_widgets.py:105
+msgid "Undefined"
+msgstr "Odefinerad"
+
+#: ..\common\common_widgets.py:160
+msgid "Restart required"
+msgstr "Kräver omstart"
+
+#: ..\common\common_widgets.py:161
+msgid ""
+"Title image not found - you must restart Calibre before using this plugin!"
+msgstr ""
+"Titelbilden hittades inte - du måste starta om calibre innan du använder "
+"denna insticksmodul!"
+
+#: ..\common\common_widgets.py:234
+msgid "Create new column"
+msgstr "Skapa ny kolumn"
+
+#: action.py:38 check_base.py:69 check_covers.py:98 check_fix.py:436
+msgid "Quality Check"
+msgstr "Kvalitetskontroll"
+
+#: action.py:108
+msgid "Fix"
+msgstr "Åtgärda"
+
+#: action.py:114
+msgid "Fix -> "
+msgstr "Åtgärda → "
+
+#: action.py:120
+msgid "Repeat last check"
+msgstr "Upprepa senaste kontrollen"
+
+#: action.py:127
+msgid "Search scope"
+msgstr "Sökområde"
+
+#: action.py:132
+msgid "Library"
+msgstr "Bibliotek"
+
+#: action.py:133
+msgid ""
+"Run check against entire library, unless a search restriction is applied"
+msgstr "Kör kontrollen mot hela biblioteket, om ingen sökbegränsning används"
+
+#: action.py:134
+msgid "Search Scope -> Library"
+msgstr "Sökområde → Bibliotek"
+
+#: action.py:137
+msgid "Selected book(s)"
+msgstr "Valda böcker"
+
+#: action.py:138
+msgid "Run check against selected book(s) only"
+msgstr "Kör kontrollen endast mot valda böcker"
+
+#: action.py:139
+msgid "Search Scope -> Selection"
+msgstr "Sökområde → Urval"
+
+#: action.py:144
+msgid "Exclude from check"
+msgstr "Undanta från kontroll"
+
+#: action.py:145
+msgid "Exclude selected book(s) from a particular Quality Check"
+msgstr "Undanta valda böcker från en viss kvalitetskontroll"
+
+#: action.py:148
+msgid "View exclusions"
+msgstr "Visa undantag"
+
+#: action.py:149
+msgid "View exclusions you have added for each Quality Check"
+msgstr "Visa undantag som du har lagt till för varje kvalitetskontroll"
+
+#: action.py:154
+msgid "&Customize plugin"
+msgstr "&Anpassa insticksmodul"
+
+#: action.py:156 config.py:362
+msgid "&Help"
+msgstr "&Hjälp"
+
+#: check_base.py:64
+msgid " (cancelled)"
+msgstr " (avbruten)"
+
+#: check_base.py:70
+msgid "%d matches found%s, see log for details"
+msgstr "%d träffar hittades%s, se loggen för information"
+
+#: check_base.py:74
+msgid "Checked %d books, found %d matches%s"
+msgstr "Kontrollerade %d böcker, hittade %d träffar%s"
+
+#: check_base.py:77
+msgid "No Matches"
+msgstr "Inga träffar"
+
+#: check_covers.py:27 check_epub.py:187 check_fix.py:60 check_fix.py:233
+#: check_fix.py:508 check_metadata.py:67 check_mobi.py:38
+msgid "Quality Check failed"
+msgstr "Kvalitetskontrollen misslyckades"
+
+#: check_covers.py:28 check_epub.py:188 check_fix.py:61 check_metadata.py:68
+#: check_mobi.py:39
+msgid "Unknown menu key for %s of '%s'"
+msgstr "Okänd menynyckel för %s av ”%s”"
+
+#: check_covers.py:70 check_covers.py:105 check_covers.py:135 dialogs.py:79
+#: dialogs.py:109 dialogs.py:114
+msgid "less than"
+msgstr "mindre än"
+
+#: check_covers.py:72 check_covers.py:110 check_covers.py:138 dialogs.py:79
+msgid "greater than"
+msgstr "mer än"
+
+#: check_covers.py:78
+msgid "Failed to identify cover:"
+msgstr "Det gick inte att identifiera omslaget:"
+
+#: check_covers.py:90
+msgid "books for covers"
+msgstr "böcker för omslag"
+
+#: check_covers.py:92
+msgid "Checked %d books, found %d cover matches%s"
+msgstr "Kontrollerade %d böcker, hittade %d omslagsträffar%s"
+
+#: check_covers.py:95
+msgid "No matches found"
+msgstr "Inga träffar hittades"
+
+#: check_covers.py:95 check_metadata.py:165 check_metadata.py:198
+#: check_metadata.py:260 check_metadata.py:323
+msgid "No Matches%s"
+msgstr "Inga träffar%s"
+
+#: check_covers.py:99
+msgid "%d matches found, see log for errors%s"
+msgstr "%d träffar hittades, se loggen för fel%s"
+
+#: check_covers.py:115 check_covers.py:141 dialogs.py:81
+msgid "equal to"
+msgstr "lika med"
+
+#: check_covers.py:124 check_covers.py:144 dialogs.py:81 dialogs.py:121
+msgid "not equal to"
+msgstr "inte lika med"
+
+#: check_epub.py:115
+msgid "iTunes files"
+msgstr "iTunes-filer"
+
+#: check_epub.py:117
+msgid "calibre bookmarks"
+msgstr "calibre-bokmärken"
+
+#: check_epub.py:119
+msgid "OS artifacts"
+msgstr "OS-restfiler"
+
+#: check_epub.py:277
+msgid "Matches in book: <b>%s</b>"
+msgstr "Träffar i boken: <b>%s</b>"
+
+#: check_epub.py:279
+msgid "First match in book: <b>%s</b>"
+msgstr "Första träffen i boken: <b>%s</b>"
+
+#: check_epub.py:286 check_epub.py:318 check_epub.py:358
+msgid "Invalid epub:"
+msgstr "Ogiltig epub:"
+
+#: check_epub.py:289 check_epub.py:321 check_epub.py:361 check_epub.py:561
+msgid "ERROR parsing book: "
+msgstr "FEL vid tolkning av boken: "
+
+#: check_epub.py:294
+msgid "No searched ePub books have your search text"
+msgstr "Ingen av de genomsökta ePub-böckerna innehåller söktexten"
+
+#: check_epub.py:296
+msgid "ePub books for search text"
+msgstr "ePub-böcker för söktext"
+
+#: check_epub.py:304 check_epub.py:344 check_epub.py:392 check_epub.py:669
+#: check_epub.py:743
+msgid "ERROR: EPUB format is missing: "
+msgstr "FEL: EPUB-format saknas: "
+
+#: check_epub.py:326
+msgid "No searched ePub books have legacy jackets"
+msgstr "Ingen av de genomsökta ePub-böckerna har äldre metadatablad"
+
+#: check_epub.py:329
+msgid "No searched ePub books have jackets"
+msgstr "Ingen av de genomsökta ePub-böckerna har metadatablad"
+
+#: check_epub.py:332
+msgid "All searched ePub books have jackets"
+msgstr "Alla genomsökta ePub-böcker har metadatablad"
+
+#: check_epub.py:335
+msgid "ePub books for jackets"
+msgstr "ePub-böcker för metadatablad"
+
+#: check_epub.py:366
+msgid "No searched ePub books have multiple jackets"
+msgstr "Ingen av de genomsökta ePub-böckerna har flera metadatablad"
+
+#: check_epub.py:368
+msgid "ePub books for multiple jackets"
+msgstr "ePub-böcker för flera metadatablad"
+
+#: check_epub.py:424
+msgid "No searched ePub books have non-zero .xpgt margins"
+msgstr ""
+"Ingen av de genomsökta ePub-böckerna har .xpgt-marginaler som inte är noll"
+
+#: check_epub.py:426
+msgid "ePub books for .xpgt margins"
+msgstr "ePub-böcker för .xpgt-marginaler"
+
+#: check_epub.py:456
+msgid "Checking css import"
+msgstr "Kontrollerar CSS-import"
+
+#: check_epub.py:465
+msgid "Checking html import"
+msgstr "Kontrollerar HTML-import"
+
+#: check_epub.py:479
+msgid "No searched ePub books have inline xpgt links"
+msgstr "Ingen av de genomsökta ePub-böckerna har infogade xpgt-länkar"
+
+#: check_epub.py:481
+msgid "ePub books for inline xpgt links"
+msgstr "ePub-böcker för infogade xpgt-länkar"
+
+#: check_epub.py:532
+msgid "No searched ePub books have unmanifested files"
+msgstr "Ingen av de genomsökta ePub-böckerna har filer utanför manifestet"
+
+#: check_epub.py:534
+msgid "ePub books for unmanifested files"
+msgstr "ePub-böcker för filer utanför manifestet"
+
+#: check_epub.py:549 check_epub.py:675 check_epub.py:749
+msgid "SKIPPING BOOK (DRM Encrypted): "
+msgstr "HOPPAR ÖVER BOKEN (DRM-krypterad): "
+
+#: check_epub.py:562
+msgid "\tIssue with CSS name: "
+msgstr "\tProblem med CSS-namn: "
+
+#: check_epub.py:586
+msgid "\tUnused CSS file: %s"
+msgstr "\tOanvänd CSS-fil: %s"
+
+#: check_epub.py:599
+msgid "No searched ePub books have unused CSS files"
+msgstr "Ingen av de genomsökta ePub-böckerna har oanvända CSS-filer"
+
+#: check_epub.py:601
+msgid "ePub books for unused CSS files"
+msgstr "ePub-böcker för oanvända CSS-filer"
+
+#: check_epub.py:693
+msgid "\tIssue with image name: "
+msgstr "\tProblem med bildnamn: "
+
+#: check_epub.py:718
+msgid "\tUNUSED image file: %s"
+msgstr "\tOANVÄND bildfil: %s"
+
+#: check_epub.py:731
+msgid "No searched ePub books have unused image files"
+msgstr "Ingen av de genomsökta ePub-böckerna har oanvända bildfiler"
+
+#: check_epub.py:733
+msgid "ePub books for unused image files"
+msgstr "ePub-böcker för oanvända bildfiler"
+
+#: check_epub.py:788
+msgid "\tBroken image link in:"
+msgstr "\tTrasig bildlänk i:"
+
+#: check_epub.py:788
+msgid " of "
+msgstr " av "
+
+#: check_epub.py:800
+msgid "No searched ePub books have broken image links"
+msgstr "Ingen av de genomsökta ePub-böckerna har trasiga bildlänkar"
+
+#: check_epub.py:802
+msgid "ePub books for broken image links"
+msgstr "ePub-böcker för trasiga bildlänkar"
+
+#: check_epub.py:845
+msgid "No searched ePub books have "
+msgstr "Ingen av de genomsökta ePub-böckerna har "
+
+#: check_epub.py:847
+msgid "ePub books for "
+msgstr "ePub-böcker för "
+
+#: check_epub.py:879
+msgid "No OPF file in:"
+msgstr "Ingen OPF-fil i:"
+
+#: check_epub.py:884
+msgid "No supported meta tag or non-xml cover in:"
+msgstr "Ingen meta-tagg som stöds eller omslag som inte är XML i:"
+
+#: check_epub.py:889
+msgid "DRM Encrypted cover in:"
+msgstr "DRM-krypterat omslag i:"
+
+#: check_epub.py:894
+msgid "Invalid cover image extension (%s) in:"
+msgstr "Ogiltigt filnamnstillägg för omslagsbild (%s) i:"
+
+#: check_epub.py:907
+msgid "No searched ePub books have replaceable covers"
+msgstr "Ingen av de genomsökta ePub-böckerna har utbytbara omslag"
+
+#: check_epub.py:910
+msgid "All searched ePub books have replaceable covers"
+msgstr "Alla genomsökta ePub-böcker har utbytbara omslag"
+
+#: check_epub.py:914
+msgid "ePub books for replaceable covers"
+msgstr "ePub-böcker för utbytbara omslag"
+
+#: check_epub.py:950
+msgid "No searched ePub books have calibre SVG covers embedded"
+msgstr ""
+"Ingen av de genomsökta ePub-böckerna har inbäddade SVG-omslag från calibre"
+
+#: check_epub.py:953
+msgid "All searched ePub books have calibre SVG covers embedded"
+msgstr "Alla genomsökta ePub-böcker har inbäddade SVG-omslag från calibre"
+
+#: check_epub.py:957
+msgid "ePub books for calibre SVG covers"
+msgstr "ePub-böcker för SVG-omslag från calibre"
+
+#: check_epub.py:994
+msgid "No searched ePub books have calibre covers embedded"
+msgstr ""
+"Ingen av de genomsökta ePub-böckerna har inbäddade omslag från calibre"
+
+#: check_epub.py:997
+msgid "All searched ePub books have calibre covers embedded"
+msgstr "Alla genomsökta ePub-böcker har inbäddade omslag från calibre"
+
+#: check_epub.py:1001
+msgid "ePub books for calibre covers"
+msgstr "ePub-böcker för omslag från calibre"
+
+#: check_epub.py:1030
+msgid "No searched ePub books have been converted by calibre"
+msgstr "Ingen av de genomsökta ePub-böckerna har konverterats av calibre"
+
+#: check_epub.py:1033
+msgid "All searched ePub books have been converted by calibre"
+msgstr "Alla genomsökta ePub-böcker har konverterats av calibre"
+
+#: check_epub.py:1037
+msgid "ePub books for calibre conversions"
+msgstr "ePub-böcker för calibre-konverteringar"
+
+#: check_epub.py:1065
+msgid "All searched ePub books have a valid zip format"
+msgstr "Alla genomsökta ePub-böcker har ett giltigt ZIP-format"
+
+#: check_epub.py:1067
+msgid "ePub books for corrupted zip format"
+msgstr "ePub-böcker med skadat ZIP-format"
+
+#: check_epub.py:1092
+msgid "All searched ePub books have a valid container.xml file"
+msgstr "Alla genomsökta ePub-böcker har en giltig container.xml-fil"
+
+#: check_epub.py:1094
+msgid "ePub books for missing container.xml"
+msgstr "ePub-böcker där container.xml saknas"
+
+#: check_epub.py:1110
+msgid "\tMissing container.xml file in"
+msgstr "\tSaknad container.xml-fil i"
+
+#: check_epub.py:1115
+msgid "\tIncorrect container.xml namespace in"
+msgstr "\tFelaktig namnrymd för container.xml i"
+
+#: check_epub.py:1122
+msgid "\tIncorrect .opf manifest namespace in"
+msgstr "\tFelaktig namnrymd för .opf-manifest i"
+
+#: check_epub.py:1132
+msgid "All searched ePub books have valid namespaces"
+msgstr "Alla genomsökta ePub-böcker har giltiga namnrymder"
+
+#: check_epub.py:1134
+msgid "ePub books for namespaces check"
+msgstr "ePub-böcker för kontroll av namnrymder"
+
+#: check_epub.py:1175
+msgid "All searched ePub books have only dc: elements in manifest"
+msgstr "Alla genomsökta ePub-böcker har endast dc:-element i manifestet"
+
+#: check_epub.py:1177
+msgid "ePub books for non dc: metadata check"
+msgstr "ePub-böcker för kontroll av metadata som inte är dc:"
+
+#: check_epub.py:1199
+msgid "Manifest file missing from: <b>%s</b>"
+msgstr "Manifestfil saknas i: <b>%s</b>"
+
+#: check_epub.py:1213
+msgid "All searched ePub books have a valid opf manifest"
+msgstr "Alla genomsökta ePub-böcker har ett giltigt OPF-manifest"
+
+#: check_epub.py:1215
+msgid "ePub books for missing files in opf"
+msgstr "ePub-böcker med filer som saknas i OPF"
+
+#: check_epub.py:1240 check_epub.py:1279
+msgid "Ignoring DRM protected ePub: "
+msgstr "Ignorerar DRM-skyddad ePub: "
+
+#: check_epub.py:1253
+msgid "All searched ePub books have a flattened NCX TOC"
+msgstr "Alla genomsökta ePub-böcker har en platt NCX-innehållsförteckning"
+
+#: check_epub.py:1255
+msgid "ePub books for NCX TOC hierarchy"
+msgstr "ePub-böcker för NCX-innehållsförteckningens hierarki"
+
+#: check_epub.py:1299
+msgid "All searched ePub books have a NCX TOC with at least 3 items"
+msgstr ""
+"Alla genomsökta ePub-böcker har en NCX-innehållsförteckning med minst 3 "
+"poster"
+
+#: check_epub.py:1301
+msgid "ePub books for NCX TOC count"
+msgstr "ePub-böcker för antal poster i NCX-innehållsförteckningen"
+
+#: check_epub.py:1356
+msgid "All searched ePub books have a NCX TOC with valid links"
+msgstr ""
+"Alla genomsökta ePub-böcker har en NCX-innehållsförteckning med giltiga "
+"länkar"
+
+#: check_epub.py:1358
+msgid "ePub books for broken NCX TOC links"
+msgstr "ePub-böcker med trasiga länkar i NCX-innehållsförteckningen"
+
+#: check_epub.py:1401
+msgid "All searched ePub books have valid guide entries"
+msgstr "Alla genomsökta ePub-böcker har giltiga guide-poster"
+
+#: check_epub.py:1403
+msgid "ePub books for broken guide links"
+msgstr "ePub-böcker med trasiga guide-länkar"
+
+#: check_epub.py:1437
+msgid "No searched ePub books have oversize html files"
+msgstr "Ingen av de genomsökta ePub-böckerna har för stora HTML-filer"
+
+#: check_epub.py:1439
+msgid "ePub books for oversize html files"
+msgstr "ePub-böcker med för stora HTML-filer"
+
+#: check_epub.py:1464
+msgid "No searched ePub books have DRM"
+msgstr "Ingen av de genomsökta ePub-böckerna har DRM"
+
+#: check_epub.py:1466
+msgid "ePub books for DRM"
+msgstr "ePub-böcker för DRM"
+
+#: check_epub.py:1498
+msgid "No searched ePub books have Adobe DRM meta tags"
+msgstr "Ingen av de genomsökta ePub-böckerna har Adobe DRM-meta-taggar"
+
+#: check_epub.py:1500
+msgid "ePub books for Adobe DRM meta tags"
+msgstr "ePub-böcker för Adobe DRM-meta-taggar"
+
+#: check_epub.py:1532
+msgid "No searched ePub books have \\<address\\> smart tags"
+msgstr ""
+"Ingen av de genomsökta ePub-böckerna har smarttaggar av typen \\<address\\>"
+
+#: check_epub.py:1534
+msgid "ePub books for <address> smart tags"
+msgstr "ePub-böcker för smarttaggar av typen <address>"
+
+#: check_epub.py:1553
+msgid "Font found in: <b>%s</b>"
+msgstr "Teckensnitt hittades i: <b>%s</b>"
+
+#: check_epub.py:1567
+msgid "No searched ePub books have embedded fonts"
+msgstr "Ingen av de genomsökta ePub-böckerna har inbäddade teckensnitt"
+
+#: check_epub.py:1569
+msgid "ePub books for embedded fonts"
+msgstr "ePub-böcker för inbäddade teckensnitt"
+
+#: check_epub.py:1587
+msgid "CSS file contains @font-face: <b>%s</b>"
+msgstr "CSS-filen innehåller @font-face: <b>%s</b>"
+
+#: check_epub.py:1593
+msgid "At least one html file contains @font-face: <b>%s</b>"
+msgstr "Minst en HTML-fil innehåller @font-face: <b>%s</b>"
+
+#: check_epub.py:1607
+msgid "No searched ePub books have @font-face declarations"
+msgstr "Ingen av de genomsökta ePub-böckerna har @font-face-deklarationer"
+
+#: check_epub.py:1609
+msgid "ePub books for @font-face declarations"
+msgstr "ePub-böcker för @font-face-deklarationer"
+
+#: check_epub.py:1638
+msgid "All searched ePub books have text-align:justify"
+msgstr "Alla genomsökta ePub-böcker har text-align:justify"
+
+#: check_epub.py:1640
+msgid "ePub books for text-align:justify"
+msgstr "ePub-böcker för text-align:justify"
+
+#: check_epub.py:1666
+msgid "\t\t'margin' property found, so does not match calibre preferences"
+msgstr ""
+"\t\tEgenskapen ”margin” hittades och motsvarar därför inte calibres "
+"inställningar"
+
+#: check_epub.py:1669
+msgid "\t\tNegative margin found, so does not match calibre preferences"
+msgstr ""
+"\t\tEn negativ marginal hittades och motsvarar därför inte calibres "
+"inställningar"
+
+#: check_epub.py:1678
+msgid "\t\tMargins is not defined in pts so does not match calibre preferences"
+msgstr ""
+"\t\tMarginalerna anges inte i pt och motsvarar därför inte calibres "
+"inställningar"
+
+#: check_epub.py:1686 check_epub.py:1689 check_epub.py:1695
+msgid "\t\tMargins are defined in pts but don't match calibre preferences"
+msgstr "\t\tMarginalerna anges i pt men motsvarar inte calibres inställningar"
+
+#: check_epub.py:1698
+msgid "\t\tMargins match calibre preferences"
+msgstr "\t\tMarginalerna motsvarar calibres inställningar"
+
+#: check_epub.py:1724
+msgid "\tAnalyzing margins in "
+msgstr "\tAnalyserar marginaler i "
+
+#: check_epub.py:1754
+msgid "All searched ePub books match the calibre page setup preferences"
+msgstr "Alla genomsökta ePub-böcker motsvarar calibres sidinställningar"
+
+#: check_epub.py:1756
+msgid "ePub books for body or @page css margins"
+msgstr "ePub-böcker för CSS-marginaler i body eller @page"
+
+#: check_epub.py:1794
+msgid "All searched ePub books have book level margins defined"
+msgstr "Alla genomsökta ePub-böcker har definierade marginaler på boknivå"
+
+#: check_epub.py:1796
+msgid "ePub books lacking body or @page css margins"
+msgstr "ePub-böcker som saknar CSS-marginaler i body eller @page"
+
+#: check_epub.py:1832
+msgid "No searched ePub books inline @page margins"
+msgstr "Ingen av de genomsökta ePub-böckerna har infogade @page-marginaler"
+
+#: check_epub.py:1834
+msgid "ePub books using inline @page or body css margins"
+msgstr "ePub-böcker som använder infogade CSS-marginaler i @page eller body"
+
+#: check_epub.py:1855
+msgid "\tContains .js file: %s"
+msgstr "\tInnehåller .js-fil: %s"
+
+#: check_epub.py:1861
+msgid "\tContains inline javascript: %s"
+msgstr "\tInnehåller infogad JavaScript: %s"
+
+#: check_epub.py:1863
+msgid "ePub with Javascript: %s"
+msgstr "ePub med JavaScript: %s"
+
+#: check_epub.py:1878
+msgid "No searched ePub books have javascript"
+msgstr "Ingen av de genomsökta ePub-böckerna har JavaScript"
+
+#: check_epub.py:1880
+msgid "ePub books for javascript"
+msgstr "ePub-böcker för JavaScript"
+
+#: check_epub.py:1908
+msgid "Unsmartened punctuation in: <b>%s</b>"
+msgstr "Icke-typografiska skiljetecken i: <b>%s</b>"
+
+#: check_epub.py:1922
+msgid "No searched ePub books need punctuation smartened"
+msgstr ""
+"Ingen av de genomsökta ePub-böckerna behöver typografiserade skiljetecken"
+
+#: check_epub.py:1924
+msgid "ePub books for smarten punctuation"
+msgstr "ePub-böcker för typografisering av skiljetecken"
+
+#: check_epub.py:1942
+msgid "Could not find OPF in:%s"
+msgstr "OPF kunde inte hittas i: %s"
+
+#: check_epub.py:1945
+msgid "OPF file in container.xml not found in:%s"
+msgstr "OPF-filen i container.xml hittades inte i: %s"
+
+#: check_fix.py:124
+msgid "Reformatting author initials for"
+msgstr "Formaterar om författarinitialer för"
+
+#: check_fix.py:129
+msgid "Reformatted initials for %d of %d book authors"
+msgstr "Formaterade om initialerna för %d av %d bokförfattare"
+
+#: check_fix.py:154
+msgid "Renaming authors to ascii for"
+msgstr "Byter namn på författare till ASCII för"
+
+#: check_fix.py:159
+msgid "Renamed to ascii %d of %d book authors"
+msgstr "Bytte namn till ASCII för %d av %d bokförfattare"
+
+#: check_fix.py:174
+msgid "books with incorrect author sort"
+msgstr "böcker med felaktig författarsortering"
+
+#: check_fix.py:175
+msgid "Checked %d books, updated %d author sorts%s"
+msgstr "Kontrollerade %d böcker, uppdaterade %d författarsorteringar%s"
+
+#: check_fix.py:179
+msgid "All author sorts are correct"
+msgstr "Alla författarsorteringar är korrekta"
+
+#: check_fix.py:199
+msgid "books with incorrect title sort"
+msgstr "böcker med felaktig titelsortering"
+
+#: check_fix.py:200
+msgid "Checked %d books, updated %d title sorts%s"
+msgstr "Kontrollerade %d böcker, uppdaterade %d titelsorteringar%s"
+
+#: check_fix.py:204
+msgid "All title sorts are correct"
+msgstr "Alla titelsorteringar är korrekta"
+
+#: check_fix.py:234
+msgid "\"Check and repair book sizes\" requires calibre version 5.9 or higher."
+msgstr ""
+"”Kontrollera och reparera bokstorlekar” kräver calibre 5.9 eller senare."
+
+#: check_fix.py:239
+msgid "books for invalid file sizes"
+msgstr "böcker med ogiltiga filstorlekar"
+
+#: check_fix.py:240
+msgid "Checked %d books, updated %d format sizes in %d books%s"
+msgstr "Kontrollerade %d böcker, uppdaterade %d formatstorlekar i %d böcker%s"
+
+#: check_fix.py:244
+msgid "All book format sizes are correct"
+msgstr "Alla bokformatstorlekar är korrekta"
+
+#: check_fix.py:264
+msgid "books with paths missing commas"
+msgstr "böcker med sökvägar som saknar kommatecken"
+
+#: check_fix.py:265
+msgid "Checked %d books, updated %d paths%s"
+msgstr "Kontrollerade %d böcker, uppdaterade %d sökvägar%s"
+
+#: check_fix.py:269
+msgid "All books have up to date paths"
+msgstr "Alla böcker har aktuella sökvägar"
+
+#: check_fix.py:281
+msgid "Choose directory to cleanup"
+msgstr "Välj katalog att rensa"
+
+#: check_fix.py:286
+msgid "Invalid Folder"
+msgstr "Ogiltig mapp"
+
+#: check_fix.py:287
+msgid "You should not run this feature against a Calibre library folder."
+msgstr "Du bör inte köra den här funktionen mot en calibre-biblioteksmapp."
+
+#: check_fix.py:288
+msgid ""
+"If you do you will remove \"Empty book\" entries and corrupt your database."
+msgstr "Om du gör det tas poster för ”Tom bok” bort och databasen skadas."
+
+#: check_fix.py:297
+msgid "No files/folders were found to be deleted"
+msgstr "Inga filer eller mappar hittades för borttagning"
+
+#: check_fix.py:303 check_fix.py:310
+msgid "Cleanup completed"
+msgstr "Rensningen slutfördes"
+
+#: check_fix.py:306
+msgid "Deleted %d files/folders with %d errors. See details for more info."
+msgstr ""
+"Tog bort %d filer/mappar med %d fel. Se informationen för mer upplysningar."
+
+#: check_fix.py:334
+msgid "Removed folder: %s"
+msgstr "Tog bort mapp: %s"
+
+#: check_fix.py:338
+msgid "ERROR removing folder: %s"
+msgstr "FEL vid borttagning av mapp: %s"
+
+#: check_fix.py:372
+msgid "Removed file: %s"
+msgstr "Tog bort fil: %s"
+
+#: check_fix.py:376
+msgid "ERROR removing file: %s"
+msgstr "FEL vid borttagning av fil: %s"
+
+#: check_fix.py:385 check_fix.py:388 check_fix.py:391
+msgid "identifier found"
+msgstr "identifierare hittades"
+
+#: check_fix.py:394
+msgid "No ASIN found, using uuid"
+msgstr "Inget ASIN hittades, använder UUID"
+
+#: check_fix.py:428
+msgid "Fixing ASIN for %d books"
+msgstr "Åtgärdar ASIN för %d böcker"
+
+#: check_fix.py:434
+msgid "Fix ASIN completed"
+msgstr "Åtgärd av ASIN slutfördes"
+
+#: check_fix.py:437
+msgid "%d books updated, see log for details"
+msgstr "%d böcker uppdaterades, se loggen för information"
+
+#: check_fix.py:480
+msgid "books for normalize text fields"
+msgstr "böcker för normalisering av textfält"
+
+#: check_fix.py:497
+msgid ""
+"Checked %d books, normalize fields %d in %d books, and %d author sort key%s"
+msgstr ""
+"Kontrollerade %d böcker, normaliserade %d fält i %d böcker och %d "
+"sorteringsnycklar för författare%s"
+
+#: check_fix.py:501
+msgid "All text fields are normalize"
+msgstr "Alla textfält är normaliserade"
+
+#: check_fix.py:509
+msgid "\"Normalize the notes\" requires calibre version 7.0 or higher."
+msgstr "”Normalisera anteckningarna” kräver calibre 7.0 eller senare."
+
+#: check_fix.py:546
+msgid "All category notes are normalize"
+msgstr "Alla kategorianteckningar är normaliserade"
+
+#: check_metadata.py:86
+msgid "All searched books have a valid Title Sort"
+msgstr "Alla genomsökta böcker har en giltig titelsortering"
+
+#: check_metadata.py:88
+msgid "books for invalid title sort"
+msgstr "böcker med ogiltig titelsortering"
+
+#: check_metadata.py:104
+msgid "All searched books have a valid Author Sort"
+msgstr "Alla genomsökta böcker har en giltig författarsortering"
+
+#: check_metadata.py:106
+msgid "books for invalid author sort"
+msgstr "böcker med ogiltig författarsortering"
+
+#: check_metadata.py:119
+msgid "All searched books have a valid ISBN"
+msgstr "Alla genomsökta böcker har ett giltigt ISBN"
+
+#: check_metadata.py:121
+msgid "books for invalid ISBN"
+msgstr "böcker med ogiltigt ISBN"
+
+#: check_metadata.py:134
+msgid "All searched books have a valid pubdate"
+msgstr "Alla genomsökta böcker har ett giltigt publiceringsdatum"
+
+#: check_metadata.py:136
+msgid "books for invalid pubdate"
+msgstr "böcker med ogiltigt publiceringsdatum"
+
+#: check_metadata.py:153
+msgid "books for duplicate ISBN"
+msgstr "böcker med dubblerade ISBN"
+
+#: check_metadata.py:166
+msgid "All searched books have unique ISBNs"
+msgstr "Alla genomsökta böcker har unika ISBN"
+
+#: check_metadata.py:185
+msgid "books for duplicate series"
+msgstr "böcker med dubblerade serievärden"
+
+#: check_metadata.py:199
+msgid "All searched books have unique series indexes"
+msgstr "Alla genomsökta böcker har unika serienummer"
+
+#: check_metadata.py:257
+msgid "Checked %d books, found %d gaps in %d series"
+msgstr "Kontrollerade %d böcker, hittade %d luckor i %d serier"
+
+#: check_metadata.py:261
+msgid "No series gaps exist in the books searched"
+msgstr "Det finns inga serieluckor i de genomsökta böckerna"
+
+#: check_metadata.py:263
+msgid "Series Gaps Found%s"
+msgstr "Serieluckor hittades%s"
+
+#: check_metadata.py:287
+msgid "books for series pubdate order"
+msgstr "böcker för seriers publiceringsdatumordning"
+
+#: check_metadata.py:320
+msgid "Checked %d books, found %d disordered in %d series"
+msgstr "Kontrollerade %d böcker, hittade %d i fel ordning i %d serier"
+
+#: check_metadata.py:324
+msgid "No series pubdate disorders exist in the books searched"
+msgstr ""
+"Inga fel i seriernas publiceringsdatumordning finns bland de genomsökta "
+"böckerna"
+
+#: check_metadata.py:326
+msgid "Series Pubdate Issues Found"
+msgstr "Problem med seriers publiceringsdatum hittades"
+
+#: check_metadata.py:344
+msgid "All searched books have a valid tag count"
+msgstr "Alla genomsökta böcker har ett giltigt antal taggar"
+
+#: check_metadata.py:346
+msgid "books for invalid tag count"
+msgstr "böcker med ogiltigt antal taggar"
+
+#: check_metadata.py:379
+msgid "All searched books have no HTML in comments"
+msgstr "Ingen av de genomsökta böckerna har HTML i kommentarerna"
+
+#: check_metadata.py:381
+msgid "books for no HTML in comments"
+msgstr "böcker utan HTML i kommentarerna"
+
+#: check_metadata.py:416
+msgid "All searched books have HTML in comments"
+msgstr "Alla genomsökta böcker har HTML i kommentarerna"
+
+#: check_metadata.py:418
+msgid "books for HTML in comments"
+msgstr "böcker med HTML i kommentarerna"
+
+#: check_metadata.py:433
+msgid "All searched book authors have no commas"
+msgstr "Ingen författare i de genomsökta böckerna har kommatecken"
+
+#: check_metadata.py:435
+msgid "books with authors having commas"
+msgstr "böcker med författarnamn som innehåller kommatecken"
+
+#: check_metadata.py:450
+msgid "All searched book authors have commas"
+msgstr "Alla författare i de genomsökta böckerna har kommatecken"
+
+#: check_metadata.py:452
+msgid "books with authors not having commas"
+msgstr "böcker med författarnamn som saknar kommatecken"
+
+#: check_metadata.py:467
+msgid "All searched authors have a valid casing"
+msgstr "Alla genomsökta författarnamn har ett giltigt skiftläge"
+
+#: check_metadata.py:469
+msgid "books for invalid author casing"
+msgstr "böcker med ogiltigt skiftläge i författarnamn"
+
+#: check_metadata.py:487
+msgid "All searched book authors have alphabetic names"
+msgstr "Alla författare i de genomsökta böckerna har alfabetiska namn"
+
+#: check_metadata.py:489
+msgid "books with authors having non-alphabetic names"
+msgstr "böcker med författarnamn som innehåller icke-alfabetiska tecken"
+
+#: check_metadata.py:506
+msgid "All searched book authors have ascii names"
+msgstr "Alla författare i de genomsökta böckerna har ASCII-namn"
+
+#: check_metadata.py:508
+msgid "books with authors having non-ascii names"
+msgstr "böcker med författarnamn som innehåller icke-ASCII-tecken"
+
+#: check_metadata.py:526
+msgid "All searched book authors have correct initials"
+msgstr "Alla författare i de genomsökta böckerna har korrekta initialer"
+
+#: check_metadata.py:528
+msgid "books with authors having incorrect initials"
+msgstr "böcker med författarnamn som har felaktiga initialer"
+
+#: check_metadata.py:541
+msgid "All searched books do not have titles with series names"
+msgstr "Ingen av de genomsökta böckerna har seriernas namn i titeln"
+
+#: check_metadata.py:543
+msgid "book titles with possible series names"
+msgstr "boktitlar med möjliga serienamn"
+
+#: check_metadata.py:555
+msgid "All searched titles have a valid title casing"
+msgstr "Alla genomsökta titlar har ett giltigt skiftläge"
+
+#: check_metadata.py:557
+msgid "books for invalid title casing"
+msgstr "böcker med ogiltigt skiftläge i titeln"
+
+#: check_mobi.py:80
+msgid "All searched MOBI books have EBOK cdetag values"
+msgstr "Alla genomsökta MOBI-böcker har EBOK-cdetag-värden"
+
+#: check_mobi.py:82
+msgid "MOBI books missing EBOK cdetag"
+msgstr "MOBI-böcker som saknar EBOK-cdetag"
+
+#: check_mobi.py:121
+msgid "All searched MOBI books have ASIN values"
+msgstr "Alla genomsökta MOBI-böcker har ASIN-värden"
+
+#: check_mobi.py:123
+msgid "MOBI books missing ASIN"
+msgstr "MOBI-böcker som saknar ASIN"
+
+#: check_mobi.py:166
+msgid "All searched MOBI books have Twitter/Facebook sharing enabled"
+msgstr ""
+"Alla genomsökta MOBI-böcker har delning via Twitter/Facebook aktiverad"
+
+#: check_mobi.py:168
+msgid "MOBI books unable to share on Twitter/Facebook"
+msgstr "MOBI-böcker som inte kan delas via Twitter/Facebook"
+
+#: check_mobi.py:197
+msgid "All searched MOBI books have no clipping limits"
+msgstr "Ingen av de genomsökta MOBI-böckerna har klippgränser"
+
+#: check_mobi.py:199
+msgid "MOBI books for clipping limits"
+msgstr "MOBI-böcker med klippgränser"
+
+#: config.py:73
+msgid "Check covers"
+msgstr "Kontrollera omslag"
+
+#: config.py:73
+msgid "Find books with book covers matching your criteria"
+msgstr "Hitta böcker vars omslag motsvarar dina villkor"
+
+#: config.py:75
+msgid "Check having any jacket"
+msgstr "Kontrollera förekomst av metadatablad"
+
+#: config.py:75
+msgid "Check for ePub formats which have any calibre jacket"
+msgstr "Kontrollera ePub-format som har ett calibre-metadatablad"
+
+#: config.py:75 config.py:76 config.py:77 config.py:78 config.py:79
+#: config.py:80 config.py:81 config.py:82 config.py:83 config.py:84
+#: config.py:85 config.py:86 config.py:87 config.py:88 config.py:89
+#: config.py:90 config.py:91 config.py:92 config.py:93 config.py:94
+#: config.py:95 config.py:96 config.py:97 config.py:98 config.py:99
+#: config.py:100 config.py:101 config.py:102 config.py:103 config.py:104
+msgid "Check ePub Structure"
+msgstr "Kontrollera ePub-struktur"
+
+#: config.py:76
+msgid "Check having legacy jacket"
+msgstr "Kontrollera förekomst av äldre metadatablad"
+
+#: config.py:76
+msgid ""
+"Check for ePub formats which have a calibre jacket from versions prior to "
+"0.6.51"
+msgstr ""
+"Kontrollera ePub-format som har ett calibre-metadatablad från en version "
+"före 0.6.51"
+
+#: config.py:77
+msgid "Check having multiple jackets"
+msgstr "Kontrollera förekomst av flera metadatablad"
+
+#: config.py:77
+msgid "Check for ePub formats which have multiple jackets"
+msgstr "Kontrollera ePub-format som har flera metadatablad"
+
+#: config.py:78
+msgid "Check missing jacket"
+msgstr "Kontrollera saknat metadatablad"
+
+#: config.py:78
+msgid "Check for ePub formats which do not have a jacket"
+msgstr "Kontrollera ePub-format som saknar metadatablad"
+
+#: config.py:79
+msgid "Check missing container.xml"
+msgstr "Kontrollera saknad container.xml"
+
+#: config.py:79
+msgid ""
+"Check for ePub formats with a missing container.xml indicating an invalid "
+"ePub"
+msgstr ""
+"Kontrollera ePub-format där container.xml saknas, vilket visar att ePub-"
+"filen är ogiltig"
+
+#: config.py:80
+msgid "Check invalid namespaces"
+msgstr "Kontrollera ogiltiga namnrymder"
+
+#: config.py:80
+msgid ""
+"Check for ePub formats with invalid namespaces in the container xml or opf "
+"manifest"
+msgstr ""
+"Kontrollera ePub-format med ogiltiga namnrymder i container-XML eller OPF-"
+"manifestet"
+
+#: config.py:81
+msgid "Check non-dc: metadata"
+msgstr "Kontrollera metadata som inte är dc:"
+
+#: config.py:81
+msgid ""
+"Check for ePub formats with metadata elements in the opf manifest that are "
+"not in the dc: namespace"
+msgstr ""
+"Kontrollera ePub-format med metadataelement i OPF-manifestet som inte "
+"tillhör namnrymden dc:"
+
+#: config.py:82
+msgid "Check manifest files missing"
+msgstr "Kontrollera saknade manifestfiler"
+
+#: config.py:82
+msgid ""
+"Check for ePub formats with files missing that are listed in their opf "
+"manifest"
+msgstr "Kontrollera ePub-format där filer som anges i OPF-manifestet saknas"
+
+#: config.py:83
+msgid "Check unmanifested files"
+msgstr "Kontrollera filer utanför manifestet"
+
+#: config.py:83
+msgid ""
+"Check for ePub formats with files that are not listed in their opf manifest "
+"excluding iTunes/bookmarks"
+msgstr ""
+"Kontrollera ePub-format med filer som inte anges i OPF-manifestet, med "
+"undantag för iTunes-filer/bokmärken"
+
+#: config.py:84
+msgid "Check unused CSS files"
+msgstr "Kontrollera oanvända CSS-filer"
+
+#: config.py:84
+msgid ""
+"Check for ePub formats with CSS files that are not referenced from any html "
+"pages"
+msgstr ""
+"Kontrollera ePub-format med CSS-filer som inte refereras från någon HTML-"
+"sida"
+
+#: config.py:85
+msgid "Check unused image files"
+msgstr "Kontrollera oanvända bildfiler"
+
+#: config.py:85
+msgid ""
+"Check for ePub formats with image files that are not referenced from the "
+"xhtml pages"
+msgstr ""
+"Kontrollera ePub-format med bildfiler som inte refereras från XHTML-sidorna"
+
+#: config.py:86
+msgid "Check broken image links"
+msgstr "Kontrollera trasiga bildlänkar"
+
+#: config.py:86
+msgid ""
+"Check for ePub formats with html pages that contain broken links to images"
+msgstr ""
+"Kontrollera ePub-format med HTML-sidor som innehåller trasiga länkar till "
+"bilder"
+
+#: config.py:87
+msgid "Check iTunes files"
+msgstr "Kontrollera iTunes-filer"
+
+#: config.py:87
+msgid ""
+"Check for ePub formats with an iTunesMetadata.plist or iTunesArtwork file"
+msgstr ""
+"Kontrollera ePub-format med filen iTunesMetadata.plist eller iTunesArtwork"
+
+#: config.py:88
+msgid "Check calibre bookmark files"
+msgstr "Kontrollera calibre-bokmärkesfiler"
+
+#: config.py:88
+msgid "Check for ePub formats with a calibre bookmarks file"
+msgstr "Kontrollera ePub-format med en calibre-bokmärkesfil"
+
+#: config.py:89
+msgid "Check OS artifacts"
+msgstr "Kontrollera OS-restfiler"
+
+#: config.py:89
+msgid "Check for ePub formats with OS artifacts of .DS_Store or Thumbs.db"
+msgstr "Kontrollera ePub-format med OS-restfilerna .DS_Store eller Thumbs.db"
+
+#: config.py:90
+msgid "Check ePub inside ePub"
+msgstr "Kontrollera ePub inuti ePub"
+
+#: config.py:90
+msgid "Check for ePub formats containing a ePub inside"
+msgstr "Kontrollera ePub-format som innehåller en annan ePub-fil"
+
+#: config.py:91
+msgid "Check NCX TOC hierarchical"
+msgstr "Kontrollera hierarkisk NCX-innehållsförteckning"
+
+#: config.py:91
+msgid ""
+"Check for ePub formats with a NCX file TOC which is not flat (i.e. "
+"hierarchical)"
+msgstr ""
+"Kontrollera ePub-format vars NCX-innehållsförteckning inte är platt (det "
+"vill säga hierarkisk)"
+
+#: config.py:92
+msgid "Check NCX TOC with < 3 entries"
+msgstr "Kontrollera NCX-innehållsförteckning med < 3 poster"
+
+#: config.py:92
+msgid "Check for ePub formats with a NCX file TOC with less than 3 entries"
+msgstr ""
+"Kontrollera ePub-format vars NCX-innehållsförteckning har färre än 3 poster"
+
+#: config.py:93
+msgid "Check NCX TOC with broken links"
+msgstr "Kontrollera NCX-innehållsförteckning med trasiga länkar"
+
+#: config.py:93
+msgid ""
+"Check for ePub formats with a NCX file TOC that contains broken html links"
+msgstr ""
+"Kontrollera ePub-format vars NCX-innehållsförteckning innehåller trasiga "
+"HTML-länkar"
+
+#: config.py:94
+msgid "Check <guide> broken links"
+msgstr "Kontrollera trasiga länkar i <guide>"
+
+#: config.py:94
+msgid ""
+"Check for ePub formats with broken links in the <guide> section of the "
+"manifest"
+msgstr ""
+"Kontrollera ePub-format med trasiga länkar i manifestets <guide>-avsnitt"
+
+#: config.py:95
+msgid "Check oversize html files"
+msgstr "Kontrollera för stora HTML-filer"
+
+#: config.py:95
+msgid ""
+"Check for ePub formats with an individual html file size that requires "
+"splitting on some devices"
+msgstr ""
+"Kontrollera ePub-format med enskilda HTML-filer som är så stora att de måste"
+" delas på vissa enheter"
+
+#: config.py:96
+msgid "Check DRM"
+msgstr "Kontrollera DRM"
+
+#: config.py:96
+msgid "Check for ePub formats with DRM encryption xml files"
+msgstr "Kontrollera ePub-format med XML-filer för DRM-kryptering"
+
+#: config.py:97
+msgid "Check Adobe DRM meta tag"
+msgstr "Kontrollera Adobe DRM-meta-tagg"
+
+#: config.py:97
+msgid ""
+"Check for ePub formats that contain html pages with an Adobe DRM meta "
+"identifier tag"
+msgstr ""
+"Kontrollera ePub-format som innehåller HTML-sidor med en Adobe DRM-"
+"metaidentifierartagg"
+
+#: config.py:98
+msgid "Check replaceable cover"
+msgstr "Kontrollera utbytbart omslag"
+
+#: config.py:98
+msgid ""
+"Check for ePub formats with a cover that can be replaced when exporting or "
+"updating metadata with Modify ePub"
+msgstr ""
+"Kontrollera ePub-format med ett omslag som kan ersättas vid export eller "
+"metadatauppdatering med Ändra ePub"
+
+#: config.py:99
+msgid "Check non-replaceable cover"
+msgstr "Kontrollera omslag som inte kan bytas ut"
+
+#: config.py:99
+msgid ""
+"Check for ePub formats with no cover or a cover that cannot be replaced "
+"without a calibre conversion"
+msgstr ""
+"Kontrollera ePub-format som saknar omslag eller har ett omslag som inte kan "
+"ersättas utan en calibre-konvertering"
+
+#: config.py:100
+msgid "Check calibre SVG cover"
+msgstr "Kontrollera SVG-omslag från calibre"
+
+#: config.py:100
+msgid ""
+"Check for ePub formats with a cover that has been inserted by a calibre "
+"conversion or Modify ePub and that is SVG"
+msgstr ""
+"Kontrollera ePub-format med ett SVG-omslag som har infogats genom en "
+"calibre-konvertering eller Ändra ePub"
+
+#: config.py:101
+msgid "Check no calibre SVG cover"
+msgstr "Kontrollera att SVG-omslag från calibre saknas"
+
+#: config.py:101
+msgid ""
+"Check for ePub formats that have no calibre cover inserted by a calibre "
+"conversion or Modify ePub that is SVG"
+msgstr ""
+"Kontrollera ePub-format som saknar ett SVG-omslag från calibre infogat genom"
+" en calibre-konvertering eller Ändra ePub"
+
+#: config.py:102
+msgid "Check calibre conversion"
+msgstr "Kontrollera calibre-konvertering"
+
+#: config.py:102
+msgid "Check for ePub formats that have been converted by calibre"
+msgstr "Kontrollera ePub-format som har konverterats av calibre"
+
+#: config.py:103
+msgid "Check not calibre conversion"
+msgstr "Kontrollera att calibre-konvertering saknas"
+
+#: config.py:103
+msgid "Check for ePub formats that have not been converted by calibre"
+msgstr "Kontrollera ePub-format som inte har konverterats av calibre"
+
+#: config.py:104
+msgid "Check corrupt zip"
+msgstr "Kontrollera skadad ZIP-fil"
+
+#: config.py:104
+msgid "Check for ePub zip that is corrupted, may need conversion to fix"
+msgstr ""
+"Kontrollera skadade ePub-ZIP-filer som kan behöva konverteras för att "
+"åtgärdas"
+
+#: config.py:106
+msgid "Check <address> smart-tags"
+msgstr "Kontrollera smarttaggar av typen <address>"
+
+#: config.py:106
+msgid ""
+"Check for ePub formats that have <address> elements from a poor conversion "
+"with Word smart tags"
+msgstr ""
+"Kontrollera ePub-format som har <address>-element från en bristfällig "
+"konvertering med Word-smarttaggar"
+
+#: config.py:106 config.py:107 config.py:108 config.py:109 config.py:110
+#: config.py:111 config.py:112 config.py:113 config.py:114 config.py:115
+#: config.py:116
+msgid "Check ePub Style"
+msgstr "Kontrollera ePub-stil"
+
+#: config.py:107
+msgid "Check embedded fonts"
+msgstr "Kontrollera inbäddade teckensnitt"
+
+#: config.py:107
+msgid "Check for ePub formats with embedded fonts"
+msgstr "Kontrollera ePub-format med inbäddade teckensnitt"
+
+#: config.py:108
+msgid "Check @font-face"
+msgstr "Kontrollera @font-face"
+
+#: config.py:108
+msgid ""
+"Check for ePub formats with CSS or html files that contain @font-face "
+"declarations"
+msgstr ""
+"Kontrollera ePub-format med CSS- eller HTML-filer som innehåller @font-face-"
+"deklarationer"
+
+#: config.py:109
+msgid "Check Adobe .xpgt margins"
+msgstr "Kontrollera Adobe .xpgt-marginaler"
+
+#: config.py:109
+msgid "Check for ePub formats with an xpgt file with non-zero margins"
+msgstr "Kontrollera ePub-format med en xpgt-fil vars marginaler inte är noll"
+
+#: config.py:110
+msgid "Check Adobe inline .xpgt links"
+msgstr "Kontrollera infogade Adobe .xpgt-länkar"
+
+#: config.py:110
+msgid ""
+"Check for ePub formats that contain html pages with links to an xpgt file"
+msgstr ""
+"Kontrollera ePub-format som innehåller HTML-sidor med länkar till en xpgt-"
+"fil"
+
+#: config.py:111
+msgid "Check CSS non-justified"
+msgstr "Kontrollera CSS utan marginaljustering"
+
+#: config.py:111
+msgid ""
+"Check for ePub formats with CSS files that do not contain a text-align: "
+"justify style"
+msgstr ""
+"Kontrollera ePub-format med CSS-filer som saknar formatet text-align: "
+"justify"
+
+#: config.py:112
+msgid "Check CSS book margins"
+msgstr "Kontrollera CSS-marginaler på boknivå"
+
+#: config.py:112
+msgid ""
+"Check for ePub formats with book level CSS margins conflicting with calibre "
+"Preferences"
+msgstr ""
+"Kontrollera ePub-format med CSS-marginaler på boknivå som strider mot "
+"calibres inställningar"
+
+#: config.py:113
+msgid "Check CSS no book margins"
+msgstr "Kontrollera saknade CSS-marginaler på boknivå"
+
+#: config.py:113
+msgid "Check for ePub formats that do not contain CSS book level margins"
+msgstr "Kontrollera ePub-format som saknar CSS-marginaler på boknivå"
+
+#: config.py:114
+msgid "Check inline @page margins"
+msgstr "Kontrollera infogade @page-marginaler"
+
+#: config.py:114
+msgid "Check for ePub formats that contain @page CSS margins in each flow"
+msgstr ""
+"Kontrollera ePub-format som innehåller @page-CSS-marginaler i varje flöde"
+
+#: config.py:115
+msgid "Check javascript <script>"
+msgstr "Kontrollera javascript <script>"
+
+#: config.py:115
+msgid "Check for ePub formats that contain inline javascript <script> blocks"
+msgstr ""
+"Kontrollera ePub-format som innehåller infogade JavaScript-block av typen "
+"<script>"
+
+#: config.py:116
+msgid "Check smarten punctuation"
+msgstr "Kontrollera typografiska skiljetecken"
+
+#: config.py:116
+msgid "Check for ePub formats that contain unsmartened punctuation"
+msgstr "Kontrollera ePub-format som innehåller icke-typografiska skiljetecken"
+
+#: config.py:118
+msgid "Check missing EBOK cdetype"
+msgstr "Kontrollera saknad EBOK-cdetype"
+
+#: config.py:118
+msgid ""
+"Check for MOBI/AZW/AZW3 formats missing the cdetype of EBOK required for a "
+"Kindle Fire"
+msgstr ""
+"Kontrollera MOBI/AZW/AZW3-format som saknar cdetype-värdet EBOK, vilket "
+"krävs för Kindle Fire"
+
+#: config.py:118 config.py:119 config.py:120 config.py:121
+msgid "Check Mobi"
+msgstr "Kontrollera MOBI"
+
+#: config.py:119
+msgid "Check missing ASIN identifier"
+msgstr "Kontrollera saknad ASIN-identifierare"
+
+#: config.py:119
+msgid ""
+"Check for MOBI/AZW/AZW3 formats missing an ASIN in EXTH 113 required for "
+"reading on a Kindle Fire"
+msgstr ""
+"Kontrollera MOBI/AZW/AZW3-format som saknar ett ASIN i EXTH 113, vilket "
+"krävs för läsning på Kindle Fire"
+
+#: config.py:120
+msgid "Check Twitter/Facebook disabled"
+msgstr "Kontrollera inaktiverad delning via Twitter/Facebook"
+
+#: config.py:120
+msgid ""
+"Check for MOBI/AZW/AZW3 formats missing an ASIN in both EXTH 113 and EXTH "
+"504 to enable \"share\" features on Facebook or Twitter"
+msgstr ""
+"Kontrollera MOBI/AZW/AZW3-format som saknar ASIN i både EXTH 113 och EXTH "
+"504 för att aktivera delningsfunktioner på Facebook eller Twitter"
+
+#: config.py:121
+msgid "Check clipping limit"
+msgstr "Kontrollera klippgräns"
+
+#: config.py:121
+msgid ""
+"Check for MOBI/AZW/AZW3 formats that have a clipping limit specified by the "
+"publisher in EXTH header 401"
+msgstr ""
+"Kontrollera MOBI/AZW/AZW3-format där utgivaren har angett en klippgräns i "
+"EXTH-huvud 401"
+
+#: config.py:123
+msgid "Check title sort"
+msgstr "Kontrollera titelsortering"
+
+#: config.py:123
+msgid "Find books with an invalid title sort value"
+msgstr "Hitta böcker med ett ogiltigt värde för titelsortering"
+
+#: config.py:123 config.py:124 config.py:125 config.py:126 config.py:127
+#: config.py:128 config.py:129 config.py:130 config.py:131 config.py:132
+#: config.py:133 config.py:134 config.py:135 config.py:136 config.py:137
+#: config.py:138 config.py:139 config.py:140 config.py:141
+msgid "Check metadata"
+msgstr "Kontrollera metadata"
+
+#: config.py:124
+msgid "Check author sort"
+msgstr "Kontrollera författarsortering"
+
+#: config.py:124
+msgid "Find books with an invalid author sort value"
+msgstr "Hitta böcker med ett ogiltigt värde för författarsortering"
+
+#: config.py:125
+msgid "Check ISBN"
+msgstr "Kontrollera ISBN"
+
+#: config.py:125
+msgid "Find books with an invalid ISBN"
+msgstr "Hitta böcker med ett ogiltigt ISBN"
+
+#: config.py:126
+msgid "Check pubdate"
+msgstr "Kontrollera publiceringsdatum"
+
+#: config.py:126
+msgid ""
+"Find books with an invalid pubdate where it is set to the timestamp date"
+msgstr ""
+"Hitta böcker med ett ogiltigt publiceringsdatum som är inställt på "
+"tidsstämpelns datum"
+
+#: config.py:127
+msgid "Check duplicate ISBN"
+msgstr "Kontrollera dubblerade ISBN"
+
+#: config.py:127
+msgid "Find books that have duplicate ISBN values"
+msgstr "Hitta böcker som har dubblerade ISBN-värden"
+
+#: config.py:128
+msgid "Check duplicate series"
+msgstr "Kontrollera dubblerade serier"
+
+#: config.py:128
+msgid "Find books that have duplicate series values"
+msgstr "Hitta böcker som har dubblerade serievärden"
+
+#: config.py:129
+msgid "Check series gaps"
+msgstr "Kontrollera serieluckor"
+
+#: config.py:129 config.py:130
+msgid "Find books that have gaps in their series index values"
+msgstr "Hitta böcker som har luckor i serienumren"
+
+#: config.py:130
+msgid "Check series pubdate order"
+msgstr "Kontrollera ordning efter publiceringsdatum i serier"
+
+#: config.py:131
+msgid "Check excess tags"
+msgstr "Kontrollera för många taggar"
+
+#: config.py:131
+msgid "Find books with an excess number of tags"
+msgstr "Hitta böcker med för många taggar"
+
+#: config.py:132
+msgid "Check html comments"
+msgstr "Kontrollera html-kommentarer"
+
+#: config.py:132
+msgid "Find books which have comments html with style formatting embedded"
+msgstr "Hitta böcker vars kommentarer innehåller HTML med inbäddad formatmall"
+
+#: config.py:133
+msgid "Check no html comments"
+msgstr "Kontrollera kommentarer utan HTML"
+
+#: config.py:133
+msgid "Find books which have comments with no html tags at all"
+msgstr "Hitta böcker vars kommentarer inte innehåller några HTML-taggar alls"
+
+#: config.py:134
+msgid "Check authors with commas"
+msgstr "Kontrollera författarnamn med kommatecken"
+
+#: config.py:134
+msgid "Find authors with commas in their name"
+msgstr "Hitta författare med kommatecken i namnet"
+
+#: config.py:135
+msgid "Check authors missing commas"
+msgstr "Kontrollera författarnamn som saknar kommatecken"
+
+#: config.py:135
+msgid "Find authors with no commas in their name"
+msgstr "Hitta författare utan kommatecken i namnet"
+
+#: config.py:136
+msgid "Check authors for case"
+msgstr "Kontrollera skiftläge i författarnamn"
+
+#: config.py:136
+msgid "Find authors which are all uppercase or all lowercase"
+msgstr "Hitta författarnamn som enbart består av versaler eller gemener"
+
+#: config.py:137
+msgid "Check authors non alphabetic"
+msgstr "Kontrollera icke-alfabetiska författarnamn"
+
+#: config.py:137
+msgid ""
+"Find authors with non-alphabetic characters such as semi-colons indicating "
+"cruft or incorrect separators"
+msgstr ""
+"Hitta författarnamn med icke-alfabetiska tecken, till exempel semikolon, som"
+" tyder på restdata eller felaktiga avgränsare"
+
+#: config.py:138
+msgid "Check authors non ascii"
+msgstr "Kontrollera författarnamn som inte är ASCII"
+
+#: config.py:138
+msgid "Find authors with non-ascii names (e.g. with diacritics)"
+msgstr ""
+"Hitta författare med namn som innehåller icke-ASCII-tecken (till exempel "
+"diakritiska tecken)"
+
+#: config.py:139
+msgid "Check authors initials"
+msgstr "Kontrollera författarinitialer"
+
+#: config.py:139
+msgid ""
+"Find authors with initials that do not meet your preferred configuration"
+msgstr ""
+"Hitta författare vars initialer inte motsvarar din föredragna konfiguration"
+
+#: config.py:140
+msgid "Check titles with series"
+msgstr "Kontrollera titlar med serienamn"
+
+#: config.py:140
+msgid "Find titles with possible series info in their name"
+msgstr "Hitta titlar som möjligen innehåller serieinformation i namnet"
+
+#: config.py:141
+msgid "Check titles for title case"
+msgstr "Kontrollera skiftläge i titlar"
+
+#: config.py:141
+msgid "Find titles which are candidates to apply the titlecase function to"
+msgstr "Hitta titlar som är kandidater för funktionen för skiftläge i titlar"
+
+#: config.py:143
+msgid "Check missing title"
+msgstr "Kontrollera saknad titel"
+
+#: config.py:143
+msgid "Find books missing a title"
+msgstr "Hitta böcker som saknar titel"
+
+#: config.py:143 config.py:144 config.py:145 config.py:146 config.py:147
+#: config.py:148 config.py:149 config.py:150 config.py:151 config.py:152
+#: config.py:153
+msgid "Check missing"
+msgstr "Kontrollera saknade uppgifter"
+
+#: config.py:144
+msgid "Check missing author"
+msgstr "Kontrollera saknad författare"
+
+#: config.py:144
+msgid "Find books missing authors"
+msgstr "Hitta böcker som saknar författare"
+
+#: config.py:145
+msgid "Check missing ISBN"
+msgstr "Kontrollera saknat ISBN"
+
+#: config.py:145
+msgid "Find books missing an ISBN identifier"
+msgstr "Hitta böcker som saknar en ISBN-identifierare"
+
+#: config.py:146
+msgid "Check missing pubdate"
+msgstr "Kontrollera saknat publiceringsdatum"
+
+#: config.py:146
+msgid "Find books missing published date"
+msgstr "Hitta böcker som saknar publiceringsdatum"
+
+#: config.py:147
+msgid "Check missing publisher"
+msgstr "Kontrollera saknat förlag"
+
+#: config.py:147
+msgid "Find books missing publisher"
+msgstr "Hitta böcker som saknar förlag"
+
+#: config.py:148
+msgid "Check missing tags"
+msgstr "Kontrollera saknade taggar"
+
+#: config.py:148
+msgid "Find books missing tags"
+msgstr "Hitta böcker som saknar taggar"
+
+#: config.py:149
+msgid "Check missing rating"
+msgstr "Kontrollera saknat betyg"
+
+#: config.py:149
+msgid "Find books missing rating"
+msgstr "Hitta böcker som saknar betyg"
+
+#: config.py:150
+msgid "Check missing comments"
+msgstr "Kontrollera saknade kommentarer"
+
+#: config.py:150
+msgid "Find books missing comments"
+msgstr "Hitta böcker som saknar kommentarer"
+
+#: config.py:151
+msgid "Check missing languages"
+msgstr "Kontrollera saknade språk"
+
+#: config.py:151
+msgid "Find books missing languages"
+msgstr "Hitta böcker som saknar språk"
+
+#: config.py:152
+msgid "Check missing cover"
+msgstr "Kontrollera saknat omslag"
+
+#: config.py:152
+msgid "Find books missing a cover"
+msgstr "Hitta böcker som saknar omslag"
+
+#: config.py:153
+msgid "Check missing formats"
+msgstr "Kontrollera saknade format"
+
+#: config.py:153
+msgid "Find books missing formats"
+msgstr "Hitta böcker som saknar format"
+
+#: config.py:155
+msgid "Find ePub books with text matching your own regular expression"
+msgstr "Hitta ePub-böcker med text som matchar ditt eget reguljära uttryck"
+
+#: config.py:155 dialogs.py:556
+msgid "Search ePubs"
+msgstr "Sök i ePub-filer"
+
+#: config.py:160
+msgid "Swap author FN LN <-> LN,FN"
+msgstr "Växla författarnamn FN EN ↔ EN,FN"
+
+#: config.py:160
+msgid ""
+"For the selected book(s) swap author names between FN LN and LN, FN formats"
+msgstr ""
+"Växla författarnamnen för de valda böckerna mellan formaten FN EN och EN,FN"
+
+#: config.py:161
+msgid "Reformat author initials"
+msgstr "Formatera om författarinitialer"
+
+#: config.py:161
+msgid ""
+"For the selected book(s) reformat the author initials to your configured "
+"preference"
+msgstr ""
+"Formatera om författarinitialerna för de valda böckerna enligt din "
+"konfigurerade inställning"
+
+#: config.py:162
+msgid "Rename author to ascii"
+msgstr "Byt författarnamn till ASCII"
+
+#: config.py:162
+msgid ""
+"For the selected book(s) rename the author to remove any accents and "
+"diacritics characters"
+msgstr ""
+"Byt författarnamn för de valda böckerna så att accenter och diakritiska "
+"tecken tas bort"
+
+#: config.py:163
+msgid "Set author sort"
+msgstr "Ange författarsortering"
+
+#: config.py:163
+msgid ""
+"For the selected book(s) replace the author sort with a value based on the "
+"Manage Authors data"
+msgstr ""
+"Ersätt författarsorteringen för de valda böckerna med ett värde baserat på "
+"data i Hantera författare"
+
+#: config.py:164
+msgid "Set title sort"
+msgstr "Ange titelsortering"
+
+#: config.py:164
+msgid ""
+"For the selected book(s) replace the title sort with a value based on your "
+"tweak preference"
+msgstr ""
+"Ersätt titelsorteringen för de valda böckerna med ett värde baserat på din "
+"finjusteringsinställning"
+
+#: config.py:165
+msgid "Check and repair book sizes"
+msgstr "Kontrollera och reparera bokstorlekar"
+
+#: config.py:165
+msgid "Check and update file sizes for your books"
+msgstr "Kontrollera och uppdatera filstorlekar för böckerna"
+
+#: config.py:166
+msgid "Check and rename book paths"
+msgstr "Kontrollera och byt namn på boksökvägar"
+
+#: config.py:166
+msgid "Ensure book paths include commas if appropriate"
+msgstr "Säkerställ att boksökvägar innehåller kommatecken där det är lämpligt"
+
+#: config.py:167
+msgid "Cleanup .opf files/folders"
+msgstr "Rensa .opf-filer och mappar"
+
+#: config.py:167
+msgid "Delete orphaned opf/jpg files and remove empty folders"
+msgstr "Ta bort övergivna OPF/JPG-filer och tomma mappar"
+
+#: config.py:168
+msgid "Fix ASIN for Kindle Fire"
+msgstr "Åtgärda ASIN för Kindle Fire"
+
+#: config.py:168
+msgid ""
+"For MOBI/AZW/AZW3 formats, assign the current amazon identifier (uuid if not"
+" present) as an ASIN to EXTH 113 and 504 fields"
+msgstr ""
+"Tilldela den aktuella Amazon-identifieraren (UUID om den saknas) som ASIN i "
+"fälten EXTH 113 och 504 för MOBI/AZW/AZW3-format"
+
+#: config.py:169
+msgid "Normalize the fields"
+msgstr "Normalisera fälten"
+
+#: config.py:169
+msgid ""
+"Normalize the text fields by using their canonical form defined by the "
+"Unicode Standard, aka merge and reorders diacritics. Can result to "
+"unduplicate some values."
+msgstr ""
+"Normalisera textfälten med deras kanoniska form enligt Unicode-standarden, "
+"det vill säga sammanfoga och ordna om diakritiska tecken. Detta kan leda "
+"till att vissa dubblerade värden slås samman."
+
+#: config.py:170
+msgid "Normalize the notes"
+msgstr "Normalisera anteckningarna"
+
+#: config.py:170
+msgid ""
+"Normalize the category notes by using their canonical form defined by the "
+"Unicode Standard, aka merge and reorders diacritics."
+msgstr ""
+"Normalisera kategorianteckningarna med deras kanoniska form enligt Unicode-"
+"standarden, det vill säga sammanfoga och ordna om diakritiska tecken."
+
+#: config.py:291
+msgid "Check excess tags options"
+msgstr "Alternativ för kontroll av för många taggar"
+
+#: config.py:296
+msgid "Maximum tags:"
+msgstr "Högsta antal taggar:"
+
+#: config.py:297
+msgid "Books with more than this value will be displayed"
+msgstr "Böcker med fler taggar än detta värde visas"
+
+#: config.py:305
+msgid "Exclude tags:"
+msgstr "Exkludera taggar:"
+
+#: config.py:306
+msgid "Exclude these tags from when counting the tags for each book"
+msgstr "Undanta dessa taggar när antalet taggar för varje bok räknas"
+
+#: config.py:315
+msgid "Other options"
+msgstr "Andra alternativ"
+
+#: config.py:320
+msgid "Author initials format:"
+msgstr "Format för författarinitialer:"
+
+#: config.py:321
+msgid ""
+"For use with the \"Check Author initials\" option, set your preferred format"
+msgstr ""
+"Ange ditt föredragna format för alternativet ”Kontrollera "
+"författarinitialer”"
+
+#: config.py:328
+msgid "Suppress Fix summary dialogs"
+msgstr "Dölj sammanfattningsdialogrutor för åtgärder"
+
+#: config.py:329
+msgid ""
+"Uncheck this option if you do not want interactive dialogs to appear "
+"summarising the operation"
+msgstr ""
+"Avmarkera alternativet om du inte vill att interaktiva dialogrutor som "
+"sammanfattar åtgärden ska visas"
+
+#: config.py:334
+msgid "Search history count:"
+msgstr "Antal poster i sökhistoriken:"
+
+#: config.py:335
+msgid ""
+"How many previous search expressions to remember on Search sPubs dialog"
+msgstr ""
+"Hur många tidigare sökuttryck som ska kommas ihåg i dialogrutan Sök i ePub-"
+"filer"
+
+#: config.py:344
+msgid "Visible menus"
+msgstr "Synliga menyer"
+
+#: config.py:353
+msgid "Edit the keyboard shortcuts associated with this plugin"
+msgstr ""
+"Redigera tangentbordets kortkommandon som hör samman med detta "
+"tilläggsprogram"
+
+#: config.py:357
+msgid "&View library preferences"
+msgstr "&Visa biblioteksinställningar"
+
+#: config.py:358
+msgid "View data stored in the library database for this plugin"
+msgstr "Visa data lagrat i biblioteksdatabasen för detta tilläggsprogram"
+
+#: dialogs.py:40
+msgid "Checking"
+msgstr "Kontrollerar"
+
+#: dialogs.py:42
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: dialogs.py:62
+msgid "%s %d %s  (%d matches)..."
+msgstr "%s %d %s  (%d träffar) …"
+
+#: dialogs.py:137
+msgid "Cover Search Options"
+msgstr "Alternativ för omslagssökning"
+
+#: dialogs.py:140
+msgid "Search library for books where"
+msgstr "Sök i biblioteket efter böcker där"
+
+#: dialogs.py:144
+msgid "Cover file size is"
+msgstr "Omslagets filstorlek är"
+
+#: dialogs.py:154
+msgid "Cover dimensions are"
+msgstr "Omslagets mått är"
+
+#: dialogs.py:162 dialogs.py:177
+msgid "width"
+msgstr "bredd"
+
+#: dialogs.py:167 dialogs.py:182
+msgid "height"
+msgstr "höjd"
+
+#: dialogs.py:169
+msgid "Cover aspect ratio is"
+msgstr "Omslagets bildförhållande är"
+
+#: dialogs.py:187
+msgid "tolerance"
+msgstr "tolerans"
+
+#: dialogs.py:189
+msgid "No cover"
+msgstr "Inget omslag"
+
+#: dialogs.py:274
+msgid "View log"
+msgstr "Visa logg"
+
+#: dialogs.py:281
+msgid "Quality Check log"
+msgstr "Logg för Kvalitetskontroll"
+
+#: dialogs.py:323
+msgid "quality check plugin:exclude add dialog"
+msgstr ""
+"insticksmodulen Kvalitetskontroll: dialogruta för att lägga till undantag"
+
+#: dialogs.py:332
+msgid "Quality Check Add Exclusions"
+msgstr "Kvalitetskontroll – lägg till undantag"
+
+#: dialogs.py:335
+msgid "Exclude Books"
+msgstr "Exkludera böcker"
+
+#: dialogs.py:339
+msgid "Exclude selected books(s) from the following Quality Check:"
+msgstr "Undanta de valda böckerna från följande kvalitetskontroll:"
+
+#: dialogs.py:443
+msgid "quality check plugin:exclude view dialog"
+msgstr "insticksmodulen Kvalitetskontroll: dialogruta för att visa undantag"
+
+#: dialogs.py:446
+msgid "Quality Check View Exclusions"
+msgstr "Kvalitetskontroll – visa undantag"
+
+#: dialogs.py:450
+msgid "View Excluded Books"
+msgstr "Visa undantagna böcker"
+
+#: dialogs.py:469
+msgid "Remove selected books from the exclusions"
+msgstr "Ta bort valda böcker från undantagen"
+
+#: dialogs.py:528
+msgid "quality check plugin:search epub dialog"
+msgstr "insticksmodulen Kvalitetskontroll: dialogruta för ePub-sökning"
+
+#: dialogs.py:560
+msgid "Find expression"
+msgstr "Hitta uttryck"
+
+#: dialogs.py:574
+msgid "Clear search history"
+msgstr "Rensa sökhistorik"
+
+#: dialogs.py:579
+msgid "&Ignore case"
+msgstr "&Ignorera skiftläge"
+
+#: dialogs.py:581
+msgid "&Show all occurrences"
+msgstr "&Visa alla förekomster"
+
+#: dialogs.py:582
+msgid ""
+"If unchecked, the search of each ePub is stopped as soon as the first match is found.\n"
+"If checked, all occurrences will be displayed in the log but it will run much slower."
+msgstr ""
+"Om alternativet är avmarkerat stoppas sökningen i varje ePub så snart den första träffen hittas.\n"
+"Om alternativet är markerat visas alla förekomster i loggen, men sökningen går mycket långsammare."
+
+#: dialogs.py:587
+msgid "Scope"
+msgstr "Område"
+
+#: dialogs.py:592
+msgid "&HTML content"
+msgstr "&HTML-innehåll"
+
+#: dialogs.py:593
+msgid ""
+"Search all html content files, including any html tags.\n"
+"If you also ticked the Plain text content option, this option is ignored."
+msgstr ""
+"Sök i alla HTML-innehållsfiler, inklusive HTML-taggar.\n"
+"Om du även har markerat alternativet Oformaterat textinnehåll ignoreras detta alternativ."
+
+#: dialogs.py:595
+msgid "&CSS/xpgt stylesheets"
+msgstr "&CSS/xpgt-formatmallar"
+
+#: dialogs.py:596
+msgid "Search all css or Adobe .xpgt stylesheets"
+msgstr "Sök i alla CSS- och Adobe .xpgt-formatmallar"
+
+#: dialogs.py:597
+msgid "&Plain text content"
+msgstr "&Oformaterat textinnehåll"
+
+#: dialogs.py:598
+msgid ""
+"Search body text of html files with all html tags stripped.\n"
+"If you also ticked the HTML content option, that is ignored in favour of this."
+msgstr ""
+"Sök i brödtexten i HTML-filer efter att alla HTML-taggar har tagits bort.\n"
+"Om du även har markerat alternativet HTML-innehåll ignoreras det till förmån för detta."
+
+#: dialogs.py:600
+msgid "&OPF manifest"
+msgstr "&OPF-manifest"
+
+#: dialogs.py:601
+msgid "Search the .opf manifest file"
+msgstr "Sök i .opf-manifestfilen"
+
+#: dialogs.py:602
+msgid "&NCX TOC"
+msgstr "&NCX-innehållsförteckning"
+
+#: dialogs.py:603
+msgid "Search the NCX table of contents file"
+msgstr "Sök i NCX-innehållsförteckningsfilen"
+
+#: dialogs.py:604
+msgid "&Zip filenames"
+msgstr "&ZIP-filnamn"
+
+#: dialogs.py:605
+msgid "Search the filenames inside the ePub (zip) file"
+msgstr "Sök bland filnamnen i ePub-filen (ZIP)"
+
+#: dialogs.py:625
+msgid "No find text"
+msgstr "Ingen söktext"
+
+#: dialogs.py:626
+msgid "You must specify a regular expression to search for."
+msgstr "Du måste ange ett reguljärt uttryck att söka efter."
+
+#: dialogs.py:635
+msgid "No search scope"
+msgstr "Inget sökområde"
+
+#: dialogs.py:636
+msgid "You must specify a scope for the ePub search."
+msgstr "Du måste ange ett område för ePub-sökningen."
+
+#: dialogs.py:695
+msgid "Fixing"
+msgstr "Fixar"
+
+#: dialogs.py:708
+msgid "Fix completed"
+msgstr "Åtgärden slutfördes"
+
+#: mobi6.py:86
+msgid "This is an Amazon Topaz book. It cannot be processed."
+msgstr "Det här är en Amazon Topaz-bok. Den kan inte bearbetas."
+
+#: mobi6.py:94
+msgid "Unknown book type: %s"
+msgstr "Okänd boktyp: %s"
+
+#: mobi6.py:134
+msgid "Setting ASIN only supported for MOBI files of type 'BOOK'."
+msgstr "ASIN kan endast anges för MOBI-filer av typen ”BOOK”."
+
+#: mobi6.py:159
+msgid "No existing EXTH record. Cannot update ASIN."
+msgstr "Ingen befintlig EXTH-post. ASIN kan inte uppdateras."

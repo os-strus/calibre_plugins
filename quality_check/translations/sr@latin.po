@@ -1,0 +1,2266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Biljana Vukovic <biljana.vukovic1@yahoo.com>, 2022
+# Branislav Kapetanovic, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-11-16 17:29+1000\n"
+"PO-Revision-Date: 2022-09-19 14:57+0000\n"
+"Last-Translator: Branislav Kapetanovic, 2026\n"
+"Language-Team: Serbian (Latin) (https://app.transifex.com/calibre/teams/19337/sr@latin/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: sr@latin\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ..\common\common_dialogs.py:84 config.py:352
+msgid "Keyboard shortcuts"
+msgstr "Prečice"
+
+#: ..\common\common_dialogs.py:112
+msgid "Restart calibre now"
+msgstr "Ponovo pokreni calibre sada"
+
+#: ..\common\common_dialogs.py:128
+msgid "Preferences for:"
+msgstr "Podešavanja za:"
+
+#: ..\common\common_dialogs.py:160
+msgid "Clear"
+msgstr "Obriši"
+
+#: ..\common\common_dialogs.py:162
+msgid "Clear all settings for this plugin"
+msgstr "Obriši sva podešavanja ovog dodatka"
+
+#: ..\common\common_dialogs.py:189
+msgid ""
+"Are you sure you want to change your settings in this library for this "
+"plugin?"
+msgstr ""
+"Da li ste sigurni da želite da promenite podešavanja ovog dodatka u ovoj "
+"biblioteci?"
+
+#: ..\common\common_dialogs.py:190 ..\common\common_dialogs.py:210
+msgid ""
+"Any settings in other libraries or stored in a JSON file in your calibre "
+"plugins folder will not be touched."
+msgstr ""
+"Podešavanja u drugim bibliotekama, kao ni ona sačuvana u JSON datoteci u "
+"fascikli dodataka za calibre, neće biti promenjena."
+
+#: ..\common\common_dialogs.py:192 ..\common\common_dialogs.py:212
+msgid "You must restart calibre afterwards."
+msgstr "Nakon toga morate ponovo pokrenuti calibre."
+
+#: ..\common\common_dialogs.py:200
+msgid "Settings changed"
+msgstr "Podešavanja su promenjena"
+
+#: ..\common\common_dialogs.py:201
+msgid "Settings for this plugin in this library have been changed."
+msgstr "Podešavanja ovog dodatka u ovoj biblioteci su promenjena."
+
+#: ..\common\common_dialogs.py:202 ..\common\common_dialogs.py:223
+msgid "Please restart calibre now."
+msgstr "Ponovo pokrenite calibre sada."
+
+#: ..\common\common_dialogs.py:209
+msgid ""
+"Are you sure you want to clear your settings in this library for this "
+"plugin?"
+msgstr ""
+"Da li ste sigurni da želite da obrišete podešavanja ovog dodatka u ovoj "
+"biblioteci?"
+
+#: ..\common\common_dialogs.py:221
+msgid "Settings deleted"
+msgstr "Podešavanja su obrisana"
+
+#: ..\common\common_dialogs.py:222
+msgid "All settings for this plugin in this library have been cleared."
+msgstr "Sva podešavanja ovog dodatka u ovoj biblioteci su obrisana."
+
+#: ..\common\common_dialogs.py:297
+msgid "Copy to clipboard"
+msgstr "Kopiraj u privremenu memoriju"
+
+#: ..\common\common_widgets.py:105
+msgid "Undefined"
+msgstr "Nedefinisano"
+
+#: ..\common\common_widgets.py:160
+msgid "Restart required"
+msgstr "Potrebno je ponovno pokretanje"
+
+#: ..\common\common_widgets.py:161
+msgid ""
+"Title image not found - you must restart Calibre before using this plugin!"
+msgstr ""
+"Slika naslova nije pronađena — morate ponovo pokrenuti calibre pre "
+"korišćenja ovog dodatka!"
+
+#: ..\common\common_widgets.py:234
+msgid "Create new column"
+msgstr "Napravi novu kolonu"
+
+#: action.py:38 check_base.py:69 check_covers.py:98 check_fix.py:436
+msgid "Quality Check"
+msgstr "Provera kvaliteta"
+
+#: action.py:108
+msgid "Fix"
+msgstr "Ispravi"
+
+#: action.py:114
+msgid "Fix -> "
+msgstr "Ispravi -> "
+
+#: action.py:120
+msgid "Repeat last check"
+msgstr "Ponovi poslednju proveru"
+
+#: action.py:127
+msgid "Search scope"
+msgstr "Opseg pretrage"
+
+#: action.py:132
+msgid "Library"
+msgstr "Biblioteka"
+
+#: action.py:133
+msgid ""
+"Run check against entire library, unless a search restriction is applied"
+msgstr ""
+"Pokreni proveru nad celom bibliotekom, osim ako je primenjeno ograničenje "
+"pretrage"
+
+#: action.py:134
+msgid "Search Scope -> Library"
+msgstr "Opseg pretrage -> Biblioteka"
+
+#: action.py:137
+msgid "Selected book(s)"
+msgstr "Izabrane knjige"
+
+#: action.py:138
+msgid "Run check against selected book(s) only"
+msgstr "Pokreni proveru samo nad izabranim knjigama"
+
+#: action.py:139
+msgid "Search Scope -> Selection"
+msgstr "Opseg pretrage -> Izbor"
+
+#: action.py:144
+msgid "Exclude from check"
+msgstr "Izuzmi iz provere"
+
+#: action.py:145
+msgid "Exclude selected book(s) from a particular Quality Check"
+msgstr "Izuzmi izabrane knjige iz određene provere kvaliteta"
+
+#: action.py:148
+msgid "View exclusions"
+msgstr "Prikaži izuzetke"
+
+#: action.py:149
+msgid "View exclusions you have added for each Quality Check"
+msgstr "Prikaži izuzetke koje ste dodali za svaku proveru kvaliteta"
+
+#: action.py:154
+msgid "&Customize plugin"
+msgstr "&Prilagodi dodatak"
+
+#: action.py:156 config.py:362
+msgid "&Help"
+msgstr "&Pomoć"
+
+#: check_base.py:64
+msgid " (cancelled)"
+msgstr " (otkazano)"
+
+#: check_base.py:70
+msgid "%d matches found%s, see log for details"
+msgstr "Pronađeno je %d podudaranja%s; detalje pogledajte u dnevniku"
+
+#: check_base.py:74
+msgid "Checked %d books, found %d matches%s"
+msgstr "Provereno je %d knjiga, pronađeno %d podudaranja%s"
+
+#: check_base.py:77
+msgid "No Matches"
+msgstr "Nema podudaranja"
+
+#: check_covers.py:27 check_epub.py:187 check_fix.py:60 check_fix.py:233
+#: check_fix.py:508 check_metadata.py:67 check_mobi.py:38
+msgid "Quality Check failed"
+msgstr "Provera kvaliteta nije uspela"
+
+#: check_covers.py:28 check_epub.py:188 check_fix.py:61 check_metadata.py:68
+#: check_mobi.py:39
+msgid "Unknown menu key for %s of '%s'"
+msgstr "Nepoznat ključ menija za %s od „%s“"
+
+#: check_covers.py:70 check_covers.py:105 check_covers.py:135 dialogs.py:79
+#: dialogs.py:109 dialogs.py:114
+msgid "less than"
+msgstr "manje od"
+
+#: check_covers.py:72 check_covers.py:110 check_covers.py:138 dialogs.py:79
+msgid "greater than"
+msgstr "veće od"
+
+#: check_covers.py:78
+msgid "Failed to identify cover:"
+msgstr "Nije moguće prepoznati koricu:"
+
+#: check_covers.py:90
+msgid "books for covers"
+msgstr "knjige prema koricama"
+
+#: check_covers.py:92
+msgid "Checked %d books, found %d cover matches%s"
+msgstr "Provereno je %d knjiga, pronađeno %d podudaranja korica%s"
+
+#: check_covers.py:95
+msgid "No matches found"
+msgstr "Nema podudaranja"
+
+#: check_covers.py:95 check_metadata.py:165 check_metadata.py:198
+#: check_metadata.py:260 check_metadata.py:323
+msgid "No Matches%s"
+msgstr "Nema podudaranja%s"
+
+#: check_covers.py:99
+msgid "%d matches found, see log for errors%s"
+msgstr "Pronađeno je %d podudaranja; greške pogledajte u dnevniku%s"
+
+#: check_covers.py:115 check_covers.py:141 dialogs.py:81
+msgid "equal to"
+msgstr "jednako"
+
+#: check_covers.py:124 check_covers.py:144 dialogs.py:81 dialogs.py:121
+msgid "not equal to"
+msgstr "nije jednako"
+
+#: check_epub.py:115
+msgid "iTunes files"
+msgstr "iTunes datoteke"
+
+#: check_epub.py:117
+msgid "calibre bookmarks"
+msgstr "calibre obeleživači"
+
+#: check_epub.py:119
+msgid "OS artifacts"
+msgstr "ostaci operativnog sistema"
+
+#: check_epub.py:277
+msgid "Matches in book: <b>%s</b>"
+msgstr "Podudaranja u knjizi: <b>%s</b>"
+
+#: check_epub.py:279
+msgid "First match in book: <b>%s</b>"
+msgstr "Prvo podudaranje u knjizi: <b>%s</b>"
+
+#: check_epub.py:286 check_epub.py:318 check_epub.py:358
+msgid "Invalid epub:"
+msgstr "Neispravan EPUB:"
+
+#: check_epub.py:289 check_epub.py:321 check_epub.py:361 check_epub.py:561
+msgid "ERROR parsing book: "
+msgstr "GREŠKA pri obradi knjige: "
+
+#: check_epub.py:294
+msgid "No searched ePub books have your search text"
+msgstr "Nijedna pretražena ePub knjiga ne sadrži traženi tekst"
+
+#: check_epub.py:296
+msgid "ePub books for search text"
+msgstr "ePub knjige prema traženom tekstu"
+
+#: check_epub.py:304 check_epub.py:344 check_epub.py:392 check_epub.py:669
+#: check_epub.py:743
+msgid "ERROR: EPUB format is missing: "
+msgstr "GREŠKA: Nedostaje EPUB format: "
+
+#: check_epub.py:326
+msgid "No searched ePub books have legacy jackets"
+msgstr "Nijedna pretražena ePub knjiga nema staru stranicu sa metapodacima"
+
+#: check_epub.py:329
+msgid "No searched ePub books have jackets"
+msgstr "Nijedna pretražena ePub knjiga nema stranicu sa metapodacima"
+
+#: check_epub.py:332
+msgid "All searched ePub books have jackets"
+msgstr "Sve pretražene ePub knjige imaju stranicu sa metapodacima"
+
+#: check_epub.py:335
+msgid "ePub books for jackets"
+msgstr "ePub knjige prema stranicama sa metapodacima"
+
+#: check_epub.py:366
+msgid "No searched ePub books have multiple jackets"
+msgstr "Nijedna pretražena ePub knjiga nema više stranica sa metapodacima"
+
+#: check_epub.py:368
+msgid "ePub books for multiple jackets"
+msgstr "ePub knjige sa više stranica sa metapodacima"
+
+#: check_epub.py:424
+msgid "No searched ePub books have non-zero .xpgt margins"
+msgstr "Nijedna pretražena ePub knjiga nema .xpgt margine različite od nule"
+
+#: check_epub.py:426
+msgid "ePub books for .xpgt margins"
+msgstr "ePub knjige prema .xpgt marginama"
+
+#: check_epub.py:456
+msgid "Checking css import"
+msgstr "Provera uvoza CSS-a"
+
+#: check_epub.py:465
+msgid "Checking html import"
+msgstr "Provera uvoza HTML-a"
+
+#: check_epub.py:479
+msgid "No searched ePub books have inline xpgt links"
+msgstr "Nijedna pretražena ePub knjiga nema ugrađene veze ka xpgt datoteci"
+
+#: check_epub.py:481
+msgid "ePub books for inline xpgt links"
+msgstr "ePub knjige sa ugrađenim vezama ka xpgt datoteci"
+
+#: check_epub.py:532
+msgid "No searched ePub books have unmanifested files"
+msgstr "Nijedna pretražena ePub knjiga nema datoteke izvan manifesta"
+
+#: check_epub.py:534
+msgid "ePub books for unmanifested files"
+msgstr "ePub knjige sa datotekama izvan manifesta"
+
+#: check_epub.py:549 check_epub.py:675 check_epub.py:749
+msgid "SKIPPING BOOK (DRM Encrypted): "
+msgstr "PRESKAČE SE KNJIGA (zaštićena DRM-om): "
+
+#: check_epub.py:562
+msgid "\tIssue with CSS name: "
+msgstr "\tProblem sa nazivom CSS datoteke: "
+
+#: check_epub.py:586
+msgid "\tUnused CSS file: %s"
+msgstr "\tNeiskorišćena CSS datoteka: %s"
+
+#: check_epub.py:599
+msgid "No searched ePub books have unused CSS files"
+msgstr "Nijedna pretražena ePub knjiga nema neiskorišćene CSS datoteke"
+
+#: check_epub.py:601
+msgid "ePub books for unused CSS files"
+msgstr "ePub knjige sa neiskorišćenim CSS datotekama"
+
+#: check_epub.py:693
+msgid "\tIssue with image name: "
+msgstr "\tProblem sa nazivom slike: "
+
+#: check_epub.py:718
+msgid "\tUNUSED image file: %s"
+msgstr "\tNEISKORIŠĆENA slikovna datoteka: %s"
+
+#: check_epub.py:731
+msgid "No searched ePub books have unused image files"
+msgstr "Nijedna pretražena ePub knjiga nema neiskorišćene slike"
+
+#: check_epub.py:733
+msgid "ePub books for unused image files"
+msgstr "ePub knjige sa neiskorišćenim slikama"
+
+#: check_epub.py:788
+msgid "\tBroken image link in:"
+msgstr "\tNeispravna veza ka slici u:"
+
+#: check_epub.py:788
+msgid " of "
+msgstr " od "
+
+#: check_epub.py:800
+msgid "No searched ePub books have broken image links"
+msgstr "Nijedna pretražena ePub knjiga nema neispravne veze ka slikama"
+
+#: check_epub.py:802
+msgid "ePub books for broken image links"
+msgstr "ePub knjige sa neispravnim vezama ka slikama"
+
+#: check_epub.py:845
+msgid "No searched ePub books have "
+msgstr "Nijedna pretražena ePub knjiga nema "
+
+#: check_epub.py:847
+msgid "ePub books for "
+msgstr "ePub knjige sa "
+
+#: check_epub.py:879
+msgid "No OPF file in:"
+msgstr "Nema OPF datoteke u:"
+
+#: check_epub.py:884
+msgid "No supported meta tag or non-xml cover in:"
+msgstr "Nema podržane meta-oznake niti korice koja nije XML u:"
+
+#: check_epub.py:889
+msgid "DRM Encrypted cover in:"
+msgstr "Korica zaštićena DRM-om u:"
+
+#: check_epub.py:894
+msgid "Invalid cover image extension (%s) in:"
+msgstr "Neispravna ekstenzija slike korice (%s) u:"
+
+#: check_epub.py:907
+msgid "No searched ePub books have replaceable covers"
+msgstr "Nijedna pretražena ePub knjiga nema koricu koja se može zameniti"
+
+#: check_epub.py:910
+msgid "All searched ePub books have replaceable covers"
+msgstr "Sve pretražene ePub knjige imaju koricu koja se može zameniti"
+
+#: check_epub.py:914
+msgid "ePub books for replaceable covers"
+msgstr "ePub knjige sa koricama koje se mogu zameniti"
+
+#: check_epub.py:950
+msgid "No searched ePub books have calibre SVG covers embedded"
+msgstr "Nijedna pretražena ePub knjiga nema ugrađenu calibre SVG koricu"
+
+#: check_epub.py:953
+msgid "All searched ePub books have calibre SVG covers embedded"
+msgstr "Sve pretražene ePub knjige imaju ugrađenu calibre SVG koricu"
+
+#: check_epub.py:957
+msgid "ePub books for calibre SVG covers"
+msgstr "ePub knjige sa calibre SVG koricama"
+
+#: check_epub.py:994
+msgid "No searched ePub books have calibre covers embedded"
+msgstr "Nijedna pretražena ePub knjiga nema ugrađenu calibre koricu"
+
+#: check_epub.py:997
+msgid "All searched ePub books have calibre covers embedded"
+msgstr "Sve pretražene ePub knjige imaju ugrađenu calibre koricu"
+
+#: check_epub.py:1001
+msgid "ePub books for calibre covers"
+msgstr "ePub knjige sa calibre koricama"
+
+#: check_epub.py:1030
+msgid "No searched ePub books have been converted by calibre"
+msgstr "Nijedna pretražena ePub knjiga nije konvertovana programom calibre"
+
+#: check_epub.py:1033
+msgid "All searched ePub books have been converted by calibre"
+msgstr "Sve pretražene ePub knjige su konvertovane programom calibre"
+
+#: check_epub.py:1037
+msgid "ePub books for calibre conversions"
+msgstr "ePub knjige konvertovane programom calibre"
+
+#: check_epub.py:1065
+msgid "All searched ePub books have a valid zip format"
+msgstr "Sve pretražene ePub knjige imaju ispravan ZIP format"
+
+#: check_epub.py:1067
+msgid "ePub books for corrupted zip format"
+msgstr "ePub knjige sa oštećenim ZIP formatom"
+
+#: check_epub.py:1092
+msgid "All searched ePub books have a valid container.xml file"
+msgstr "Sve pretražene ePub knjige imaju ispravnu datoteku container.xml"
+
+#: check_epub.py:1094
+msgid "ePub books for missing container.xml"
+msgstr "ePub knjige bez datoteke container.xml"
+
+#: check_epub.py:1110
+msgid "\tMissing container.xml file in"
+msgstr "\tNedostaje datoteka container.xml u"
+
+#: check_epub.py:1115
+msgid "\tIncorrect container.xml namespace in"
+msgstr "\tPogrešan imenski prostor u datoteci container.xml u"
+
+#: check_epub.py:1122
+msgid "\tIncorrect .opf manifest namespace in"
+msgstr "\tPogrešan imenski prostor manifesta .opf u"
+
+#: check_epub.py:1132
+msgid "All searched ePub books have valid namespaces"
+msgstr "Sve pretražene ePub knjige imaju ispravne imenske prostore"
+
+#: check_epub.py:1134
+msgid "ePub books for namespaces check"
+msgstr "ePub knjige prema proveri imenskih prostora"
+
+#: check_epub.py:1175
+msgid "All searched ePub books have only dc: elements in manifest"
+msgstr "Sve pretražene ePub knjige imaju samo dc: elemente u manifestu"
+
+#: check_epub.py:1177
+msgid "ePub books for non dc: metadata check"
+msgstr "ePub knjige sa metapodacima izvan dc: imenskog prostora"
+
+#: check_epub.py:1199
+msgid "Manifest file missing from: <b>%s</b>"
+msgstr "Datoteka manifesta nedostaje u: <b>%s</b>"
+
+#: check_epub.py:1213
+msgid "All searched ePub books have a valid opf manifest"
+msgstr "Sve pretražene ePub knjige imaju ispravan OPF manifest"
+
+#: check_epub.py:1215
+msgid "ePub books for missing files in opf"
+msgstr "ePub knjige sa datotekama koje nedostaju u OPF manifestu"
+
+#: check_epub.py:1240 check_epub.py:1279
+msgid "Ignoring DRM protected ePub: "
+msgstr "Zanemaruje se ePub zaštićen DRM-om: "
+
+#: check_epub.py:1253
+msgid "All searched ePub books have a flattened NCX TOC"
+msgstr "Sve pretražene ePub knjige imaju ravnu NCX sadržinu"
+
+#: check_epub.py:1255
+msgid "ePub books for NCX TOC hierarchy"
+msgstr "ePub knjige prema hijerarhiji NCX sadržine"
+
+#: check_epub.py:1299
+msgid "All searched ePub books have a NCX TOC with at least 3 items"
+msgstr "Sve pretražene ePub knjige imaju NCX sadržinu sa najmanje tri stavke"
+
+#: check_epub.py:1301
+msgid "ePub books for NCX TOC count"
+msgstr "ePub knjige prema broju stavki NCX sadržine"
+
+#: check_epub.py:1356
+msgid "All searched ePub books have a NCX TOC with valid links"
+msgstr "Sve pretražene ePub knjige imaju NCX sadržinu sa ispravnim vezama"
+
+#: check_epub.py:1358
+msgid "ePub books for broken NCX TOC links"
+msgstr "ePub knjige sa neispravnim vezama u NCX sadržini"
+
+#: check_epub.py:1401
+msgid "All searched ePub books have valid guide entries"
+msgstr "Sve pretražene ePub knjige imaju ispravne stavke odeljka guide"
+
+#: check_epub.py:1403
+msgid "ePub books for broken guide links"
+msgstr "ePub knjige sa neispravnim vezama u odeljku guide"
+
+#: check_epub.py:1437
+msgid "No searched ePub books have oversize html files"
+msgstr "Nijedna pretražena ePub knjiga nema prevelike HTML datoteke"
+
+#: check_epub.py:1439
+msgid "ePub books for oversize html files"
+msgstr "ePub knjige sa prevelikim HTML datotekama"
+
+#: check_epub.py:1464
+msgid "No searched ePub books have DRM"
+msgstr "Nijedna pretražena ePub knjiga nema DRM zaštitu"
+
+#: check_epub.py:1466
+msgid "ePub books for DRM"
+msgstr "ePub knjige sa DRM zaštitom"
+
+#: check_epub.py:1498
+msgid "No searched ePub books have Adobe DRM meta tags"
+msgstr "Nijedna pretražena ePub knjiga nema Adobe DRM meta-oznake"
+
+#: check_epub.py:1500
+msgid "ePub books for Adobe DRM meta tags"
+msgstr "ePub knjige sa Adobe DRM meta-oznakama"
+
+#: check_epub.py:1532
+msgid "No searched ePub books have \\<address\\> smart tags"
+msgstr "Nijedna pretražena ePub knjiga nema pametne oznake \\<address\\>"
+
+#: check_epub.py:1534
+msgid "ePub books for <address> smart tags"
+msgstr "ePub knjige sa pametnim oznakama <address>"
+
+#: check_epub.py:1553
+msgid "Font found in: <b>%s</b>"
+msgstr "Font pronađen u: <b>%s</b>"
+
+#: check_epub.py:1567
+msgid "No searched ePub books have embedded fonts"
+msgstr "Nijedna pretražena ePub knjiga nema ugrađene fontove"
+
+#: check_epub.py:1569
+msgid "ePub books for embedded fonts"
+msgstr "ePub knjige sa ugrađenim fontovima"
+
+#: check_epub.py:1587
+msgid "CSS file contains @font-face: <b>%s</b>"
+msgstr "CSS datoteka sadrži @font-face: <b>%s</b>"
+
+#: check_epub.py:1593
+msgid "At least one html file contains @font-face: <b>%s</b>"
+msgstr "Najmanje jedna HTML datoteka sadrži @font-face: <b>%s</b>"
+
+#: check_epub.py:1607
+msgid "No searched ePub books have @font-face declarations"
+msgstr "Nijedna pretražena ePub knjiga nema deklaracije @font-face"
+
+#: check_epub.py:1609
+msgid "ePub books for @font-face declarations"
+msgstr "ePub knjige sa deklaracijama @font-face"
+
+#: check_epub.py:1638
+msgid "All searched ePub books have text-align:justify"
+msgstr "Sve pretražene ePub knjige imaju text-align:justify"
+
+#: check_epub.py:1640
+msgid "ePub books for text-align:justify"
+msgstr "ePub knjige sa text-align:justify"
+
+#: check_epub.py:1666
+msgid "\t\t'margin' property found, so does not match calibre preferences"
+msgstr ""
+"\t\tPronađeno je svojstvo „margin“, pa ne odgovara podešavanjima programa "
+"calibre"
+
+#: check_epub.py:1669
+msgid "\t\tNegative margin found, so does not match calibre preferences"
+msgstr ""
+"\t\tPronađena je negativna margina, pa ne odgovara podešavanjima programa "
+"calibre"
+
+#: check_epub.py:1678
+msgid "\t\tMargins is not defined in pts so does not match calibre preferences"
+msgstr ""
+"\t\tMargine nisu izražene u pt, pa ne odgovaraju podešavanjima programa "
+"calibre"
+
+#: check_epub.py:1686 check_epub.py:1689 check_epub.py:1695
+msgid "\t\tMargins are defined in pts but don't match calibre preferences"
+msgstr ""
+"\t\tMargine su izražene u pt, ali ne odgovaraju podešavanjima programa "
+"calibre"
+
+#: check_epub.py:1698
+msgid "\t\tMargins match calibre preferences"
+msgstr "\t\tMargine odgovaraju podešavanjima programa calibre"
+
+#: check_epub.py:1724
+msgid "\tAnalyzing margins in "
+msgstr "\tAnaliza margina u "
+
+#: check_epub.py:1754
+msgid "All searched ePub books match the calibre page setup preferences"
+msgstr ""
+"Sve pretražene ePub knjige odgovaraju podešavanjima stranice u programu "
+"calibre"
+
+#: check_epub.py:1756
+msgid "ePub books for body or @page css margins"
+msgstr "ePub knjige prema CSS marginama elementa body ili pravila @page"
+
+#: check_epub.py:1794
+msgid "All searched ePub books have book level margins defined"
+msgstr "Sve pretražene ePub knjige imaju definisane margine na nivou knjige"
+
+#: check_epub.py:1796
+msgid "ePub books lacking body or @page css margins"
+msgstr "ePub knjige bez CSS margina elementa body ili pravila @page"
+
+#: check_epub.py:1832
+msgid "No searched ePub books inline @page margins"
+msgstr "Nijedna pretražena ePub knjiga nema ugrađene margine pravila @page"
+
+#: check_epub.py:1834
+msgid "ePub books using inline @page or body css margins"
+msgstr ""
+"ePub knjige sa ugrađenim CSS marginama pravila @page ili elementa body"
+
+#: check_epub.py:1855
+msgid "\tContains .js file: %s"
+msgstr "\tSadrži .js datoteku: %s"
+
+#: check_epub.py:1861
+msgid "\tContains inline javascript: %s"
+msgstr "\tSadrži ugrađeni JavaScript: %s"
+
+#: check_epub.py:1863
+msgid "ePub with Javascript: %s"
+msgstr "ePub sa JavaScriptom: %s"
+
+#: check_epub.py:1878
+msgid "No searched ePub books have javascript"
+msgstr "Nijedna pretražena ePub knjiga nema JavaScript"
+
+#: check_epub.py:1880
+msgid "ePub books for javascript"
+msgstr "ePub knjige sa JavaScriptom"
+
+#: check_epub.py:1908
+msgid "Unsmartened punctuation in: <b>%s</b>"
+msgstr "Tipografski neobrađena interpunkcija u: <b>%s</b>"
+
+#: check_epub.py:1922
+msgid "No searched ePub books need punctuation smartened"
+msgstr ""
+"Nijednoj pretraženoj ePub knjizi nije potrebna tipografska obrada "
+"interpunkcije"
+
+#: check_epub.py:1924
+msgid "ePub books for smarten punctuation"
+msgstr "ePub knjige kojima je potrebna tipografska obrada interpunkcije"
+
+#: check_epub.py:1942
+msgid "Could not find OPF in:%s"
+msgstr "Nije pronađen OPF u:%s"
+
+#: check_epub.py:1945
+msgid "OPF file in container.xml not found in:%s"
+msgstr "OPF datoteka navedena u container.xml nije pronađena u:%s"
+
+#: check_fix.py:124
+msgid "Reformatting author initials for"
+msgstr "Preoblikovanje inicijala autora za"
+
+#: check_fix.py:129
+msgid "Reformatted initials for %d of %d book authors"
+msgstr "Preoblikovani su inicijali autora za %d od %d knjiga"
+
+#: check_fix.py:154
+msgid "Renaming authors to ascii for"
+msgstr "Uklanjanje dijakritika iz imena autora za"
+
+#: check_fix.py:159
+msgid "Renamed to ascii %d of %d book authors"
+msgstr "Uklonjeni su dijakritici iz imena autora za %d od %d knjiga"
+
+#: check_fix.py:174
+msgid "books with incorrect author sort"
+msgstr "knjige sa neispravnim redosledom autora"
+
+#: check_fix.py:175
+msgid "Checked %d books, updated %d author sorts%s"
+msgstr "Provereno je %d knjiga, ažuriran redosled autora za %d knjiga%s"
+
+#: check_fix.py:179
+msgid "All author sorts are correct"
+msgstr "Redosled autora je ispravan za sve knjige"
+
+#: check_fix.py:199
+msgid "books with incorrect title sort"
+msgstr "knjige sa neispravnim redosledom naslova"
+
+#: check_fix.py:200
+msgid "Checked %d books, updated %d title sorts%s"
+msgstr "Provereno je %d knjiga, ažuriran redosled naslova za %d knjiga%s"
+
+#: check_fix.py:204
+msgid "All title sorts are correct"
+msgstr "Redosled naslova je ispravan za sve knjige"
+
+#: check_fix.py:234
+msgid "\"Check and repair book sizes\" requires calibre version 5.9 or higher."
+msgstr ""
+"Za „Proveri i popravi veličine knjiga“ potreban je calibre 5.9 ili noviji."
+
+#: check_fix.py:239
+msgid "books for invalid file sizes"
+msgstr "knjige sa neispravnim veličinama datoteka"
+
+#: check_fix.py:240
+msgid "Checked %d books, updated %d format sizes in %d books%s"
+msgstr ""
+"Provereno je %d knjiga, ažurirana je veličina %d formata u %d knjiga%s"
+
+#: check_fix.py:244
+msgid "All book format sizes are correct"
+msgstr "Veličine svih formata knjiga su ispravne"
+
+#: check_fix.py:264
+msgid "books with paths missing commas"
+msgstr "knjige sa putanjama u kojima nedostaje zarez"
+
+#: check_fix.py:265
+msgid "Checked %d books, updated %d paths%s"
+msgstr "Provereno je %d knjiga, ažurirano %d putanja%s"
+
+#: check_fix.py:269
+msgid "All books have up to date paths"
+msgstr "Sve knjige imaju ažurne putanje"
+
+#: check_fix.py:281
+msgid "Choose directory to cleanup"
+msgstr "Izaberite fasciklu za čišćenje"
+
+#: check_fix.py:286
+msgid "Invalid Folder"
+msgstr "Neispravna fascikla"
+
+#: check_fix.py:287
+msgid "You should not run this feature against a Calibre library folder."
+msgstr ""
+"Ne treba da pokrećete ovu funkciju nad fasciklom biblioteke programa "
+"calibre."
+
+#: check_fix.py:288
+msgid ""
+"If you do you will remove \"Empty book\" entries and corrupt your database."
+msgstr "Time biste uklonili stavke „Prazna knjiga“ i oštetili bazu podataka."
+
+#: check_fix.py:297
+msgid "No files/folders were found to be deleted"
+msgstr "Nisu pronađene datoteke ili fascikle za brisanje"
+
+#: check_fix.py:303 check_fix.py:310
+msgid "Cleanup completed"
+msgstr "Čišćenje je završeno"
+
+#: check_fix.py:306
+msgid "Deleted %d files/folders with %d errors. See details for more info."
+msgstr ""
+"Obrisano je %d datoteka/fascikli uz %d grešaka. Detalje pogledajte u "
+"izveštaju."
+
+#: check_fix.py:334
+msgid "Removed folder: %s"
+msgstr "Uklonjena fascikla: %s"
+
+#: check_fix.py:338
+msgid "ERROR removing folder: %s"
+msgstr "GREŠKA pri uklanjanju fascikle: %s"
+
+#: check_fix.py:372
+msgid "Removed file: %s"
+msgstr "Uklonjena datoteka: %s"
+
+#: check_fix.py:376
+msgid "ERROR removing file: %s"
+msgstr "GREŠKA pri uklanjanju datoteke: %s"
+
+#: check_fix.py:385 check_fix.py:388 check_fix.py:391
+msgid "identifier found"
+msgstr "identifikator je pronađen"
+
+#: check_fix.py:394
+msgid "No ASIN found, using uuid"
+msgstr "ASIN nije pronađen; koristi se UUID"
+
+#: check_fix.py:428
+msgid "Fixing ASIN for %d books"
+msgstr "Ispravljanje ASIN-a za %d knjiga"
+
+#: check_fix.py:434
+msgid "Fix ASIN completed"
+msgstr "Ispravljanje ASIN-a je završeno"
+
+#: check_fix.py:437
+msgid "%d books updated, see log for details"
+msgstr "Ažurirano je %d knjiga; detalje pogledajte u dnevniku"
+
+#: check_fix.py:480
+msgid "books for normalize text fields"
+msgstr "knjige za normalizaciju tekstualnih polja"
+
+#: check_fix.py:497
+msgid ""
+"Checked %d books, normalize fields %d in %d books, and %d author sort key%s"
+msgstr ""
+"Provereno je %d knjiga, normalizovano %d polja u %d knjiga i %d ključeva za "
+"redosled autora%s"
+
+#: check_fix.py:501
+msgid "All text fields are normalize"
+msgstr "Sva tekstualna polja su normalizovana"
+
+#: check_fix.py:509
+msgid "\"Normalize the notes\" requires calibre version 7.0 or higher."
+msgstr "Za „Normalizuj beleške“ potreban je calibre 7.0 ili noviji."
+
+#: check_fix.py:546
+msgid "All category notes are normalize"
+msgstr "Sve beleške kategorija su normalizovane"
+
+#: check_metadata.py:86
+msgid "All searched books have a valid Title Sort"
+msgstr "Sve pretražene knjige imaju ispravan redosled naslova"
+
+#: check_metadata.py:88
+msgid "books for invalid title sort"
+msgstr "knjige sa neispravnim redosledom naslova"
+
+#: check_metadata.py:104
+msgid "All searched books have a valid Author Sort"
+msgstr "Sve pretražene knjige imaju ispravan redosled autora"
+
+#: check_metadata.py:106
+msgid "books for invalid author sort"
+msgstr "knjige sa neispravnim redosledom autora"
+
+#: check_metadata.py:119
+msgid "All searched books have a valid ISBN"
+msgstr "Sve pretražene knjige imaju ispravan ISBN"
+
+#: check_metadata.py:121
+msgid "books for invalid ISBN"
+msgstr "knjige sa neispravnim ISBN-om"
+
+#: check_metadata.py:134
+msgid "All searched books have a valid pubdate"
+msgstr "Sve pretražene knjige imaju ispravan datum objavljivanja"
+
+#: check_metadata.py:136
+msgid "books for invalid pubdate"
+msgstr "knjige sa neispravnim datumom objavljivanja"
+
+#: check_metadata.py:153
+msgid "books for duplicate ISBN"
+msgstr "knjige sa ponovljenim ISBN-om"
+
+#: check_metadata.py:166
+msgid "All searched books have unique ISBNs"
+msgstr "Sve pretražene knjige imaju jedinstvene ISBN-ove"
+
+#: check_metadata.py:185
+msgid "books for duplicate series"
+msgstr "knjige sa ponovljenim serijalima"
+
+#: check_metadata.py:199
+msgid "All searched books have unique series indexes"
+msgstr "Sve pretražene knjige imaju jedinstvene redne brojeve u serijalima"
+
+#: check_metadata.py:257
+msgid "Checked %d books, found %d gaps in %d series"
+msgstr "Provereno je %d knjiga; pronađeno %d praznina u %d serijala"
+
+#: check_metadata.py:261
+msgid "No series gaps exist in the books searched"
+msgstr "U pretraženim knjigama nema praznina u redosledu serijala"
+
+#: check_metadata.py:263
+msgid "Series Gaps Found%s"
+msgstr "Pronađene su praznine u serijalima%s"
+
+#: check_metadata.py:287
+msgid "books for series pubdate order"
+msgstr "knjige sa pogrešnim redosledom datuma objavljivanja u serijalu"
+
+#: check_metadata.py:320
+msgid "Checked %d books, found %d disordered in %d series"
+msgstr ""
+"Provereno je %d knjiga; pronađeno %d knjiga sa pogrešnim redosledom u %d "
+"serijala"
+
+#: check_metadata.py:324
+msgid "No series pubdate disorders exist in the books searched"
+msgstr ""
+"U pretraženim knjigama nema neslaganja u redosledu datuma objavljivanja "
+"serijala"
+
+#: check_metadata.py:326
+msgid "Series Pubdate Issues Found"
+msgstr "Pronađeni su problemi sa datumima objavljivanja u serijalu"
+
+#: check_metadata.py:344
+msgid "All searched books have a valid tag count"
+msgstr "Sve pretražene knjige imaju dozvoljen broj oznaka"
+
+#: check_metadata.py:346
+msgid "books for invalid tag count"
+msgstr "knjige sa previše oznaka"
+
+#: check_metadata.py:379
+msgid "All searched books have no HTML in comments"
+msgstr "Nijedna pretražena knjiga nema HTML u komentarima"
+
+#: check_metadata.py:381
+msgid "books for no HTML in comments"
+msgstr "knjige bez HTML-a u komentarima"
+
+#: check_metadata.py:416
+msgid "All searched books have HTML in comments"
+msgstr "Sve pretražene knjige imaju HTML u komentarima"
+
+#: check_metadata.py:418
+msgid "books for HTML in comments"
+msgstr "knjige sa HTML-om u komentarima"
+
+#: check_metadata.py:433
+msgid "All searched book authors have no commas"
+msgstr "Imena autora svih pretraženih knjiga su bez zareza"
+
+#: check_metadata.py:435
+msgid "books with authors having commas"
+msgstr "knjige sa zarezima u imenima autora"
+
+#: check_metadata.py:450
+msgid "All searched book authors have commas"
+msgstr "Imena autora svih pretraženih knjiga sadrže zarez"
+
+#: check_metadata.py:452
+msgid "books with authors not having commas"
+msgstr "knjige bez zareza u imenima autora"
+
+#: check_metadata.py:467
+msgid "All searched authors have a valid casing"
+msgstr "Imena svih pretraženih autora imaju ispravna velika i mala slova"
+
+#: check_metadata.py:469
+msgid "books for invalid author casing"
+msgstr "knjige sa neispravnim velikim i malim slovima u imenima autora"
+
+#: check_metadata.py:487
+msgid "All searched book authors have alphabetic names"
+msgstr "Imena autora svih pretraženih knjiga sadrže samo slova"
+
+#: check_metadata.py:489
+msgid "books with authors having non-alphabetic names"
+msgstr "knjige sa imenima autora koja sadrže znakove koji nisu slova"
+
+#: check_metadata.py:506
+msgid "All searched book authors have ascii names"
+msgstr "Imena autora svih pretraženih knjiga sadrže samo ASCII znakove"
+
+#: check_metadata.py:508
+msgid "books with authors having non-ascii names"
+msgstr "knjige sa imenima autora koja nisu u ASCII zapisu"
+
+#: check_metadata.py:526
+msgid "All searched book authors have correct initials"
+msgstr "Imena autora svih pretraženih knjiga imaju ispravne inicijale"
+
+#: check_metadata.py:528
+msgid "books with authors having incorrect initials"
+msgstr "knjige sa neispravnim inicijalima autora"
+
+#: check_metadata.py:541
+msgid "All searched books do not have titles with series names"
+msgstr "Naslovi svih pretraženih knjiga ne sadrže nazive serijala"
+
+#: check_metadata.py:543
+msgid "book titles with possible series names"
+msgstr "naslovi knjiga koji možda sadrže nazive serijala"
+
+#: check_metadata.py:555
+msgid "All searched titles have a valid title casing"
+msgstr "Naslovi svih pretraženih knjiga pravilno koriste velika i mala slova"
+
+#: check_metadata.py:557
+msgid "books for invalid title casing"
+msgstr "knjige sa neispravnim velikim i malim slovima u naslovu"
+
+#: check_mobi.py:80
+msgid "All searched MOBI books have EBOK cdetag values"
+msgstr "Sve pretražene MOBI knjige imaju vrednost EBOK za cdetag"
+
+#: check_mobi.py:82
+msgid "MOBI books missing EBOK cdetag"
+msgstr "MOBI knjige bez vrednosti EBOK za cdetag"
+
+#: check_mobi.py:121
+msgid "All searched MOBI books have ASIN values"
+msgstr "Sve pretražene MOBI knjige imaju ASIN"
+
+#: check_mobi.py:123
+msgid "MOBI books missing ASIN"
+msgstr "MOBI knjige bez ASIN-a"
+
+#: check_mobi.py:166
+msgid "All searched MOBI books have Twitter/Facebook sharing enabled"
+msgstr ""
+"Sve pretražene MOBI knjige omogućavaju deljenje na mrežama Twitter/Facebook"
+
+#: check_mobi.py:168
+msgid "MOBI books unable to share on Twitter/Facebook"
+msgstr "MOBI knjige koje ne omogućavaju deljenje na mrežama Twitter/Facebook"
+
+#: check_mobi.py:197
+msgid "All searched MOBI books have no clipping limits"
+msgstr "Nijedna pretražena MOBI knjiga nema ograničenje kopiranja odlomaka"
+
+#: check_mobi.py:199
+msgid "MOBI books for clipping limits"
+msgstr "MOBI knjige sa ograničenjem kopiranja odlomaka"
+
+#: config.py:73
+msgid "Check covers"
+msgstr "Proveri korice"
+
+#: config.py:73
+msgid "Find books with book covers matching your criteria"
+msgstr "Pronađi knjige čije korice odgovaraju zadatim kriterijumima"
+
+#: config.py:75
+msgid "Check having any jacket"
+msgstr "Proveri da li postoji stranica sa metapodacima"
+
+#: config.py:75
+msgid "Check for ePub formats which have any calibre jacket"
+msgstr "Proveri ePub formate sa bilo kojom calibre stranicom sa metapodacima"
+
+#: config.py:75 config.py:76 config.py:77 config.py:78 config.py:79
+#: config.py:80 config.py:81 config.py:82 config.py:83 config.py:84
+#: config.py:85 config.py:86 config.py:87 config.py:88 config.py:89
+#: config.py:90 config.py:91 config.py:92 config.py:93 config.py:94
+#: config.py:95 config.py:96 config.py:97 config.py:98 config.py:99
+#: config.py:100 config.py:101 config.py:102 config.py:103 config.py:104
+msgid "Check ePub Structure"
+msgstr "Proveri strukturu ePub knjige"
+
+#: config.py:76
+msgid "Check having legacy jacket"
+msgstr "Proveri da li postoji stara stranica sa metapodacima"
+
+#: config.py:76
+msgid ""
+"Check for ePub formats which have a calibre jacket from versions prior to "
+"0.6.51"
+msgstr ""
+"Proveri ePub formate sa calibre stranicom sa metapodacima iz verzija pre "
+"0.6.51"
+
+#: config.py:77
+msgid "Check having multiple jackets"
+msgstr "Proveri da li postoji više stranica sa metapodacima"
+
+#: config.py:77
+msgid "Check for ePub formats which have multiple jackets"
+msgstr "Proveri ePub formate sa više stranica sa metapodacima"
+
+#: config.py:78
+msgid "Check missing jacket"
+msgstr "Proveri da li nedostaje stranica sa metapodacima"
+
+#: config.py:78
+msgid "Check for ePub formats which do not have a jacket"
+msgstr "Proveri ePub formate bez stranice sa metapodacima"
+
+#: config.py:79
+msgid "Check missing container.xml"
+msgstr "Proveri da li nedostaje container.xml"
+
+#: config.py:79
+msgid ""
+"Check for ePub formats with a missing container.xml indicating an invalid "
+"ePub"
+msgstr ""
+"Proveri ePub formate bez datoteke container.xml, što ukazuje na neispravan "
+"ePub"
+
+#: config.py:80
+msgid "Check invalid namespaces"
+msgstr "Proveri neispravne imenske prostore"
+
+#: config.py:80
+msgid ""
+"Check for ePub formats with invalid namespaces in the container xml or opf "
+"manifest"
+msgstr ""
+"Proveri ePub formate sa neispravnim imenskim prostorima u datoteci "
+"container.xml ili OPF manifestu"
+
+#: config.py:81
+msgid "Check non-dc: metadata"
+msgstr "Proveri metapodatke izvan dc: imenskog prostora"
+
+#: config.py:81
+msgid ""
+"Check for ePub formats with metadata elements in the opf manifest that are "
+"not in the dc: namespace"
+msgstr ""
+"Proveri ePub formate sa elementima metapodataka u OPF manifestu koji nisu u "
+"dc: imenskom prostoru"
+
+#: config.py:82
+msgid "Check manifest files missing"
+msgstr "Proveri nedostajuće datoteke iz manifesta"
+
+#: config.py:82
+msgid ""
+"Check for ePub formats with files missing that are listed in their opf "
+"manifest"
+msgstr ""
+"Proveri ePub formate kojima nedostaju datoteke navedene u OPF manifestu"
+
+#: config.py:83
+msgid "Check unmanifested files"
+msgstr "Proveri datoteke izvan manifesta"
+
+#: config.py:83
+msgid ""
+"Check for ePub formats with files that are not listed in their opf manifest "
+"excluding iTunes/bookmarks"
+msgstr ""
+"Proveri ePub formate sa datotekama koje nisu navedene u OPF manifestu, "
+"izuzev iTunes datoteka i obeleživača"
+
+#: config.py:84
+msgid "Check unused CSS files"
+msgstr "Proveri neiskorišćene CSS datoteke"
+
+#: config.py:84
+msgid ""
+"Check for ePub formats with CSS files that are not referenced from any html "
+"pages"
+msgstr ""
+"Proveri ePub formate sa CSS datotekama na koje ne upućuje nijedna HTML "
+"stranica"
+
+#: config.py:85
+msgid "Check unused image files"
+msgstr "Proveri neiskorišćene slike"
+
+#: config.py:85
+msgid ""
+"Check for ePub formats with image files that are not referenced from the "
+"xhtml pages"
+msgstr ""
+"Proveri ePub formate sa slikovnim datotekama na koje ne upućuje nijedna "
+"XHTML stranica"
+
+#: config.py:86
+msgid "Check broken image links"
+msgstr "Proveri neispravne veze ka slikama"
+
+#: config.py:86
+msgid ""
+"Check for ePub formats with html pages that contain broken links to images"
+msgstr ""
+"Proveri ePub formate sa HTML stranicama koje sadrže neispravne veze ka "
+"slikama"
+
+#: config.py:87
+msgid "Check iTunes files"
+msgstr "Proveri iTunes datoteke"
+
+#: config.py:87
+msgid ""
+"Check for ePub formats with an iTunesMetadata.plist or iTunesArtwork file"
+msgstr ""
+"Proveri ePub formate koji sadrže datoteku iTunesMetadata.plist ili "
+"iTunesArtwork"
+
+#: config.py:88
+msgid "Check calibre bookmark files"
+msgstr "Proveri calibre datoteke sa obeleživačima"
+
+#: config.py:88
+msgid "Check for ePub formats with a calibre bookmarks file"
+msgstr "Proveri ePub formate koji sadrže calibre datoteku sa obeleživačima"
+
+#: config.py:89
+msgid "Check OS artifacts"
+msgstr "Proveri ostatke operativnog sistema"
+
+#: config.py:89
+msgid "Check for ePub formats with OS artifacts of .DS_Store or Thumbs.db"
+msgstr ""
+"Proveri ePub formate koji sadrže ostatke operativnog sistema .DS_Store ili "
+"Thumbs.db"
+
+#: config.py:90
+msgid "Check ePub inside ePub"
+msgstr "Proveri ePub unutar ePub knjige"
+
+#: config.py:90
+msgid "Check for ePub formats containing a ePub inside"
+msgstr "Proveri ePub formate koji sadrže drugu ePub knjigu"
+
+#: config.py:91
+msgid "Check NCX TOC hierarchical"
+msgstr "Proveri hijerarhijsku NCX sadržinu"
+
+#: config.py:91
+msgid ""
+"Check for ePub formats with a NCX file TOC which is not flat (i.e. "
+"hierarchical)"
+msgstr ""
+"Proveri ePub formate čija NCX sadržina nije ravna (tj. ima hijerarhiju)"
+
+#: config.py:92
+msgid "Check NCX TOC with < 3 entries"
+msgstr "Proveri NCX sadržinu sa manje od tri stavke"
+
+#: config.py:92
+msgid "Check for ePub formats with a NCX file TOC with less than 3 entries"
+msgstr "Proveri ePub formate čija NCX sadržina ima manje od tri stavke"
+
+#: config.py:93
+msgid "Check NCX TOC with broken links"
+msgstr "Proveri neispravne veze u NCX sadržini"
+
+#: config.py:93
+msgid ""
+"Check for ePub formats with a NCX file TOC that contains broken html links"
+msgstr ""
+"Proveri ePub formate čija NCX sadržina ima neispravne veze ka HTML "
+"datotekama"
+
+#: config.py:94
+msgid "Check <guide> broken links"
+msgstr "Proveri neispravne veze u odeljku <guide>"
+
+#: config.py:94
+msgid ""
+"Check for ePub formats with broken links in the <guide> section of the "
+"manifest"
+msgstr ""
+"Proveri ePub formate sa neispravnim vezama u odeljku <guide> manifesta"
+
+#: config.py:95
+msgid "Check oversize html files"
+msgstr "Proveri prevelike HTML datoteke"
+
+#: config.py:95
+msgid ""
+"Check for ePub formats with an individual html file size that requires "
+"splitting on some devices"
+msgstr ""
+"Proveri ePub formate sa pojedinačnom HTML datotekom čija veličina zahteva "
+"podelu na nekim uređajima"
+
+#: config.py:96
+msgid "Check DRM"
+msgstr "Proveri DRM"
+
+#: config.py:96
+msgid "Check for ePub formats with DRM encryption xml files"
+msgstr "Proveri ePub formate sa XML datotekama za DRM zaštitu"
+
+#: config.py:97
+msgid "Check Adobe DRM meta tag"
+msgstr "Proveri Adobe DRM meta-oznaku"
+
+#: config.py:97
+msgid ""
+"Check for ePub formats that contain html pages with an Adobe DRM meta "
+"identifier tag"
+msgstr ""
+"Proveri ePub formate sa HTML stranicama koje sadrže Adobe DRM meta-oznaku "
+"identifikatora"
+
+#: config.py:98
+msgid "Check replaceable cover"
+msgstr "Proveri koricu koja može da se zameni"
+
+#: config.py:98
+msgid ""
+"Check for ePub formats with a cover that can be replaced when exporting or "
+"updating metadata with Modify ePub"
+msgstr ""
+"Proveri ePub formate sa koricom koja može da se zameni pri izvozu ili "
+"ažuriranju metapodataka dodatkom Modify ePub"
+
+#: config.py:99
+msgid "Check non-replaceable cover"
+msgstr "Proveri koricu koja ne može da se zameni"
+
+#: config.py:99
+msgid ""
+"Check for ePub formats with no cover or a cover that cannot be replaced "
+"without a calibre conversion"
+msgstr ""
+"Proveri ePub formate bez korice ili sa koricom koja ne može da se zameni bez"
+" konverzije u programu calibre"
+
+#: config.py:100
+msgid "Check calibre SVG cover"
+msgstr "Proveri calibre SVG koricu"
+
+#: config.py:100
+msgid ""
+"Check for ePub formats with a cover that has been inserted by a calibre "
+"conversion or Modify ePub and that is SVG"
+msgstr ""
+"Proveri ePub formate sa SVG koricom koju je dodala konverzija u programu "
+"calibre ili dodatak Modify ePub"
+
+#: config.py:101
+msgid "Check no calibre SVG cover"
+msgstr "Proveri da li nema calibre SVG korice"
+
+#: config.py:101
+msgid ""
+"Check for ePub formats that have no calibre cover inserted by a calibre "
+"conversion or Modify ePub that is SVG"
+msgstr ""
+"Proveri ePub formate bez SVG korice koju je dodala konverzija u programu "
+"calibre ili dodatak Modify ePub"
+
+#: config.py:102
+msgid "Check calibre conversion"
+msgstr "Proveri konverziju programom calibre"
+
+#: config.py:102
+msgid "Check for ePub formats that have been converted by calibre"
+msgstr "Proveri ePub formate konvertovane programom calibre"
+
+#: config.py:103
+msgid "Check not calibre conversion"
+msgstr "Proveri da nije konvertovano programom calibre"
+
+#: config.py:103
+msgid "Check for ePub formats that have not been converted by calibre"
+msgstr "Proveri ePub formate koji nisu konvertovani programom calibre"
+
+#: config.py:104
+msgid "Check corrupt zip"
+msgstr "Proveri oštećen ZIP"
+
+#: config.py:104
+msgid "Check for ePub zip that is corrupted, may need conversion to fix"
+msgstr ""
+"Proveri oštećenu ZIP arhivu ePub knjige; možda je potrebna konverzija da bi "
+"se popravila"
+
+#: config.py:106
+msgid "Check <address> smart-tags"
+msgstr "Proveri pametne oznake <address>"
+
+#: config.py:106
+msgid ""
+"Check for ePub formats that have <address> elements from a poor conversion "
+"with Word smart tags"
+msgstr ""
+"Proveri ePub formate koji sadrže elemente <address> nastale lošom "
+"konverzijom Word pametnih oznaka"
+
+#: config.py:106 config.py:107 config.py:108 config.py:109 config.py:110
+#: config.py:111 config.py:112 config.py:113 config.py:114 config.py:115
+#: config.py:116
+msgid "Check ePub Style"
+msgstr "Proveri stil ePub knjige"
+
+#: config.py:107
+msgid "Check embedded fonts"
+msgstr "Proveri ugrađene fontove"
+
+#: config.py:107
+msgid "Check for ePub formats with embedded fonts"
+msgstr "Proveri ePub formate sa ugrađenim fontovima"
+
+#: config.py:108
+msgid "Check @font-face"
+msgstr "Proveri @font-face"
+
+#: config.py:108
+msgid ""
+"Check for ePub formats with CSS or html files that contain @font-face "
+"declarations"
+msgstr ""
+"Proveri ePub formate sa deklaracijama @font-face u CSS ili HTML datotekama"
+
+#: config.py:109
+msgid "Check Adobe .xpgt margins"
+msgstr "Proveri Adobe .xpgt margine"
+
+#: config.py:109
+msgid "Check for ePub formats with an xpgt file with non-zero margins"
+msgstr "Proveri ePub formate sa .xpgt datotekom čije margine nisu nula"
+
+#: config.py:110
+msgid "Check Adobe inline .xpgt links"
+msgstr "Proveri Adobe ugrađene veze ka .xpgt datoteci"
+
+#: config.py:110
+msgid ""
+"Check for ePub formats that contain html pages with links to an xpgt file"
+msgstr "Proveri ePub formate čije HTML stranice sadrže veze ka .xpgt datoteci"
+
+#: config.py:111
+msgid "Check CSS non-justified"
+msgstr "Proveri CSS bez obostranog poravnanja"
+
+#: config.py:111
+msgid ""
+"Check for ePub formats with CSS files that do not contain a text-align: "
+"justify style"
+msgstr ""
+"Proveri ePub formate čije CSS datoteke ne sadrže stil text-align: justify"
+
+#: config.py:112
+msgid "Check CSS book margins"
+msgstr "Proveri CSS margine knjige"
+
+#: config.py:112
+msgid ""
+"Check for ePub formats with book level CSS margins conflicting with calibre "
+"Preferences"
+msgstr ""
+"Proveri ePub formate sa CSS marginama na nivou knjige koje nisu usklađene sa"
+" podešavanjima programa calibre"
+
+#: config.py:113
+msgid "Check CSS no book margins"
+msgstr "Proveri da li nedostaju CSS margine knjige"
+
+#: config.py:113
+msgid "Check for ePub formats that do not contain CSS book level margins"
+msgstr "Proveri ePub formate bez CSS margina na nivou knjige"
+
+#: config.py:114
+msgid "Check inline @page margins"
+msgstr "Proveri ugrađene margine pravila @page"
+
+#: config.py:114
+msgid "Check for ePub formats that contain @page CSS margins in each flow"
+msgstr ""
+"Proveri ePub formate koji sadrže CSS margine pravila @page u svakom toku "
+"teksta"
+
+#: config.py:115
+msgid "Check javascript <script>"
+msgstr "Proveri JavaScript <script>"
+
+#: config.py:115
+msgid "Check for ePub formats that contain inline javascript <script> blocks"
+msgstr "Proveri ePub formate sa ugrađenim JavaScript blokovima <script>"
+
+#: config.py:116
+msgid "Check smarten punctuation"
+msgstr "Proveri tipografsku obradu interpunkcije"
+
+#: config.py:116
+msgid "Check for ePub formats that contain unsmartened punctuation"
+msgstr "Proveri ePub formate sa tipografski neobrađenom interpunkcijom"
+
+#: config.py:118
+msgid "Check missing EBOK cdetype"
+msgstr "Proveri da li nedostaje EBOK cdetype"
+
+#: config.py:118
+msgid ""
+"Check for MOBI/AZW/AZW3 formats missing the cdetype of EBOK required for a "
+"Kindle Fire"
+msgstr ""
+"Proveri MOBI/AZW/AZW3 formate bez vrednosti EBOK za cdetype, potrebne za "
+"Kindle Fire"
+
+#: config.py:118 config.py:119 config.py:120 config.py:121
+msgid "Check Mobi"
+msgstr "Proveri MOBI"
+
+#: config.py:119
+msgid "Check missing ASIN identifier"
+msgstr "Proveri da li nedostaje identifikator ASIN"
+
+#: config.py:119
+msgid ""
+"Check for MOBI/AZW/AZW3 formats missing an ASIN in EXTH 113 required for "
+"reading on a Kindle Fire"
+msgstr ""
+"Proveri MOBI/AZW/AZW3 formate bez ASIN-a u EXTH 113, potrebnog za čitanje na"
+" Kindle Fire uređaju"
+
+#: config.py:120
+msgid "Check Twitter/Facebook disabled"
+msgstr "Proveri da li je deljenje na mrežama Twitter/Facebook onemogućeno"
+
+#: config.py:120
+msgid ""
+"Check for MOBI/AZW/AZW3 formats missing an ASIN in both EXTH 113 and EXTH "
+"504 to enable \"share\" features on Facebook or Twitter"
+msgstr ""
+"Proveri MOBI/AZW/AZW3 formate bez ASIN-a u EXTH 113 i EXTH 504, potrebnog za"
+" funkcije deljenja na mrežama Facebook ili Twitter"
+
+#: config.py:121
+msgid "Check clipping limit"
+msgstr "Proveri ograničenje kopiranja odlomaka"
+
+#: config.py:121
+msgid ""
+"Check for MOBI/AZW/AZW3 formats that have a clipping limit specified by the "
+"publisher in EXTH header 401"
+msgstr ""
+"Proveri MOBI/AZW/AZW3 formate sa ograničenjem kopiranja odlomaka koje je "
+"izdavač zadao u EXTH zaglavlju 401"
+
+#: config.py:123
+msgid "Check title sort"
+msgstr "Proveri redosled naslova"
+
+#: config.py:123
+msgid "Find books with an invalid title sort value"
+msgstr "Pronađi knjige sa neispravnom vrednošću za redosled naslova"
+
+#: config.py:123 config.py:124 config.py:125 config.py:126 config.py:127
+#: config.py:128 config.py:129 config.py:130 config.py:131 config.py:132
+#: config.py:133 config.py:134 config.py:135 config.py:136 config.py:137
+#: config.py:138 config.py:139 config.py:140 config.py:141
+msgid "Check metadata"
+msgstr "Proveri metapodatke"
+
+#: config.py:124
+msgid "Check author sort"
+msgstr "Proveri redosled autora"
+
+#: config.py:124
+msgid "Find books with an invalid author sort value"
+msgstr "Pronađi knjige sa neispravnom vrednošću za redosled autora"
+
+#: config.py:125
+msgid "Check ISBN"
+msgstr "Proveri ISBN"
+
+#: config.py:125
+msgid "Find books with an invalid ISBN"
+msgstr "Pronađi knjige sa neispravnim ISBN-om"
+
+#: config.py:126
+msgid "Check pubdate"
+msgstr "Proveri datum objavljivanja"
+
+#: config.py:126
+msgid ""
+"Find books with an invalid pubdate where it is set to the timestamp date"
+msgstr ""
+"Pronađi knjige sa neispravnim datumom objavljivanja koji je postavljen na "
+"datum vremenske oznake"
+
+#: config.py:127
+msgid "Check duplicate ISBN"
+msgstr "Proveri ponovljeni ISBN"
+
+#: config.py:127
+msgid "Find books that have duplicate ISBN values"
+msgstr "Pronađi knjige sa ponovljenim vrednostima ISBN-a"
+
+#: config.py:128
+msgid "Check duplicate series"
+msgstr "Proveri ponovljeni serijal"
+
+#: config.py:128
+msgid "Find books that have duplicate series values"
+msgstr "Pronađi knjige sa ponovljenim vrednostima serijala"
+
+#: config.py:129
+msgid "Check series gaps"
+msgstr "Proveri praznine u serijalu"
+
+#: config.py:129 config.py:130
+msgid "Find books that have gaps in their series index values"
+msgstr "Pronađi knjige sa prazninama u rednim brojevima serijala"
+
+#: config.py:130
+msgid "Check series pubdate order"
+msgstr "Proveri redosled datuma objavljivanja u serijalu"
+
+#: config.py:131
+msgid "Check excess tags"
+msgstr "Proveri višak oznaka"
+
+#: config.py:131
+msgid "Find books with an excess number of tags"
+msgstr "Pronađi knjige sa previše oznaka"
+
+#: config.py:132
+msgid "Check html comments"
+msgstr "Proveri HTML u komentarima"
+
+#: config.py:132
+msgid "Find books which have comments html with style formatting embedded"
+msgstr "Pronađi knjige čiji komentari sadrže ugrađeno HTML oblikovanje"
+
+#: config.py:133
+msgid "Check no html comments"
+msgstr "Proveri komentare bez HTML-a"
+
+#: config.py:133
+msgid "Find books which have comments with no html tags at all"
+msgstr "Pronađi knjige čiji komentari uopšte ne sadrže HTML oznake"
+
+#: config.py:134
+msgid "Check authors with commas"
+msgstr "Proveri autore sa zarezima"
+
+#: config.py:134
+msgid "Find authors with commas in their name"
+msgstr "Pronađi autore čija imena sadrže zareze"
+
+#: config.py:135
+msgid "Check authors missing commas"
+msgstr "Proveri autore bez zareza"
+
+#: config.py:135
+msgid "Find authors with no commas in their name"
+msgstr "Pronađi autore čija imena ne sadrže zareze"
+
+#: config.py:136
+msgid "Check authors for case"
+msgstr "Proveri velika i mala slova u imenima autora"
+
+#: config.py:136
+msgid "Find authors which are all uppercase or all lowercase"
+msgstr ""
+"Pronađi autore čija su imena napisana samo velikim ili samo malim slovima"
+
+#: config.py:137
+msgid "Check authors non alphabetic"
+msgstr "Proveri neslovne znakove u imenima autora"
+
+#: config.py:137
+msgid ""
+"Find authors with non-alphabetic characters such as semi-colons indicating "
+"cruft or incorrect separators"
+msgstr ""
+"Pronađi autore čija imena sadrže znakove koji nisu slova, poput tačke i "
+"zareza, što može ukazivati na suvišan tekst ili pogrešne razdvajače"
+
+#: config.py:138
+msgid "Check authors non ascii"
+msgstr "Proveri imena autora izvan ASCII zapisa"
+
+#: config.py:138
+msgid "Find authors with non-ascii names (e.g. with diacritics)"
+msgstr ""
+"Pronađi autore čija imena sadrže znakove izvan ASCII zapisa (npr. "
+"dijakritike)"
+
+#: config.py:139
+msgid "Check authors initials"
+msgstr "Proveri inicijale autora"
+
+#: config.py:139
+msgid ""
+"Find authors with initials that do not meet your preferred configuration"
+msgstr "Pronađi autore čiji inicijali ne odgovaraju izabranom formatu"
+
+#: config.py:140
+msgid "Check titles with series"
+msgstr "Proveri naslove sa nazivom serijala"
+
+#: config.py:140
+msgid "Find titles with possible series info in their name"
+msgstr "Pronađi naslove koji možda sadrže podatke o serijalu"
+
+#: config.py:141
+msgid "Check titles for title case"
+msgstr "Proveri velika i mala slova u naslovima"
+
+#: config.py:141
+msgid "Find titles which are candidates to apply the titlecase function to"
+msgstr ""
+"Pronađi naslove kojima bi mogla da se primeni funkcija za pravilno pisanje "
+"velikih i malih slova"
+
+#: config.py:143
+msgid "Check missing title"
+msgstr "Proveri da li nedostaje naslov"
+
+#: config.py:143
+msgid "Find books missing a title"
+msgstr "Pronađi knjige bez naslova"
+
+#: config.py:143 config.py:144 config.py:145 config.py:146 config.py:147
+#: config.py:148 config.py:149 config.py:150 config.py:151 config.py:152
+#: config.py:153
+msgid "Check missing"
+msgstr "Proveri nedostajuće podatke"
+
+#: config.py:144
+msgid "Check missing author"
+msgstr "Proveri da li nedostaje autor"
+
+#: config.py:144
+msgid "Find books missing authors"
+msgstr "Pronađi knjige bez navedenog autora"
+
+#: config.py:145
+msgid "Check missing ISBN"
+msgstr "Proveri da li nedostaje ISBN"
+
+#: config.py:145
+msgid "Find books missing an ISBN identifier"
+msgstr "Pronađi knjige bez identifikatora ISBN"
+
+#: config.py:146
+msgid "Check missing pubdate"
+msgstr "Proveri da li nedostaje datum objavljivanja"
+
+#: config.py:146
+msgid "Find books missing published date"
+msgstr "Pronađi knjige bez datuma objavljivanja"
+
+#: config.py:147
+msgid "Check missing publisher"
+msgstr "Proveri da li nedostaje izdavač"
+
+#: config.py:147
+msgid "Find books missing publisher"
+msgstr "Pronađi knjige bez navedenog izdavača"
+
+#: config.py:148
+msgid "Check missing tags"
+msgstr "Proveri da li nedostaju oznake"
+
+#: config.py:148
+msgid "Find books missing tags"
+msgstr "Pronađi knjige bez oznaka"
+
+#: config.py:149
+msgid "Check missing rating"
+msgstr "Proveri da li nedostaje ocena"
+
+#: config.py:149
+msgid "Find books missing rating"
+msgstr "Pronađi knjige bez ocene"
+
+#: config.py:150
+msgid "Check missing comments"
+msgstr "Proveri da li nedostaju komentari"
+
+#: config.py:150
+msgid "Find books missing comments"
+msgstr "Pronađi knjige bez komentara"
+
+#: config.py:151
+msgid "Check missing languages"
+msgstr "Proveri da li nedostaju jezici"
+
+#: config.py:151
+msgid "Find books missing languages"
+msgstr "Pronađi knjige bez navedenih jezika"
+
+#: config.py:152
+msgid "Check missing cover"
+msgstr "Proveri da li nedostaje korica"
+
+#: config.py:152
+msgid "Find books missing a cover"
+msgstr "Pronađi knjige bez korice"
+
+#: config.py:153
+msgid "Check missing formats"
+msgstr "Proveri da li nedostaju formati"
+
+#: config.py:153
+msgid "Find books missing formats"
+msgstr "Pronađi knjige bez formata"
+
+#: config.py:155
+msgid "Find ePub books with text matching your own regular expression"
+msgstr "Pronađi ePub knjige čiji tekst odgovara vašem regularnom izrazu"
+
+#: config.py:155 dialogs.py:556
+msgid "Search ePubs"
+msgstr "Pretraži ePub knjige"
+
+#: config.py:160
+msgid "Swap author FN LN <-> LN,FN"
+msgstr "Zameni redosled imena autora Ime Prezime <-> Prezime, Ime"
+
+#: config.py:160
+msgid ""
+"For the selected book(s) swap author names between FN LN and LN, FN formats"
+msgstr ""
+"Za izabrane knjige zameni redosled imena autora između formata Ime Prezime i"
+" Prezime, Ime"
+
+#: config.py:161
+msgid "Reformat author initials"
+msgstr "Preoblikuj inicijale autora"
+
+#: config.py:161
+msgid ""
+"For the selected book(s) reformat the author initials to your configured "
+"preference"
+msgstr ""
+"Za izabrane knjige preoblikuj inicijale autora prema izabranom formatu"
+
+#: config.py:162
+msgid "Rename author to ascii"
+msgstr "Ukloni dijakritike iz imena autora"
+
+#: config.py:162
+msgid ""
+"For the selected book(s) rename the author to remove any accents and "
+"diacritics characters"
+msgstr "Za izabrane knjige ukloni akcente i dijakritike iz imena autora"
+
+#: config.py:163
+msgid "Set author sort"
+msgstr "Postavi redosled autora"
+
+#: config.py:163
+msgid ""
+"For the selected book(s) replace the author sort with a value based on the "
+"Manage Authors data"
+msgstr ""
+"Za izabrane knjige zameni redosled autora vrednošću zasnovanom na podacima "
+"iz upravljanja autorima"
+
+#: config.py:164
+msgid "Set title sort"
+msgstr "Postavi redosled naslova"
+
+#: config.py:164
+msgid ""
+"For the selected book(s) replace the title sort with a value based on your "
+"tweak preference"
+msgstr ""
+"Za izabrane knjige zameni redosled naslova vrednošću zasnovanom na izabranom"
+" podešavanju"
+
+#: config.py:165
+msgid "Check and repair book sizes"
+msgstr "Proveri i popravi veličine knjiga"
+
+#: config.py:165
+msgid "Check and update file sizes for your books"
+msgstr "Proveri i ažuriraj veličine datoteka knjiga"
+
+#: config.py:166
+msgid "Check and rename book paths"
+msgstr "Proveri i preimenuj putanje knjiga"
+
+#: config.py:166
+msgid "Ensure book paths include commas if appropriate"
+msgstr "Obezbedi da putanje knjiga sadrže zareze gde je potrebno"
+
+#: config.py:167
+msgid "Cleanup .opf files/folders"
+msgstr "Očisti .opf datoteke i fascikle"
+
+#: config.py:167
+msgid "Delete orphaned opf/jpg files and remove empty folders"
+msgstr "Obriši suvišne OPF/JPG datoteke i ukloni prazne fascikle"
+
+#: config.py:168
+msgid "Fix ASIN for Kindle Fire"
+msgstr "Ispravi ASIN za Kindle Fire"
+
+#: config.py:168
+msgid ""
+"For MOBI/AZW/AZW3 formats, assign the current amazon identifier (uuid if not"
+" present) as an ASIN to EXTH 113 and 504 fields"
+msgstr ""
+"Za MOBI/AZW/AZW3 formate upiši postojeći Amazon identifikator (ili UUID ako "
+"ne postoji) kao ASIN u polja EXTH 113 i 504"
+
+#: config.py:169
+msgid "Normalize the fields"
+msgstr "Normalizuj polja"
+
+#: config.py:169
+msgid ""
+"Normalize the text fields by using their canonical form defined by the "
+"Unicode Standard, aka merge and reorders diacritics. Can result to "
+"unduplicate some values."
+msgstr ""
+"Normalizuj tekstualna polja u kanonski oblik definisan standardom Unicode, "
+"odnosno objedini i pravilno poređaj dijakritike. Time se neke prividno "
+"različite vrednosti mogu spojiti."
+
+#: config.py:170
+msgid "Normalize the notes"
+msgstr "Normalizuj beleške"
+
+#: config.py:170
+msgid ""
+"Normalize the category notes by using their canonical form defined by the "
+"Unicode Standard, aka merge and reorders diacritics."
+msgstr ""
+"Normalizuj beleške kategorija u kanonski oblik definisan standardom Unicode,"
+" odnosno objedini i pravilno poređaj dijakritike."
+
+#: config.py:291
+msgid "Check excess tags options"
+msgstr "Opcije provere viška oznaka"
+
+#: config.py:296
+msgid "Maximum tags:"
+msgstr "Najveći broj oznaka:"
+
+#: config.py:297
+msgid "Books with more than this value will be displayed"
+msgstr "Prikazaće se knjige sa više oznaka od ove vrednosti"
+
+#: config.py:305
+msgid "Exclude tags:"
+msgstr "Izuzmi oznake:"
+
+#: config.py:306
+msgid "Exclude these tags from when counting the tags for each book"
+msgstr "Ne računaj ove oznake pri brojanju oznaka za svaku knjigu"
+
+#: config.py:315
+msgid "Other options"
+msgstr "Ostale opcije"
+
+#: config.py:320
+msgid "Author initials format:"
+msgstr "Format inicijala autora:"
+
+#: config.py:321
+msgid ""
+"For use with the \"Check Author initials\" option, set your preferred format"
+msgstr "Za opciju „Proveri inicijale autora“ izaberite željeni format"
+
+#: config.py:328
+msgid "Suppress Fix summary dialogs"
+msgstr "Ne prikazuj dijaloge sa sažetkom ispravki"
+
+#: config.py:329
+msgid ""
+"Uncheck this option if you do not want interactive dialogs to appear "
+"summarising the operation"
+msgstr ""
+"Isključite ovu opciju ako želite da se posle postupka pojavljuju "
+"interaktivni dijalozi sa sažetkom"
+
+#: config.py:334
+msgid "Search history count:"
+msgstr "Broj stavki istorije pretrage:"
+
+#: config.py:335
+msgid ""
+"How many previous search expressions to remember on Search sPubs dialog"
+msgstr ""
+"Koliko prethodnih izraza za pretragu sačuvati u dijalogu za pretragu ePub "
+"knjiga"
+
+#: config.py:344
+msgid "Visible menus"
+msgstr "Vidljivi meniji"
+
+#: config.py:353
+msgid "Edit the keyboard shortcuts associated with this plugin"
+msgstr "Izmeni prečice na tastaturi za ovaj dodatak"
+
+#: config.py:357
+msgid "&View library preferences"
+msgstr "&Prikaži postavke biblioteke"
+
+#: config.py:358
+msgid "View data stored in the library database for this plugin"
+msgstr "Prikaži podatke sačuvane u bazi podataka biblioteke za ovaj dodatak"
+
+#: dialogs.py:40
+msgid "Checking"
+msgstr "Provera"
+
+#: dialogs.py:42
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: dialogs.py:62
+msgid "%s %d %s  (%d matches)..."
+msgstr "%s %d %s  (%d podudaranja)..."
+
+#: dialogs.py:137
+msgid "Cover Search Options"
+msgstr "Opcije pretrage korica"
+
+#: dialogs.py:140
+msgid "Search library for books where"
+msgstr "Pretraži biblioteku za knjige čija"
+
+#: dialogs.py:144
+msgid "Cover file size is"
+msgstr "Veličina datoteke korice je"
+
+#: dialogs.py:154
+msgid "Cover dimensions are"
+msgstr "Dimenzije korice su"
+
+#: dialogs.py:162 dialogs.py:177
+msgid "width"
+msgstr "širina"
+
+#: dialogs.py:167 dialogs.py:182
+msgid "height"
+msgstr "visina"
+
+#: dialogs.py:169
+msgid "Cover aspect ratio is"
+msgstr "Odnos širine i visine korice je"
+
+#: dialogs.py:187
+msgid "tolerance"
+msgstr "tolerancija"
+
+#: dialogs.py:189
+msgid "No cover"
+msgstr "Nema korice"
+
+#: dialogs.py:274
+msgid "View log"
+msgstr "Prikaži dnevnik"
+
+#: dialogs.py:281
+msgid "Quality Check log"
+msgstr "Dnevnik provere kvaliteta"
+
+#: dialogs.py:323
+msgid "quality check plugin:exclude add dialog"
+msgstr "dodatak za proveru kvaliteta: dijalog za dodavanje izuzetaka"
+
+#: dialogs.py:332
+msgid "Quality Check Add Exclusions"
+msgstr "Provera kvaliteta: dodavanje izuzetaka"
+
+#: dialogs.py:335
+msgid "Exclude Books"
+msgstr "Izuzmi knjige"
+
+#: dialogs.py:339
+msgid "Exclude selected books(s) from the following Quality Check:"
+msgstr "Izuzmi izabrane knjige iz sledeće provere kvaliteta:"
+
+#: dialogs.py:443
+msgid "quality check plugin:exclude view dialog"
+msgstr "dodatak za proveru kvaliteta: dijalog za pregled izuzetaka"
+
+#: dialogs.py:446
+msgid "Quality Check View Exclusions"
+msgstr "Provera kvaliteta: pregled izuzetaka"
+
+#: dialogs.py:450
+msgid "View Excluded Books"
+msgstr "Prikaži izuzete knjige"
+
+#: dialogs.py:469
+msgid "Remove selected books from the exclusions"
+msgstr "Ukloni izabrane knjige iz izuzetaka"
+
+#: dialogs.py:528
+msgid "quality check plugin:search epub dialog"
+msgstr "dodatak za proveru kvaliteta: dijalog za pretragu ePub knjiga"
+
+#: dialogs.py:560
+msgid "Find expression"
+msgstr "Izraz za pretragu"
+
+#: dialogs.py:574
+msgid "Clear search history"
+msgstr "Obriši istoriju pretrage"
+
+#: dialogs.py:579
+msgid "&Ignore case"
+msgstr "&Zanemari velika i mala slova"
+
+#: dialogs.py:581
+msgid "&Show all occurrences"
+msgstr "&Prikaži sva pojavljivanja"
+
+#: dialogs.py:582
+msgid ""
+"If unchecked, the search of each ePub is stopped as soon as the first match is found.\n"
+"If checked, all occurrences will be displayed in the log but it will run much slower."
+msgstr ""
+"Ako nije izabrano, pretraga svake ePub knjige staje čim se pronađe prvo podudaranje.\n"
+" Ako je izabrano, sva pojavljivanja biće prikazana u dnevniku, ali će pretraga biti znatno sporija."
+
+#: dialogs.py:587
+msgid "Scope"
+msgstr "Opseg"
+
+#: dialogs.py:592
+msgid "&HTML content"
+msgstr "&HTML sadržaj"
+
+#: dialogs.py:593
+msgid ""
+"Search all html content files, including any html tags.\n"
+"If you also ticked the Plain text content option, this option is ignored."
+msgstr ""
+"Pretraži sav sadržaj HTML datoteka, uključujući HTML oznake.\n"
+" Ako je izabrana i opcija za običan tekst, ova opcija se zanemaruje."
+
+#: dialogs.py:595
+msgid "&CSS/xpgt stylesheets"
+msgstr "&CSS/xpgt stilovi"
+
+#: dialogs.py:596
+msgid "Search all css or Adobe .xpgt stylesheets"
+msgstr "Pretraži sve CSS i Adobe .xpgt datoteke stilova"
+
+#: dialogs.py:597
+msgid "&Plain text content"
+msgstr "&Običan tekst"
+
+#: dialogs.py:598
+msgid ""
+"Search body text of html files with all html tags stripped.\n"
+"If you also ticked the HTML content option, that is ignored in favour of this."
+msgstr ""
+"Pretraži tekst tela HTML datoteka bez HTML oznaka.\n"
+" Ako je izabrana i opcija za HTML sadržaj, ona se zanemaruje u korist ove opcije."
+
+#: dialogs.py:600
+msgid "&OPF manifest"
+msgstr "&OPF manifest"
+
+#: dialogs.py:601
+msgid "Search the .opf manifest file"
+msgstr "Pretraži datoteku .opf manifesta"
+
+#: dialogs.py:602
+msgid "&NCX TOC"
+msgstr "&NCX sadržina"
+
+#: dialogs.py:603
+msgid "Search the NCX table of contents file"
+msgstr "Pretraži NCX datoteku sadržine"
+
+#: dialogs.py:604
+msgid "&Zip filenames"
+msgstr "&Imena ZIP datoteka"
+
+#: dialogs.py:605
+msgid "Search the filenames inside the ePub (zip) file"
+msgstr "Pretraži imena datoteka unutar ePub (ZIP) arhive"
+
+#: dialogs.py:625
+msgid "No find text"
+msgstr "Nije unet tekst za pretragu"
+
+#: dialogs.py:626
+msgid "You must specify a regular expression to search for."
+msgstr "Morate navesti regularni izraz za pretragu."
+
+#: dialogs.py:635
+msgid "No search scope"
+msgstr "Nije izabran opseg pretrage"
+
+#: dialogs.py:636
+msgid "You must specify a scope for the ePub search."
+msgstr "Morate navesti opseg pretrage ePub knjiga."
+
+#: dialogs.py:695
+msgid "Fixing"
+msgstr "Ispravljanje"
+
+#: dialogs.py:708
+msgid "Fix completed"
+msgstr "Ispravljanje je završeno"
+
+#: mobi6.py:86
+msgid "This is an Amazon Topaz book. It cannot be processed."
+msgstr "Ovo je Amazon Topaz knjiga. Ne može se obraditi."
+
+#: mobi6.py:94
+msgid "Unknown book type: %s"
+msgstr "Nepoznat tip knjige: %s"
+
+#: mobi6.py:134
+msgid "Setting ASIN only supported for MOBI files of type 'BOOK'."
+msgstr "Postavljanje ASIN-a podržano je samo za MOBI datoteke tipa „BOOK“."
+
+#: mobi6.py:159
+msgid "No existing EXTH record. Cannot update ASIN."
+msgstr "Ne postoji EXTH zapis. ASIN ne može da se ažurira."

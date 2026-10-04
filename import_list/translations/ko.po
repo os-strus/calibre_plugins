@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-24 17:48+1000\n"
+"POT-Creation-Date: 2026-09-26 15:02+1000\n"
 "PO-Revision-Date: 2022-09-19 15:03+0000\n"
 "Last-Translator: Junghee Lee <daemul72@gmail.com>, 2026\n"
 "Language-Team: Korean (https://app.transifex.com/calibre/teams/19337/ko/)\n"
@@ -81,7 +81,7 @@ msgstr "설정 삭제됨"
 msgid "All settings for this plugin in this library have been cleared."
 msgstr "이 서재에서 이 플러그인의 모든 설정이 지워졌습니다."
 
-#: ..\common\common_dialogs.py:297
+#: ..\common\common_dialogs.py:296
 msgid "Copy to clipboard"
 msgstr "클립보드에 복사"
 
@@ -224,12 +224,12 @@ msgid "detect encoding"
 msgstr "인코딩 감지"
 
 #: encodings.py:236
-msgid "Description"
-msgstr "설명"
-
-#: encodings.py:236
 msgid "Encoding"
 msgstr "인코딩"
+
+#: encodings.py:236
+msgid "Description"
+msgstr "설명"
 
 #: encodings.py:241
 msgid "Choose Encodings"
@@ -267,7 +267,7 @@ msgstr "기본값으로 재설정"
 msgid "No encodings selected"
 msgstr "선택한 인코딩이 없습니다"
 
-#: encodings.py:356 page_resolve.py:128 tab_common.py:360
+#: encodings.py:356 page_resolve.py:137 tab_common.py:360
 msgid "You must select one or more fields first."
 msgstr "먼저 하나 이상의 필드를 선택해야 합니다."
 
@@ -299,7 +299,7 @@ msgstr "이 목록을 저장하면 빈 책이 추가됩니다"
 msgid "This book was added to your list manually"
 msgstr "이 책은 목록에 수동으로 추가되었습니다"
 
-#: models.py:147 page_resolve.py:631
+#: models.py:163 page_resolve.py:643
 msgid "Unknown"
 msgstr "알 수 없음"
 
@@ -355,51 +355,51 @@ msgstr "제목 필드는 필수이며 비워 둘 수 없습니다"
 msgid "Data must be of type: {}"
 msgstr "데이터 형식은 다음이어야 합니다: {}"
 
-#: page_import.py:310
+#: page_import.py:311
 msgid "Step 1: Configure a list source"
 msgstr "1단계: 목록 원본 설정"
 
-#: page_import.py:324
+#: page_import.py:325
 msgid "User Settings"
 msgstr "사용자 설정"
 
-#: page_import.py:325
+#: page_import.py:326
 msgid "Predefined"
 msgstr "사전 정의"
 
-#: page_import.py:326
+#: page_import.py:327
 msgid "Clipboard"
 msgstr "클립보드"
 
-#: page_import.py:327
+#: page_import.py:328
 msgid "CSV File"
 msgstr "CSV 파일"
 
-#: page_import.py:328
+#: page_import.py:329
 msgid "Web Page"
 msgstr "웹 페이지"
 
-#: page_import.py:375 page_resolve.py:436
+#: page_import.py:376 page_resolve.py:448
 msgid "&Remove book"
 msgstr "도서 제거(&R)"
 
-#: page_import.py:376
+#: page_import.py:377
 msgid "Remove selected books from the list"
 msgstr "선택한 책을 목록에서 제거"
 
-#: page_import.py:380
+#: page_import.py:381
 msgid "&Export to csv"
 msgstr "CSV로 내보내기(&E)"
 
-#: page_import.py:381
+#: page_import.py:382
 msgid "Export selected books to csv file"
 msgstr "선택한 도서를 CSV 파일로 내보내기"
 
-#: page_import.py:393 page_resolve.py:590
+#: page_import.py:394 page_resolve.py:602
 msgid "Are you sure you want to remove the selected books from the list?"
 msgstr "선택한 책을 목록에서 제거하시겠습니까?"
 
-#: page_import.py:413
+#: page_import.py:414
 msgid "Choose file for exported csv"
 msgstr "내보낼 CSV 파일 선택"
 
@@ -471,55 +471,55 @@ msgstr "현재 설정 저장 안 함(&D)"
 msgid "&Save settings as:"
 msgstr "설정 다른 이름으로 저장(&S):"
 
-#: page_persist.py:380
+#: page_persist.py:382
 msgid "Custom Column Missing"
 msgstr "사용자 지정 열 누락"
 
-#: page_persist.py:381
+#: page_persist.py:383
 msgid ""
 "You are importing to a custom column '%s' which does not exist in this "
 "library.<p>"
 msgstr "이 서재에 존재하지 않는 사용자 지정 열 '%s'(으)로 가져오고 있습니다.<p>"
 
-#: page_persist.py:382
+#: page_persist.py:384
 msgid ""
 "This column will be ignored. Either add a matching custom column or edit "
 "your import statement."
 msgstr "이 열은 무시됩니다. 일치하는 사용자 지정 열을 추가하거나 가져오기 문장을 수정하세요."
 
-#: page_persist.py:389
+#: page_persist.py:391
 msgid "ImportList plugin: no metadata found for column:"
 msgstr "Import List 플러그인: 다음 열의 메타데이터를 찾을 수 없음:"
 
-#: page_persist.py:448
+#: page_persist.py:450
 msgid "Adding books (%(idx)d of %(count)d): %(title)s"
 msgstr "책 추가 중 (%(idx)d / %(count)d): %(title)s"
 
-#: page_persist.py:460
+#: page_persist.py:462
 msgid "Updating books (%(idx)d of %(count)d): %(title)s"
 msgstr "책 업데이트 중 (%(idx)d / %(count)d): %(title)s"
 
-#: page_persist.py:482
+#: page_persist.py:484
 msgid "You have not specified a reading list name"
 msgstr "읽기 목록 이름을 지정하지 않았습니다."
 
-#: page_persist.py:482 page_persist.py:488
+#: page_persist.py:484 page_persist.py:490
 msgid "Invalid List Name"
 msgstr "유효하지 않은 목록 이름"
 
-#: page_persist.py:488
+#: page_persist.py:490
 msgid "Another list exists with this name"
 msgstr "같은 이름의 다른 목록이 이미 있습니다."
 
-#: page_persist.py:502
+#: page_persist.py:504
 msgid "Invalid Setting Name"
 msgstr "유효하지 않은 설정 이름"
 
-#: page_persist.py:502
+#: page_persist.py:504
 msgid "You have not specified a setting name"
 msgstr "설정 이름을 지정하지 않았습니다."
 
-#: page_persist.py:545
+#: page_persist.py:547
 msgid "Failed"
 msgstr "실패"
 
@@ -535,179 +535,189 @@ msgstr "모두 선택"
 msgid "Clear all"
 msgstr "모두 지우기"
 
-#: page_resolve.py:128 tab_common.py:360
+#: page_resolve.py:78
+msgid "Replace existing values in tags-like fields"
+msgstr ""
+
+#: page_resolve.py:79
+msgid ""
+"When checked, selected tags/custom fields are replaced with imported values."
+" Otherwise, imported values are added to existing values."
+msgstr ""
+
+#: page_resolve.py:137 tab_common.py:360
 msgid "No fields selected"
 msgstr "선택한 필드 없음"
 
-#: page_resolve.py:202
+#: page_resolve.py:213
 msgid "Step 2: Match list of books against your library"
 msgstr "2단계: 책 목록을 서재와 대조"
 
-#: page_resolve.py:226
+#: page_resolve.py:237
 msgid "Books in list:"
 msgstr "목록의 도서:"
 
-#: page_resolve.py:242
+#: page_resolve.py:253
 msgid "Show All"
 msgstr "모두 표시"
 
-#: page_resolve.py:244
+#: page_resolve.py:255
 msgid "Matched"
 msgstr "일치"
 
-#: page_resolve.py:245
+#: page_resolve.py:256
 msgid "Unmatched"
 msgstr "불일치"
 
-#: page_resolve.py:257 page_resolve.py:1045 page_resolve.py:1049
+#: page_resolve.py:268 page_resolve.py:1071 page_resolve.py:1075
 msgid "Matches in library:"
 msgstr "서재의 일치 항목:"
 
-#: page_resolve.py:271
+#: page_resolve.py:282
 msgid "Clear the match associated with the selected books in the list"
 msgstr "목록에서 선택한 책과 연결된 일치 항목 지우기"
 
-#: page_resolve.py:275
+#: page_resolve.py:286
 msgid "Remove the selected books from the list"
 msgstr "선택한 책을 목록에서 제거"
 
-#: page_resolve.py:279
+#: page_resolve.py:290
 msgid "Create an empty book for the selected books in the list"
 msgstr "목록에서 선택한 책에 대해 빈 책 만들기"
 
-#: page_resolve.py:283
+#: page_resolve.py:294
 msgid "Update metadata for the selected books in the list"
 msgstr "목록에서 선택한 책의 메타데이터 업데이트"
 
-#: page_resolve.py:287
+#: page_resolve.py:298
 msgid "Revert metadata for the selected books back to existing values"
 msgstr "선택한 책의 메타데이터를 기존 값으로 되돌리기"
 
-#: page_resolve.py:296
+#: page_resolve.py:307
 msgid "Possible matches for selected book:"
 msgstr "선택한 도서의 가능한 일치 항목:"
 
-#: page_resolve.py:304
+#: page_resolve.py:315
 msgid "Search:"
 msgstr "찾을 내용:"
 
-#: page_resolve.py:306
+#: page_resolve.py:317
 msgid "&Go!"
 msgstr "이동(&G)!"
 
-#: page_resolve.py:326
+#: page_resolve.py:337
 msgid "Select this book as the match for this list title"
 msgstr "이 책을 이 목록 제목의 일치 항목으로 선택"
 
-#: page_resolve.py:330
+#: page_resolve.py:341
 msgid "Append this book as a new item on the list"
 msgstr "이 책을 목록의 새 항목으로 추가"
 
-#: page_resolve.py:433
+#: page_resolve.py:445
 msgid "&Clear match"
 msgstr "일치 항목 지우기(&C)"
 
-#: page_resolve.py:441
+#: page_resolve.py:453
 msgid "Match &empty book"
 msgstr "빈 책과 일치시키기(&E)"
 
-#: page_resolve.py:444
+#: page_resolve.py:456
 msgid "&Update metadata"
 msgstr "메타데이터 업데이트(&U)"
 
-#: page_resolve.py:447
+#: page_resolve.py:459
 msgid "&Revert metadata"
 msgstr "메타데이터 되돌리기(&R)"
 
-#: page_resolve.py:450
+#: page_resolve.py:462
 msgid "S&wap Author Names"
 msgstr "저자 이름 바꾸기(&W)"
 
-#: page_resolve.py:451
+#: page_resolve.py:463
 msgid "Swap selected author names between FN LN and LN,FN"
 msgstr "선택한 저자 이름의 순서를 \"이름 성\"과 \"성, 이름\" 사이에서 바꿉니다"
 
-#: page_resolve.py:455
+#: page_resolve.py:467
 msgid "&Search for title/author"
 msgstr "제목/저자 검색(&S)"
 
-#: page_resolve.py:456
+#: page_resolve.py:468
 msgid "&Search your library using a simplified title/author of this book"
 msgstr "이 책의 단순화한 제목/저자로 서재 검색(&S)"
 
-#: page_resolve.py:458
+#: page_resolve.py:470
 msgid "Search for &title"
 msgstr "제목 검색(&T)"
 
-#: page_resolve.py:459
+#: page_resolve.py:471
 msgid "&Search your library using a simplified title of this book"
 msgstr "이 책의 단순화한 제목으로 서재 검색(&S)"
 
-#: page_resolve.py:461
+#: page_resolve.py:473
 msgid "Search for &author"
 msgstr "저자 검색(&A)"
 
-#: page_resolve.py:462
+#: page_resolve.py:474
 msgid "&Search your library using a simplified author of this book"
 msgstr "이 책의 단순화한 저자로 서재 검색(&S)"
 
-#: page_resolve.py:482
+#: page_resolve.py:494
 msgid "&Select Book"
 msgstr "도서 선택(&S)"
 
-#: page_resolve.py:487
+#: page_resolve.py:499
 msgid "&Append to list"
 msgstr "목록에 추가(&A)"
 
-#: page_resolve.py:578
+#: page_resolve.py:590
 msgid "*** No Match ***"
 msgstr "*** 일치 항목 없음 ***"
 
-#: page_resolve.py:742
+#: page_resolve.py:761
 msgid "Are you sure you want to add the selected book to the list?"
 msgstr "선택한 책을 목록에 추가하시겠습니까?"
 
-#: page_resolve.py:773
+#: page_resolve.py:792
 msgid "No Match"
 msgstr "일치 항목 없음"
 
-#: page_resolve.py:857
+#: page_resolve.py:876
 msgid "*** Multiple Matches ***"
 msgstr "*** 여러 일치 항목 ***"
 
-#: page_resolve.py:882
+#: page_resolve.py:901
 msgid "Multiple Matches"
 msgstr "여러 일치 항목"
 
-#: page_resolve.py:941
+#: page_resolve.py:967
 msgid "Displaying all similar matches for this book"
 msgstr "이 도서의 유사 일치 항목 모두 표시 중"
 
-#: page_resolve.py:959
+#: page_resolve.py:985
 msgid "Search for a book in your library"
 msgstr "서재에서 책 검색"
 
-#: page_resolve.py:1047
+#: page_resolve.py:1073
 msgid "Matches in library:(1 match)"
 msgstr "서재의 일치 항목:(1개 일치)"
 
-#: tab_clipboard.py:50
+#: tab_clipboard.py:51
 msgid "&Paste your book list here:"
 msgstr "여기에 책 목록 붙여넣기(&P):"
 
-#: tab_clipboard.py:56
+#: tab_clipboard.py:57
 msgid "&Paste"
 msgstr "붙이기(&P)"
 
-#: tab_clipboard.py:57
+#: tab_clipboard.py:58
 msgid "Replace all text above with the contents of your clipboard"
 msgstr "위의 모든 텍스트를 클립보드 내용으로 바꾸기"
 
-#: tab_clipboard.py:68
+#: tab_clipboard.py:69
 msgid "Conversion expression:"
 msgstr "변환 식:"
 
-#: tab_clipboard.py:73
+#: tab_clipboard.py:74
 msgid ""
 "Set a <a href=\"http://manual.calibre-ebook.com/regexp.html\">regular "
 "expression</a> to use for titles and other metadata. The group names you can"
@@ -716,47 +726,47 @@ msgstr ""
 "제목 및 기타 메타데이터에 사용할 <a href=\"http://manual.calibre-"
 "ebook.com/regexp.html\">정규식</a>을 설정합니다. 사용할 수 있는 그룹 이름은 다음과 같습니다."
 
-#: tab_clipboard.py:87
+#: tab_clipboard.py:88
 msgid "Choose a predefined named pattern"
 msgstr "미리 정의된 이름 있는 패턴 선택"
 
-#: tab_clipboard.py:96 tab_csv.py:206 tab_webpage.py:306
+#: tab_clipboard.py:97 tab_csv.py:212 tab_webpage.py:306
 msgid "&Clear"
 msgstr "비우기(&C)"
 
-#: tab_clipboard.py:97 tab_csv.py:207 tab_webpage.py:307
+#: tab_clipboard.py:98 tab_csv.py:213 tab_webpage.py:307
 msgid "Clear all settings back to the defaults on this tab"
 msgstr "이 탭의 모든 설정을 기본값으로 되돌리기"
 
-#: tab_clipboard.py:99 tab_csv.py:209 tab_webpage.py:309
+#: tab_clipboard.py:100 tab_csv.py:215 tab_webpage.py:309
 msgid "&Fields"
 msgstr "필드(&F)"
 
-#: tab_clipboard.py:100
+#: tab_clipboard.py:101
 msgid "Add expression for field to import"
 msgstr "가져올 필드 식 추가"
 
-#: tab_clipboard.py:102 tab_csv.py:217 tab_webpage.py:312
+#: tab_clipboard.py:103 tab_csv.py:223 tab_webpage.py:312
 msgid "Reverse order"
 msgstr "순서 반전"
 
-#: tab_clipboard.py:103 tab_csv.py:218 tab_webpage.py:313
+#: tab_clipboard.py:104 tab_csv.py:224 tab_webpage.py:313
 msgid "Display the books in the opposite order to the source"
 msgstr "원본과 반대 순서로 책 표시"
 
-#: tab_clipboard.py:104 tab_csv.py:219 tab_settings.py:53 tab_webpage.py:314
+#: tab_clipboard.py:105 tab_csv.py:225 tab_settings.py:58 tab_webpage.py:314
 msgid "&Preview"
 msgstr "미리보기(&P)"
 
-#: tab_clipboard.py:105 tab_csv.py:220 tab_settings.py:54 tab_webpage.py:315
+#: tab_clipboard.py:106 tab_csv.py:226 tab_settings.py:59 tab_webpage.py:315
 msgid "Preview the results in the books grid"
 msgstr "책 그리드에서 결과 미리보기"
 
-#: tab_clipboard.py:173
+#: tab_clipboard.py:174
 msgid "Failed to parse page:\n"
 msgstr "페이지를 구문 분석하지 못했습니다:\n"
 
-#: tab_clipboard.py:174
+#: tab_clipboard.py:175
 msgid "Invalid regular expression"
 msgstr "잘못된 정규 표현식"
 
@@ -820,59 +830,59 @@ msgstr "제목/저자(&T)"
 msgid "&Identifier:"
 msgstr "식별자(&I):"
 
-#: tab_csv.py:102
+#: tab_csv.py:108
 msgid "&Import from file:"
 msgstr "파일에서 가져오기(&I):"
 
-#: tab_csv.py:114
+#: tab_csv.py:120
 msgid "Choose the file to import"
 msgstr "가져올 파일 선택"
 
-#: tab_csv.py:121
+#: tab_csv.py:127
 msgid "&Contents:"
 msgstr "내용(&C):"
 
-#: tab_csv.py:126 tab_webpage.py:210
+#: tab_csv.py:132 tab_webpage.py:210
 msgid "&Encoding:"
 msgstr "인코딩(&E):"
 
-#: tab_csv.py:142
+#: tab_csv.py:148
 msgid "&Delimiter:"
 msgstr "구분자(&D):"
 
-#: tab_csv.py:146
+#: tab_csv.py:152
 msgid "&Tab"
 msgstr "탭(&T)"
 
-#: tab_csv.py:147
+#: tab_csv.py:153
 msgid "&Other:"
 msgstr "기타(&O):"
 
-#: tab_csv.py:156
+#: tab_csv.py:162
 msgid "Processing:"
 msgstr "처리:"
 
-#: tab_csv.py:160
+#: tab_csv.py:166
 msgid "S&kip first row"
 msgstr "첫 번째 행 건너뛰기(&K)"
 
-#: tab_csv.py:161
+#: tab_csv.py:167
 msgid "Select this option to ignore the first row of column headings"
 msgstr "열 머리글의 첫 번째 행을 무시하려면 이 옵션을 선택하세요."
 
-#: tab_csv.py:162
+#: tab_csv.py:168
 msgid "&Unquote"
 msgstr "따옴표 제거(&U)"
 
-#: tab_csv.py:163
+#: tab_csv.py:169
 msgid "Remove any quotes around columns of data"
 msgstr "데이터 열을 둘러싼 따옴표 제거"
 
-#: tab_csv.py:165
+#: tab_csv.py:171
 msgid "Tidy"
 msgstr "tidy"
 
-#: tab_csv.py:166
+#: tab_csv.py:172
 msgid ""
 "Clean title and authors before importing. This is intended for web imports but is optional for csv\n"
 "It includes removing leading and trailing periods and commas, removing some special characters\n"
@@ -882,151 +892,151 @@ msgstr ""
 "앞뒤의 마침표와 쉼표를 제거하고, 일부 특수 문자를 제거하며,\n"
 "문자열 시작 부분의 순번을 나타내는 숫자도 제거합니다."
 
-#: tab_csv.py:184
+#: tab_csv.py:190
 msgid " &Columns To Import: "
 msgstr "가져올 열(&C):"
 
-#: tab_csv.py:210 tab_webpage.py:310
+#: tab_csv.py:216 tab_webpage.py:310
 msgid "Select field(s) to import"
 msgstr "가져올 필드 선택"
 
-#: tab_csv.py:213
+#: tab_csv.py:219
 msgid "&From headers"
 msgstr "헤더에서 가져오기(&F)"
 
-#: tab_csv.py:214
+#: tab_csv.py:220
 msgid "Guess field(s) from csv headers"
 msgstr "CSV 헤더에서 필드 추정"
 
-#: tab_csv.py:318
-msgid "Select a CSV file to import"
-msgstr "가져올 CSV 파일 선택"
-
-#: tab_csv.py:318
+#: tab_csv.py:324
 msgid "import CSV file dialog"
 msgstr "CSV 파일 가져오기 대화상자"
 
-#: tab_csv.py:344
+#: tab_csv.py:324
+msgid "Select a CSV file to import"
+msgstr "가져올 CSV 파일 선택"
+
+#: tab_csv.py:350
 msgid "File not specified"
 msgstr "파일이 지정되지 않음"
 
-#: tab_csv.py:344
+#: tab_csv.py:350
 msgid "You have not specified a path to a CSV file"
 msgstr "CSV 파일 경로를 지정하지 않았습니다."
 
-#: tab_csv.py:349
+#: tab_csv.py:355
 msgid "File not found"
 msgstr "파일을 찾을 수 없음"
 
-#: tab_csv.py:349
+#: tab_csv.py:355
 msgid "No file found at this location"
 msgstr "이 위치에서 파일을 찾지 못했습니다"
 
-#: tab_csv.py:366
+#: tab_csv.py:372
 msgid "Invalid options"
 msgstr "유효하지 않은 옵션"
 
-#: tab_csv.py:366
+#: tab_csv.py:372
 msgid "You have not specified a delimiter"
 msgstr "구분자를 지정하지 않았습니다."
 
-#: tab_settings.py:47
+#: tab_settings.py:52
 msgid "Browser"
 msgstr "browser"
 
-#: tab_settings.py:48
+#: tab_settings.py:53
 msgid "View related website page in your web browser"
 msgstr "관련 웹사이트 페이지를 웹 브라우저에서 보기"
 
-#: tab_settings.py:50
+#: tab_settings.py:55
 msgid "Edit"
 msgstr "편집"
 
-#: tab_settings.py:51
+#: tab_settings.py:56
 msgid "Edit this saved setting"
 msgstr "이 저장된 설정 편집"
 
-#: tab_settings.py:105
+#: tab_settings.py:110
 msgid "Delete"
 msgstr "삭제"
 
-#: tab_settings.py:107
+#: tab_settings.py:112
 msgid "Rename"
 msgstr "이름 변경"
 
-#: tab_settings.py:109
+#: tab_settings.py:114
 msgid "Export"
 msgstr "내보내기"
 
-#: tab_settings.py:111
+#: tab_settings.py:116
 msgid "Import."
 msgstr "가져오기."
 
-#: tab_settings.py:126
+#: tab_settings.py:131
 msgid "Are you sure you want to remove the setting \"%s\"?"
 msgstr "설정 \"%s\"을 삭제하시겠습니까?"
 
-#: tab_settings.py:127
+#: tab_settings.py:132
 msgid "import_list_delete_setting"
 msgstr "import_list_delete_setting"
 
-#: tab_settings.py:140 tab_settings.py:141
+#: tab_settings.py:145 tab_settings.py:146
 msgid "New setting name:"
 msgstr "새 설정 이름:"
 
-#: tab_settings.py:148
+#: tab_settings.py:153
 msgid "Setting exists"
 msgstr "설정이 이미 있음"
 
-#: tab_settings.py:149
+#: tab_settings.py:154
 msgid "A saved setting already exists with this name."
 msgstr "이 이름의 저장된 설정이 이미 있습니다."
 
-#: tab_settings.py:168
+#: tab_settings.py:173
 msgid "Import Failed"
 msgstr "가져오기 실패"
 
-#: tab_settings.py:169
+#: tab_settings.py:174
 msgid "This is not a valid Import List export archive"
 msgstr "유효한 Import List 내보내기 아카이브가 아닙니다."
 
-#: tab_settings.py:176
+#: tab_settings.py:181
 msgid "Import setting"
 msgstr "설정 가져오기"
 
-#: tab_settings.py:217
+#: tab_settings.py:222
 msgid "Export completed"
 msgstr "내보내기 완료"
 
-#: tab_settings.py:218
+#: tab_settings.py:223
 msgid "Cover setting exported to"
 msgstr "표지 설정을 다음으로 내보냄"
 
-#: tab_settings.py:226
+#: tab_settings.py:231
 msgid "Enter a unique name for this saved setting:"
 msgstr "이 저장된 설정의 고유 이름 입력:"
 
-#: tab_settings.py:235
+#: tab_settings.py:240
 msgid "Cannot add"
 msgstr "추가할 수 없음"
 
-#: tab_settings.py:236
+#: tab_settings.py:241
 msgid "The name you specified is not unique"
 msgstr "지정한 이름이 고유하지 않습니다"
 
-#: tab_settings.py:242
+#: tab_settings.py:247
 msgid "Select setting file(s) to import"
 msgstr "가져올 설정 파일 선택"
 
-#: tab_settings.py:249
+#: tab_settings.py:254
 msgid "Save setting as"
 msgstr "설정 다른 이름으로 저장"
 
-#: tab_settings.py:334
+#: tab_settings.py:339
 msgid "View as List"
 msgstr "목록으로 보기"
 
-#: tab_settings.py:336
+#: tab_settings.py:341
 msgid "View by Category"
 msgstr "범주별 보기"
 

@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-24 17:48+1000\n"
+"POT-Creation-Date: 2026-09-26 15:02+1000\n"
 "PO-Revision-Date: 2022-09-19 15:03+0000\n"
 "Last-Translator: akihiko tanae (tanaeakihiko), 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/calibre/teams/19337/ja/)\n"
@@ -83,7 +83,7 @@ msgstr "設定は削除されました。"
 msgid "All settings for this plugin in this library have been cleared."
 msgstr "このライブラリ用の本プラグインの全ての設定はクリアされました。"
 
-#: ..\common\common_dialogs.py:297
+#: ..\common\common_dialogs.py:296
 msgid "Copy to clipboard"
 msgstr "クリップボードにコピー"
 
@@ -225,12 +225,12 @@ msgid "detect encoding"
 msgstr "エンコーディングを自動判別"
 
 #: encodings.py:236
-msgid "Description"
-msgstr "説明"
-
-#: encodings.py:236
 msgid "Encoding"
 msgstr "エンコーディング"
+
+#: encodings.py:236
+msgid "Description"
+msgstr "説明"
 
 #: encodings.py:241
 msgid "Choose Encodings"
@@ -268,7 +268,7 @@ msgstr "デフォルトにリセット"
 msgid "No encodings selected"
 msgstr "エンコーディングが選択されていません"
 
-#: encodings.py:356 page_resolve.py:128 tab_common.py:360
+#: encodings.py:356 page_resolve.py:137 tab_common.py:360
 msgid "You must select one or more fields first."
 msgstr "最初に 1 つ以上の項目を選択する必要があります。"
 
@@ -300,7 +300,7 @@ msgstr "このリストを保存すると空の本が追加されます"
 msgid "This book was added to your list manually"
 msgstr "この本は手動でリストに追加されました"
 
-#: models.py:147 page_resolve.py:631
+#: models.py:163 page_resolve.py:643
 msgid "Unknown"
 msgstr "不明"
 
@@ -356,51 +356,51 @@ msgstr "タイトル項目は必須で、空にはできません"
 msgid "Data must be of type: {}"
 msgstr "データは次の型である必要があります: {}"
 
-#: page_import.py:310
+#: page_import.py:311
 msgid "Step 1: Configure a list source"
 msgstr "ステップ1: リストのソースを設定"
 
-#: page_import.py:324
+#: page_import.py:325
 msgid "User Settings"
 msgstr "ユーザー設定"
 
-#: page_import.py:325
+#: page_import.py:326
 msgid "Predefined"
 msgstr "事前定義済み"
 
-#: page_import.py:326
+#: page_import.py:327
 msgid "Clipboard"
 msgstr "クリップボード"
 
-#: page_import.py:327
+#: page_import.py:328
 msgid "CSV File"
 msgstr "CSV ファイル"
 
-#: page_import.py:328
+#: page_import.py:329
 msgid "Web Page"
 msgstr "Web ページ"
 
-#: page_import.py:375 page_resolve.py:436
+#: page_import.py:376 page_resolve.py:448
 msgid "&Remove book"
 msgstr "本を削除(&R)"
 
-#: page_import.py:376
+#: page_import.py:377
 msgid "Remove selected books from the list"
 msgstr "選択した本をリストから削除"
 
-#: page_import.py:380
+#: page_import.py:381
 msgid "&Export to csv"
 msgstr "CSV にエクスポート(&E)"
 
-#: page_import.py:381
+#: page_import.py:382
 msgid "Export selected books to csv file"
 msgstr "選択した本を CSV ファイルにエクスポート"
 
-#: page_import.py:393 page_resolve.py:590
+#: page_import.py:394 page_resolve.py:602
 msgid "Are you sure you want to remove the selected books from the list?"
 msgstr "選択した本をリストから削除してもよろしいですか?"
 
-#: page_import.py:413
+#: page_import.py:414
 msgid "Choose file for exported csv"
 msgstr "エクスポートする CSV ファイルを選択"
 
@@ -472,55 +472,55 @@ msgstr "現在の設定を保存しない(&D)"
 msgid "&Save settings as:"
 msgstr "設定に名前を付けて保存(&S):"
 
-#: page_persist.py:380
+#: page_persist.py:382
 msgid "Custom Column Missing"
 msgstr "カスタム列がありません"
 
-#: page_persist.py:381
+#: page_persist.py:383
 msgid ""
 "You are importing to a custom column '%s' which does not exist in this "
 "library.<p>"
 msgstr "本ライブラリに存在しないカスタム列 '%s' にインポートしようとしています。<p>"
 
-#: page_persist.py:382
+#: page_persist.py:384
 msgid ""
 "This column will be ignored. Either add a matching custom column or edit "
 "your import statement."
 msgstr "この列は無視されます。対応するカスタム列を追加するか、インポートの設定を修正してください。"
 
-#: page_persist.py:389
+#: page_persist.py:391
 msgid "ImportList plugin: no metadata found for column:"
 msgstr "ImportList プラグイン: 次の列の書誌データが見つかりません:"
 
-#: page_persist.py:448
+#: page_persist.py:450
 msgid "Adding books (%(idx)d of %(count)d): %(title)s"
 msgstr "本を追加しています (%(count)d 冊中 %(idx)d 冊目): %(title)s"
 
-#: page_persist.py:460
+#: page_persist.py:462
 msgid "Updating books (%(idx)d of %(count)d): %(title)s"
 msgstr "本を更新しています (%(count)d 冊中 %(idx)d 冊目): %(title)s"
 
-#: page_persist.py:482
+#: page_persist.py:484
 msgid "You have not specified a reading list name"
 msgstr "リーディングリストの名前が指定されていません"
 
-#: page_persist.py:482 page_persist.py:488
+#: page_persist.py:484 page_persist.py:490
 msgid "Invalid List Name"
 msgstr "無効なリスト名"
 
-#: page_persist.py:488
+#: page_persist.py:490
 msgid "Another list exists with this name"
 msgstr "この名前のリストが既に存在します"
 
-#: page_persist.py:502
+#: page_persist.py:504
 msgid "Invalid Setting Name"
 msgstr "無効な設定名"
 
-#: page_persist.py:502
+#: page_persist.py:504
 msgid "You have not specified a setting name"
 msgstr "設定名が指定されていません"
 
-#: page_persist.py:545
+#: page_persist.py:547
 msgid "Failed"
 msgstr "失敗"
 
@@ -536,179 +536,189 @@ msgstr "すべて選択"
 msgid "Clear all"
 msgstr "すべてクリア"
 
-#: page_resolve.py:128 tab_common.py:360
+#: page_resolve.py:78
+msgid "Replace existing values in tags-like fields"
+msgstr ""
+
+#: page_resolve.py:79
+msgid ""
+"When checked, selected tags/custom fields are replaced with imported values."
+" Otherwise, imported values are added to existing values."
+msgstr ""
+
+#: page_resolve.py:137 tab_common.py:360
 msgid "No fields selected"
 msgstr "項目が選択されていません"
 
-#: page_resolve.py:202
+#: page_resolve.py:213
 msgid "Step 2: Match list of books against your library"
 msgstr "ステップ2: 本のリストをライブラリと照合"
 
-#: page_resolve.py:226
+#: page_resolve.py:237
 msgid "Books in list:"
 msgstr "リスト内の本:"
 
-#: page_resolve.py:242
+#: page_resolve.py:253
 msgid "Show All"
 msgstr "すべて表示"
 
-#: page_resolve.py:244
+#: page_resolve.py:255
 msgid "Matched"
 msgstr "一致あり"
 
-#: page_resolve.py:245
+#: page_resolve.py:256
 msgid "Unmatched"
 msgstr "一致なし"
 
-#: page_resolve.py:257 page_resolve.py:1045 page_resolve.py:1049
+#: page_resolve.py:268 page_resolve.py:1071 page_resolve.py:1075
 msgid "Matches in library:"
 msgstr "ライブラリ内の一致:"
 
-#: page_resolve.py:271
+#: page_resolve.py:282
 msgid "Clear the match associated with the selected books in the list"
 msgstr "リストで選択した本に関連付けられた一致を解除"
 
-#: page_resolve.py:275
+#: page_resolve.py:286
 msgid "Remove the selected books from the list"
 msgstr "選択した本をリストから削除"
 
-#: page_resolve.py:279
+#: page_resolve.py:290
 msgid "Create an empty book for the selected books in the list"
 msgstr "リストで選択した本について空の本を作成"
 
-#: page_resolve.py:283
+#: page_resolve.py:294
 msgid "Update metadata for the selected books in the list"
 msgstr "リストで選択した本の書誌データを更新"
 
-#: page_resolve.py:287
+#: page_resolve.py:298
 msgid "Revert metadata for the selected books back to existing values"
 msgstr "選択した本の書誌データを既存の値に戻す"
 
-#: page_resolve.py:296
+#: page_resolve.py:307
 msgid "Possible matches for selected book:"
 msgstr "選択した本の一致候補:"
 
-#: page_resolve.py:304
+#: page_resolve.py:315
 msgid "Search:"
 msgstr "検索:"
 
-#: page_resolve.py:306
+#: page_resolve.py:317
 msgid "&Go!"
 msgstr "実行!(&G)"
 
-#: page_resolve.py:326
+#: page_resolve.py:337
 msgid "Select this book as the match for this list title"
 msgstr "この本をリスト内のタイトルの一致として選択"
 
-#: page_resolve.py:330
+#: page_resolve.py:341
 msgid "Append this book as a new item on the list"
 msgstr "この本を新しい項目としてリストに追加"
 
-#: page_resolve.py:433
+#: page_resolve.py:445
 msgid "&Clear match"
 msgstr "一致を解除(&C)"
 
-#: page_resolve.py:441
+#: page_resolve.py:453
 msgid "Match &empty book"
 msgstr "空の本に一致させる(&E)"
 
-#: page_resolve.py:444
+#: page_resolve.py:456
 msgid "&Update metadata"
 msgstr "書誌データを更新(&U)"
 
-#: page_resolve.py:447
+#: page_resolve.py:459
 msgid "&Revert metadata"
 msgstr "書誌データを元に戻す(&R)"
 
-#: page_resolve.py:450
+#: page_resolve.py:462
 msgid "S&wap Author Names"
 msgstr "著者名を入れ替え(&W)"
 
-#: page_resolve.py:451
+#: page_resolve.py:463
 msgid "Swap selected author names between FN LN and LN,FN"
 msgstr "選択した著者名を「名-姓」と「姓-名」で入れ替え"
 
-#: page_resolve.py:455
+#: page_resolve.py:467
 msgid "&Search for title/author"
 msgstr "タイトル/著者で検索(&S)"
 
-#: page_resolve.py:456
+#: page_resolve.py:468
 msgid "&Search your library using a simplified title/author of this book"
 msgstr "この本の簡略化したタイトル/著者でライブラリを検索(&S)"
 
-#: page_resolve.py:458
+#: page_resolve.py:470
 msgid "Search for &title"
 msgstr "タイトルで検索(&T)"
 
-#: page_resolve.py:459
+#: page_resolve.py:471
 msgid "&Search your library using a simplified title of this book"
 msgstr "この本の簡略化したタイトルでライブラリを検索(&S)"
 
-#: page_resolve.py:461
+#: page_resolve.py:473
 msgid "Search for &author"
 msgstr "著者で検索(&A)"
 
-#: page_resolve.py:462
+#: page_resolve.py:474
 msgid "&Search your library using a simplified author of this book"
 msgstr "この本の簡略化した著者でライブラリを検索(&S)"
 
-#: page_resolve.py:482
+#: page_resolve.py:494
 msgid "&Select Book"
 msgstr "本を選択(&S)"
 
-#: page_resolve.py:487
+#: page_resolve.py:499
 msgid "&Append to list"
 msgstr "リストに追加(&A)"
 
-#: page_resolve.py:578
+#: page_resolve.py:590
 msgid "*** No Match ***"
 msgstr "*** 一致なし ***"
 
-#: page_resolve.py:742
+#: page_resolve.py:761
 msgid "Are you sure you want to add the selected book to the list?"
 msgstr "選択した本をリストに追加してもよろしいですか?"
 
-#: page_resolve.py:773
+#: page_resolve.py:792
 msgid "No Match"
 msgstr "一致なし"
 
-#: page_resolve.py:857
+#: page_resolve.py:876
 msgid "*** Multiple Matches ***"
 msgstr "*** 複数一致 ***"
 
-#: page_resolve.py:882
+#: page_resolve.py:901
 msgid "Multiple Matches"
 msgstr "複数一致"
 
-#: page_resolve.py:941
+#: page_resolve.py:967
 msgid "Displaying all similar matches for this book"
 msgstr "この本に類似する一致をすべて表示しています"
 
-#: page_resolve.py:959
+#: page_resolve.py:985
 msgid "Search for a book in your library"
 msgstr "ライブラリ内の本を検索"
 
-#: page_resolve.py:1047
+#: page_resolve.py:1073
 msgid "Matches in library:(1 match)"
 msgstr "ライブラリ内の一致:(1 件)"
 
-#: tab_clipboard.py:50
+#: tab_clipboard.py:51
 msgid "&Paste your book list here:"
 msgstr "ここに本のリストを貼り付け(&P):"
 
-#: tab_clipboard.py:56
+#: tab_clipboard.py:57
 msgid "&Paste"
 msgstr "貼り付け(&P)"
 
-#: tab_clipboard.py:57
+#: tab_clipboard.py:58
 msgid "Replace all text above with the contents of your clipboard"
 msgstr "上記テキストをすべてクリップボードの内容で置き換え"
 
-#: tab_clipboard.py:68
+#: tab_clipboard.py:69
 msgid "Conversion expression:"
 msgstr "変換式:"
 
-#: tab_clipboard.py:73
+#: tab_clipboard.py:74
 msgid ""
 "Set a <a href=\"http://manual.calibre-ebook.com/regexp.html\">regular "
 "expression</a> to use for titles and other metadata. The group names you can"
@@ -717,47 +727,47 @@ msgstr ""
 "タイトルやその他のタデータに使用する<a href=\"http://manual.calibre-"
 "ebook.com/regexp.html\">正規表現</a>を設定します。使用できるグループ名は次のとおりです"
 
-#: tab_clipboard.py:87
+#: tab_clipboard.py:88
 msgid "Choose a predefined named pattern"
 msgstr "定義済みの名前付きパターンを選択"
 
-#: tab_clipboard.py:96 tab_csv.py:206 tab_webpage.py:306
+#: tab_clipboard.py:97 tab_csv.py:212 tab_webpage.py:306
 msgid "&Clear"
 msgstr "クリア(&C)"
 
-#: tab_clipboard.py:97 tab_csv.py:207 tab_webpage.py:307
+#: tab_clipboard.py:98 tab_csv.py:213 tab_webpage.py:307
 msgid "Clear all settings back to the defaults on this tab"
 msgstr "このタブのすべての設定を既定値に戻す"
 
-#: tab_clipboard.py:99 tab_csv.py:209 tab_webpage.py:309
+#: tab_clipboard.py:100 tab_csv.py:215 tab_webpage.py:309
 msgid "&Fields"
 msgstr "項目(&F)"
 
-#: tab_clipboard.py:100
+#: tab_clipboard.py:101
 msgid "Add expression for field to import"
 msgstr "インポートする項目の式を追加"
 
-#: tab_clipboard.py:102 tab_csv.py:217 tab_webpage.py:312
+#: tab_clipboard.py:103 tab_csv.py:223 tab_webpage.py:312
 msgid "Reverse order"
 msgstr "順序を逆にする"
 
-#: tab_clipboard.py:103 tab_csv.py:218 tab_webpage.py:313
+#: tab_clipboard.py:104 tab_csv.py:224 tab_webpage.py:313
 msgid "Display the books in the opposite order to the source"
 msgstr "本をソースとは逆の順序で表示"
 
-#: tab_clipboard.py:104 tab_csv.py:219 tab_settings.py:53 tab_webpage.py:314
+#: tab_clipboard.py:105 tab_csv.py:225 tab_settings.py:58 tab_webpage.py:314
 msgid "&Preview"
 msgstr "プレビュー(&P)"
 
-#: tab_clipboard.py:105 tab_csv.py:220 tab_settings.py:54 tab_webpage.py:315
+#: tab_clipboard.py:106 tab_csv.py:226 tab_settings.py:59 tab_webpage.py:315
 msgid "Preview the results in the books grid"
 msgstr "結果を本の一覧でプレビュー"
 
-#: tab_clipboard.py:173
+#: tab_clipboard.py:174
 msgid "Failed to parse page:\n"
 msgstr "ページの解析に失敗しました:\n"
 
-#: tab_clipboard.py:174
+#: tab_clipboard.py:175
 msgid "Invalid regular expression"
 msgstr "無効な正規表現"
 
@@ -821,59 +831,59 @@ msgstr "タイトル/著者(&T)"
 msgid "&Identifier:"
 msgstr "識別子(&I):"
 
-#: tab_csv.py:102
+#: tab_csv.py:108
 msgid "&Import from file:"
 msgstr "ファイルからインポート(&I):"
 
-#: tab_csv.py:114
+#: tab_csv.py:120
 msgid "Choose the file to import"
 msgstr "インポートするファイルを選択します"
 
-#: tab_csv.py:121
+#: tab_csv.py:127
 msgid "&Contents:"
 msgstr "内容(&C):"
 
-#: tab_csv.py:126 tab_webpage.py:210
+#: tab_csv.py:132 tab_webpage.py:210
 msgid "&Encoding:"
 msgstr "エンコーディング(&E):"
 
-#: tab_csv.py:142
+#: tab_csv.py:148
 msgid "&Delimiter:"
 msgstr "区切り文字(&D):"
 
-#: tab_csv.py:146
+#: tab_csv.py:152
 msgid "&Tab"
 msgstr "タブ(&T)"
 
-#: tab_csv.py:147
+#: tab_csv.py:153
 msgid "&Other:"
 msgstr "その他(&O):"
 
-#: tab_csv.py:156
+#: tab_csv.py:162
 msgid "Processing:"
 msgstr "処理:"
 
-#: tab_csv.py:160
+#: tab_csv.py:166
 msgid "S&kip first row"
 msgstr "最初の行をスキップ(&K)"
 
-#: tab_csv.py:161
+#: tab_csv.py:167
 msgid "Select this option to ignore the first row of column headings"
 msgstr "列見出しの最初の行を無視する場合はこのオプションを選択"
 
-#: tab_csv.py:162
+#: tab_csv.py:168
 msgid "&Unquote"
 msgstr "引用符を除去(&U)"
 
-#: tab_csv.py:163
+#: tab_csv.py:169
 msgid "Remove any quotes around columns of data"
 msgstr "データの列を囲む引用符を除去"
 
-#: tab_csv.py:165
+#: tab_csv.py:171
 msgid "Tidy"
 msgstr "整形"
 
-#: tab_csv.py:166
+#: tab_csv.py:172
 msgid ""
 "Clean title and authors before importing. This is intended for web imports but is optional for csv\n"
 "It includes removing leading and trailing periods and commas, removing some special characters\n"
@@ -883,151 +893,151 @@ msgstr ""
 "先頭と末尾のピリオドやカンマの除去、一部の特殊文字の除去、\n"
 "文字列の先頭にある順位を示す数字の除去が含まれます。"
 
-#: tab_csv.py:184
+#: tab_csv.py:190
 msgid " &Columns To Import: "
 msgstr " インポートする列(&C): "
 
-#: tab_csv.py:210 tab_webpage.py:310
+#: tab_csv.py:216 tab_webpage.py:310
 msgid "Select field(s) to import"
 msgstr "インポートする項目を選択"
 
-#: tab_csv.py:213
+#: tab_csv.py:219
 msgid "&From headers"
 msgstr "ヘッダーから(&F)"
 
-#: tab_csv.py:214
+#: tab_csv.py:220
 msgid "Guess field(s) from csv headers"
 msgstr "CSV のヘッダーから項目を推測"
 
-#: tab_csv.py:318
-msgid "Select a CSV file to import"
-msgstr "インポートする CSV ファイルを選択"
-
-#: tab_csv.py:318
+#: tab_csv.py:324
 msgid "import CSV file dialog"
 msgstr "CSV ファイルインポートダイアログ"
 
-#: tab_csv.py:344
+#: tab_csv.py:324
+msgid "Select a CSV file to import"
+msgstr "インポートする CSV ファイルを選択"
+
+#: tab_csv.py:350
 msgid "File not specified"
 msgstr "ファイルが指定されていません"
 
-#: tab_csv.py:344
+#: tab_csv.py:350
 msgid "You have not specified a path to a CSV file"
 msgstr "CSV ファイルのパスが指定されていません"
 
-#: tab_csv.py:349
+#: tab_csv.py:355
 msgid "File not found"
 msgstr "ファイルが見つかりません"
 
-#: tab_csv.py:349
+#: tab_csv.py:355
 msgid "No file found at this location"
 msgstr "この場所にファイルが見つかりません"
 
-#: tab_csv.py:366
+#: tab_csv.py:372
 msgid "Invalid options"
 msgstr "無効なオプション"
 
-#: tab_csv.py:366
+#: tab_csv.py:372
 msgid "You have not specified a delimiter"
 msgstr "区切り文字が指定されていません"
 
-#: tab_settings.py:47
+#: tab_settings.py:52
 msgid "Browser"
 msgstr "ブラウザ"
 
-#: tab_settings.py:48
+#: tab_settings.py:53
 msgid "View related website page in your web browser"
 msgstr "関連する Web サイトのページを Web ブラウザで表示"
 
-#: tab_settings.py:50
+#: tab_settings.py:55
 msgid "Edit"
 msgstr "編集"
 
-#: tab_settings.py:51
+#: tab_settings.py:56
 msgid "Edit this saved setting"
 msgstr "この保存済みの設定を編集"
 
-#: tab_settings.py:105
+#: tab_settings.py:110
 msgid "Delete"
 msgstr "削除"
 
-#: tab_settings.py:107
+#: tab_settings.py:112
 msgid "Rename"
 msgstr "名前を変更"
 
-#: tab_settings.py:109
+#: tab_settings.py:114
 msgid "Export"
 msgstr "エスクポート"
 
-#: tab_settings.py:111
+#: tab_settings.py:116
 msgid "Import."
 msgstr "インポート"
 
-#: tab_settings.py:126
+#: tab_settings.py:131
 msgid "Are you sure you want to remove the setting \"%s\"?"
 msgstr "設定 \"%s\" を削除してもよろしいですか?"
 
-#: tab_settings.py:127
+#: tab_settings.py:132
 msgid "import_list_delete_setting"
 msgstr "import_list_delete_setting"
 
-#: tab_settings.py:140 tab_settings.py:141
+#: tab_settings.py:145 tab_settings.py:146
 msgid "New setting name:"
 msgstr "新しい設定名:"
 
-#: tab_settings.py:148
+#: tab_settings.py:153
 msgid "Setting exists"
 msgstr "設定が存在しています"
 
-#: tab_settings.py:149
+#: tab_settings.py:154
 msgid "A saved setting already exists with this name."
 msgstr "この名称の設定は既に保存されています。"
 
-#: tab_settings.py:168
+#: tab_settings.py:173
 msgid "Import Failed"
 msgstr "インポートは失敗しました"
 
-#: tab_settings.py:169
+#: tab_settings.py:174
 msgid "This is not a valid Import List export archive"
 msgstr "有効な Import List のエクスポートアーカイブではありません"
 
-#: tab_settings.py:176
+#: tab_settings.py:181
 msgid "Import setting"
 msgstr "設定をインポート"
 
-#: tab_settings.py:217
+#: tab_settings.py:222
 msgid "Export completed"
 msgstr "エクスポート完了"
 
-#: tab_settings.py:218
+#: tab_settings.py:223
 msgid "Cover setting exported to"
 msgstr "設定を次の場所にエクスポートしました"
 
-#: tab_settings.py:226
+#: tab_settings.py:231
 msgid "Enter a unique name for this saved setting:"
 msgstr "この設定に付ける固有の名前を入力してください:"
 
-#: tab_settings.py:235
+#: tab_settings.py:240
 msgid "Cannot add"
 msgstr "追加できません"
 
-#: tab_settings.py:236
+#: tab_settings.py:241
 msgid "The name you specified is not unique"
 msgstr "指定した名前は既に使われています"
 
-#: tab_settings.py:242
+#: tab_settings.py:247
 msgid "Select setting file(s) to import"
 msgstr "インポートする設定ファイルを選択"
 
-#: tab_settings.py:249
+#: tab_settings.py:254
 msgid "Save setting as"
 msgstr "設定に名前を付けて保存"
 
-#: tab_settings.py:334
+#: tab_settings.py:339
 msgid "View as List"
 msgstr "リストとして表示"
 
-#: tab_settings.py:336
+#: tab_settings.py:341
 msgid "View by Category"
 msgstr "カテゴリ別に表示"
 
